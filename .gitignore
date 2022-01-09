@@ -1,0 +1,7 @@
+*.html
+*.css
+*.log*
+__pycache__
+dev.txt
+*.png
+*.mp4

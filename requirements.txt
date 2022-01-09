@@ -1,0 +1,4 @@
+ordered-set==4.0.2
+pkg-resources==0.0.0
+PyLaTeX==1.4.1
+PyYAML==5.4.1
