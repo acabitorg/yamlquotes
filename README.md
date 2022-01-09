@@ -271,7 +271,7 @@ Required materials:
 * Book press (200+ lbs of weights or screw clamps)
 * Optional: Paper guillotine
 
-## Notes about my research into PDF booklet conversion
+## PDF booklet conversion research notes
 
 
 * `pdfbook2` is just a python wrapper for `pdfjam`. I ended up not using it.
