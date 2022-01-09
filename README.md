@@ -1,6 +1,6 @@
 # yamlquotes
 
-### Store quote collections in YAML and render as full-page PDF, 2-up booklet PDF, PNG slideshow or MP4 video slideshow 
+### Store quote collections in YAML and render as PNG slideshow, MP4 video slideshow or booklet PDF for double-sided printing or reading
 
 ## Demos
 
@@ -82,7 +82,7 @@ on the CW tags to generate a *clean* PDF.
 
 # yamlquotes.py
 
-## Python CLI for working with yamlquotes files and rendering in various formats (full-page PDF, 2-up booklet PDF, PNG slideshow or MP4 video slideshow)
+## Python CLI for working with yamlquotes files and render as PNG slideshow, MP4 video slideshow or booklet PDF for double-sided printing or reading
 
 ### Features
 
