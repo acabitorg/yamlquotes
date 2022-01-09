@@ -146,7 +146,7 @@ optional arguments:
 The mode of operation is specified by one of the following mutually-exclusive arguments:
 
 ```
---validate | --make-pdf | --make-pdf-book | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print
+--validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print
 ```
 
 ### Usage Examples
