@@ -75,7 +75,7 @@ on the CW tags to generate a *clean* PDF.
 
 # yamlquotes.py
 
-## Python CLI for working with yamlquotes files and converting them to PDF booklets (powered by PyLatex)
+## Python CLI for working with yamlquotes files and rendering in various formats (full-page PDF, 2-up booklet PDF, PNG slideshow or MP4 video slideshow)
 
 ### Features
 
