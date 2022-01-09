@@ -1,6 +1,10 @@
 # yamlquotes
 
-## A minimalist YAML-based file format for collections of quotations
+### Store quote collections in YAML and render as full-page PDF, 2-up booklet PDF, PNG slideshow or MP4 video slideshow 
+
+## yamlquotes format
+
+### A minimalist YAML-based file format for collections of quotations
 
 Features:
 
@@ -9,7 +13,7 @@ Features:
 
 ## Disclaimer
 
-The author makes no endorsement of the quotes contained in the example quotes.yml
+The author(s) make no endorsement of the quotes contained in the example quotes.yml
 file. Some of theses quotes are included purely for educational purposes, e.g. 
 to dispell misconceptions about a diverse range of historical figures, good, evil 
 and everywhere in between. Some quotes may be considered offensive when presented 
@@ -90,10 +94,10 @@ on the CW tags to generate a *clean* PDF.
 ### yamlquotes.py CLI Reference
 
 ```
-$ ./yamlquotes.py -h
 usage: yamlquotes.py [-h] -f FILE [--include-tags INCLUDE_TAGS] [--exclude-tags EXCLUDE_TAGS] [--include-langs INCLUDE_LANGS] [--exclude-langs EXCLUDE_LANGS]
-                     [--exclude-cw EXCLUDE_CW | --exclude-any-cw | --include-cw INCLUDE_CW] [--sort-by-author] [--no-flip]
-                     (--validate | --make-pdf | --make-pdf-book | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print)
+                     [--exclude-cw EXCLUDE_CW | --exclude-any-cw | --include-cw INCLUDE_CW] [--sort-by-author]
+                     (--validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print)
+                     [--no-flip]
 
 yamlquotes.py
 
@@ -114,17 +118,19 @@ optional arguments:
   --include-cw INCLUDE_CW
                         Only include quotes with the specified content-warning(s) (command-separated values)
   --sort-by-author      Sort output by author name, reversed
-  --no-flip             Don't flip every other page vertically
   --validate            Validate quotes yaml and exit
   --make-pdf            Make pdf from quotes yaml
   --make-pdf-book       Make pdf booklet from quotes yaml using pdfjam/pdfpages
+  --make-png-images     Make png images from quotes yaml
+  --make-png-video-frames
+                        Make png video frames for ffmpeg from quotes yaml
   --save-sorted         Save sorted yaml to '_sorted.yaml' file
   --list-tags           List all tags in the quotes file
   --list-cw             List all content-warnings in the quotes file
   --list-langs          List all languages in the quotes file
   --stats               Display statistics about the the quotes file
   --print               Print quotes
-
+  --no-flip             Don't flip every other page vertically
 
 
 ```
@@ -175,11 +181,26 @@ $ ./yamlquotes.py -f quotes.yml --validate
 Valid
 ```
 
-
-###### More examples
+##### Basic examples
 
 ```
 
+./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf
+
+./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book
+
+./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book --no-flip
+
+./yamlquotes.py -f quotes.yml --sort-by-author --make-png-images
+
+./yamlquotes.py -f quotes.yml --sort-by-author --make-png-video-frames
+
+```
+
+
+###### Advanced examples
+
+```
 ./yamlquotes.py -f quotes.yml --sort-by-author --include-tags history --make-pdf-book
 
 ./yamlquotes.py -f quotes.yml --sort-by-author --exclude-tags bible,politics --exclude-any-cw --make-pdf-book
@@ -198,6 +219,7 @@ Valid
 
 ./yamlquotes.py -f quotes.yml --sort-by-author --save-sorted
 mv quotes_sorted.yml quotes.yml
+
 
 ```
 
