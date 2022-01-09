@@ -2,6 +2,13 @@
 
 ### Store quote collections in YAML and render as full-page PDF, 2-up booklet PDF, PNG slideshow or MP4 video slideshow 
 
+## Demos
+
+* [Photo slideshow](https://photos.app.goo.gl/FQEYCPGZzbH589ns5)
+* [Video slideshow](https://www.youtube.com/watch?v=zghmbdpZ14U)
+* [PDF booklet noflip (for reading)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-noflip.pdf)
+* [PDF booklet flipped (for double-sided booklet printing)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-noflip.pdf)
+
 ## yamlquotes format
 
 ### A minimalist YAML-based file format for collections of quotations
