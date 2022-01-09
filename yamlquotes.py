@@ -445,9 +445,9 @@ def make_pdf_book(data, name):
     make_pdf(data, name)
     convert_pdf_to_booklet_pdfjam(name)
 
-FONT_SCALE_FRAME_MULTIPLIER = 1.75 # multiplies the effect of the font-scaling
+FONT_SCALE_FRAME_MULTIPLIER = 2 # multiplies the effect of the font-scaling
 # on the video duration (smaller font-size = more video frames = longer reading time)
-MIN_VIDEO_FRAMES = 4 # effectively, the minimum display time in seconds
+MIN_VIDEO_FRAMES = 12 # effectively, the minimum display time in seconds
 # (assuming using ffmpeg -r 1 to get a frame rate of 1 fps)
 
 def make_png_image_autoscale_text(text, quote_name, output_dir, 

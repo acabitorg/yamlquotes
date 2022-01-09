@@ -87,9 +87,17 @@ on the CW tags to generate a *clean* PDF.
 
 ### Dependencies
 
-* Latex (Linux packages) E.g. `sudo apt install texlive-latex-extra`
-* pdfjam (Linux package) E.g. `sudo apt install pdfjam` (pdfjam is just a shell script wrapper for Latex)
-* pylatex (Python package) `pip install pylatex`
+#### Python packages
+
+* pyaml `pip install pyaml`
+* pylatex  `pip install pylatex`
+* PIL `pip install Pillow`
+
+#### Linux packages
+
+* Latex `sudo apt install texlive-latex-extra`
+* pdfjam `sudo apt install pdfjam` (pdfjam is just a shell script wrapper for Latex)
+* ffmpeg `sudo apt install ffmpeg`
 
 ### yamlquotes.py CLI Reference
 
