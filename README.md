@@ -7,7 +7,7 @@
 * [Photo slideshow](https://photos.app.goo.gl/FQEYCPGZzbH589ns5)
 * [Video slideshow](https://www.youtube.com/watch?v=zghmbdpZ14U)
 * [PDF booklet noflip (for reading)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-noflip.pdf)
-* [PDF booklet flipped (for double-sided booklet printing)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-noflip.pdf)
+* [PDF booklet flipped (for double-sided booklet printing)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-flip.pdf)
 
 ## yamlquotes format
 
