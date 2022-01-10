@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf8 -*-
+
 import sys
 import codecs
 
@@ -58,11 +61,13 @@ with open(ifname) as f:
     data = {'defaults':{'l':'eng'},'quotes':[]}
     item = {'t': ''}
     for line in f.readlines():
+        print(f'line = "{line}"')
         if line.strip() == '':
             if item['t'] != '':
                 data['quotes'].append(item)
             item = {'t': ''}
-        elif line.startswith('—'):
+            item['tags'] = ['anarchism', 'politics', 'socialism']
+        elif line.startswith('—') or line.startswith('\u2013'):
             author = line[1:].strip()
             print('---Author: \n' + author + '\n')
             item['a'] = convert_special(author)
@@ -93,6 +98,7 @@ with open(ifname) as f:
                             text = text.strip()
                             item['t'] = fold_if_necessary(text)
                     except Exception as e:
+                        print(f'Exception {e}')
                         continue
     if UNICODE:
         with codecs.open(ofname, "w", encoding="utf-8") as f:

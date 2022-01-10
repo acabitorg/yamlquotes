@@ -16,7 +16,7 @@
 Features:
 
 * Quote text and metadata such as tags, content-warnings, author, date, language, translation, contextual info and geographic info
-* [quotes.yml](quotes.yml) - an example yamlquotes file containing 365+ assorted quotes
+* [quotes.yml](quotes.yml) - an example yamlquotes file containing 457+ assorted quotes
 
 ## Disclaimer
 

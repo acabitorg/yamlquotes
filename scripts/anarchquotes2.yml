@@ -1,0 +1,675 @@
+defaults:
+  l: eng
+quotes:
+- a: Rudolf Rocker
+  t: The urge for social justice can only develop properly and be effective when it
+    grows out of man's sense of personal freedom and is based on that. In other words
+    Socialism will be free or it will not be at all.
+- a: Lucy Parsons
+  t: Anarchists know that a long period of education must precede any great fundamental
+    change in society, hence they do not believe in vote begging, nor political campaigns,
+    but rather in the development of self-thinking individuals.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Murray Bookchin
+  t: There are no hierarchies in nature other than those imposed by hierarchical modes
+    of human thought, but rather differences merely in function between and within
+    living things.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Federica Montseny
+  t: The struggle is so great that the triumph over fascism alone is worth the sacrifice
+    of our lives.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Ursula K. Le Guin
+  t: We live in capitalism. Its power seems inescapable. So did the divine right of
+    kings. Any human power can be resisted and changed by human beings. Resistance
+    and change often begin in art, and very often in our art, the art of words.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Roderick Long
+  t: Anarchists are committed to treating other people as equals, rather than as either
+    masters or subordinates.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Alan Moore
+  t: Your pretty empire took so long to build, now, with a snap of history's fingers,
+    down it goes.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Ursula K. Le Guin
+  t: You cannot buy the revolution. You cannot make the revolution. You can only be
+    the revolution. It is in your spirit, or it is nowhere.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Bhagat Singh
+  t: Merciless criticism and independent thinking are two traits of revolutionary
+    thinking. Lovers, lunatics and poets are made of the same stuff
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Max Stirner
+  t: Never does a State aim to bring in the free activity of individuals, but always
+    that which is bound to the purpose of the State.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Emma Goldman
+  t: People have only as much liberty as they have the intelligence to want and the
+    courage to take.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: The Invisible Committee
+  t: We're not depressed; we're on strike. For those who refuse to manage themselves,
+    ‘depression’ is not a state but a passage, a bowing out, a sidestep towards a
+    political disaffiliation.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Ernest Renan
+  t: Jesus, in some respects, was an anarchist ... A great social revolution, in which
+    rank will be overturned, in which all authority in this world will be humiliated,
+    was his dream.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vermin Supreme
+  t: Well, mutual aid is a very critical and important thing. For a while, I was saying
+    libertarians have no souls, but I promised them I wouldn't if they hammered home
+    the importance of mutual aid.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Murray Bookchin
+  t: It is impossible to achieve a harmonization of man and nature without creating
+    a human community that lives in a lasting balance with its natural environment.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vermin Supreme
+  t: Anarchists believe we can run our lives without the government.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Errico Malatesta
+  t: Impossibility never prevented anything from happening.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Simon Springer
+  t: When I say ‘Anarchism’ you hear ‘Chaos, Violence, Mayhem’. When I say ‘Anarchism’
+    I mean ‘Cooperation, Voluntary Association, Mutual Aid’
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Johann Most
+  t: The aims of anarchists and true communists are identical.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Federica Montseny
+  t: In Spain, we should have enough intelligence, enough sense of individual and
+    collective responsibility to do for ourselves that which would be imposed upon
+    us by a dictatorship.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Stuart Christie
+  t: Anarchists have a ‘bad name’ in the media, not because they can point to one
+    indiscriminate massacre by anarchists--there have been none--but because the one
+    thing holders of power fear is that they personally should be held responsible
+    for their own actions
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Marquis de Sade
+  t: Are not laws dangerous which inhibit the passions? Compare the centuries of anarchy
+    with those of the strongest legalism in any country you like and you will see
+    that it is only when the laws are silent that the greatest actions appear.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Edward Abbey
+  t: Anarchism is not a romantic fable but the hardheaded realization, based on five
+    thousand years of experience, that we cannot entrust the management of our lives
+    to kings, priests, politicians, generals, and county commissioners.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Max Stirner
+  t: The state calls its own violence law, but that of the individual, crime.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Georges Lechartier
+  t: The true founder of anarchy was Jesus Christ and ... the first anarchist society
+    was that of the apostles.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: David Graeber
+  t: Efficiency' has come to mean vesting more and more power to managers, supervisors,
+    and presumed 'efficiency experts,' so that actual producers have almost zero autonomy.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Emma Goldman
+  t: >-
+    Anarchism: The philosophy of a new social order based on liberty unrestricted
+    by man-made law; the theory that all forms of government rest on violence, and
+    are therefore wrong and harmful, as well as unnecessary.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: John William Lloyd
+  t: Socialism greatly needs Anarchism as a critic and to keep it from sacrificing
+    the individual and his originality to the domination of the mass.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Bhagat Singh
+  t: People get accustomed to the established order of things and tremble at the idea
+    of change. It is this lethargic spirit that needs be replaced by the revolutionary
+    spirit
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Johann Most
+  t: Fortunately, no country was ever more suited for anarchist agitation than present-day
+    America.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vernard Eller
+  t: For Christian anarchists...the goal of anarchy is ‘theonomy’--the rule, the
+    ordering, the arky of God.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Fredy Perlman
+  t: Every time we take a step we're surrounded by the ideological birds of prey who
+    feed on our possibilities, fill themselves with concepts of our desires and reenslave
+    us with beautiful combinations of words which seem to depict the world we failed
+    to realize.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Errico Malatesta
+  t: Anarchy is synonymous with Socialism. Because both signify the abolition of exploitation
+    and of the domination of man over man, whether maintained by the force of arms
+    or by the monopolization of the means of life.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Errico Malatesta
+  t: Communism made through the will of a government instead of through the direct
+    and voluntary work of groups of workers does not really appeal to me. If it was
+    possible, it would be the most suffocating tyranny to which human society has
+    ever been subjected.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Peter Marshall
+  t: The aim is not therefore to liberate some ‘essential self’ by throwing off the
+    burden of government and the State, but to develop the self in creative and voluntary
+    relations with others.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Johann Most
+  t: He who negates present society, and seeks social conditions based on the sharing
+    of property, is a revolutionary whether he calls himself an anarchist or a communist.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Johann Most
+  t: Anarchists are socialists because they want the improvement of society, and they
+    are communists because they are convinced that such a transformation of society
+    can only result from the establishment of a commonwealth of property.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: David Graeber
+  t: It's hard to imagine a surer sign that one is dealing with an irrational economic
+    system than the fact that the prospect of eliminating drudgery is considered to
+    be a problem.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Rudolf Rocker
+  t: I am an Anarchist not because I believe Anarchism is the final goal, but because
+    there is no such thing as a final goal.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Rudolf Rocker
+  t: Power operates only destructively, bent always on forcing every manifestation
+    of life into the straitjacket of its laws. Its intellectual form of expression
+    is dead dogma, its physical form brute force.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Albert Nolan
+  t: Jesus wanted to liberate everyone from the law--from all laws. But this could
+    not be achieved by abolishing or changing the law. He had to dethrone the law.
+    He had to ensure that the law be man's servant and not his master.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Rudolf Rocker
+  t: The Anarcho-Syndicalists know that wars are only waged in the interest of the
+    ruling classes; they believe, therefore, that any means is justifiable that can
+    prevent the organised murder of peoples.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vermin Supreme
+  t: My personal view of the anarch-capitalists is that it's an oxymoron.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Benjamin Tucker
+  t: Aggression is simply another name for government.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Fredy Perlman
+  t: >-
+    The darkling plain is here. This is the waste land: England, America, Russia,
+    China, Israel, France....And we are here as victims, or as spectators, or as perpetrators
+    of tortures, massacres, poisonings, manipulations, despoliation.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Zoé Samudz
+  t: We are not ready to fight because we love fighting. We are ready to fight because
+    we are worth fighting for.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Elbert Hubbard
+  t: All good men are Anarchists. All cultured, kindly men; all gentlemen; all just
+    men are Anarchists. Jesus was an Anarchist.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Benjamin Tucker
+  t: Anarchism is for liberty, and neither for nor against anything else ... I define
+    Anarchism as the belief in the greatest amount of liberty compatible with equality
+    of liberty; or, in other words, as the belief in every liberty except the liberty
+    to invade.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Lucy Parsons
+  t: Anarchism has but one infallible, unchangeable motto, 'Freedom.' Freedom to discover
+    any truth, freedom to develop, to live naturally and fully.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Federica Montseny
+  t: We tried many times before to speed on the social revolution in Spain; attempted
+    to stir up the feelings of the people and to raise the banner of Libertarian Communism.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Rudolf Rocker
+  t: Common to all Anarchists is the desire to free society of all political and social
+    coercive institutions which stand in the way of development of a free humanity.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Peter Kropotkin
+  t: The coming Revolution could render no greater service to humanity than by making
+    the wage system, in all its forms, an impossibility, and by rendering Communism,
+    which is the negation of wage-slavery, the only possible solution.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Ammon Hennacy
+  t: An anarchist is someone who doesn't need a cop to make him behave.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Dietrich Bonhoeffer
+  t: When holy scripture speaks of following Jesus, it proclaims that people are free
+    from all human rules.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Nester Makhno
+  t: Anarchism's outward form is a free, non-governed society, which offers freedom,
+    equality and solidarity for its members. Its foundations are to be found in man's
+    sense of mutual responsibility, which has remained unchanged in all places and
+    times.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Ursula K. Le Guin
+  t: >-
+    The individual cannot bargain with the State. The State recognizes no coinage
+    but power: and it issues the coins itself.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Murray Bookchin
+  t: The ecological principle of unity in diversity grades into a richly mediated
+    social principle; hence my use of the term social ecology.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Murray Bookchin
+  t: If we do not do the impossible, we shall be faced with the unthinkable.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Emma Goldman
+  t: No great idea in its beginning can ever be within the law. How can it be within
+    the law? The law is stationary. The law is fixed. The law is a chariot wheel which
+    binds us all regardless of conditions or place or time.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Ivan Illich
+  t: Jesus was an anarchist savior. That's what the Gospels tell us.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Errico Malatesta
+  t: >-
+    Capitalism is the same everywhere. In order to survive and prosper it needs a
+    permanent situation of partial scarcity: it needs it to maintain its prices and
+    to create hungry masses to work under any conditions.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Emma Goldman
+  t: If I can't dance to it, it's not my revolution.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: The Invisible Committee
+  t: >-
+    The situation is like this: they hired our parents to destroy this world, and
+    now they'd like to put us to work rebuilding it, and--to add insult to injury--at 
+    a profit.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vermin Supreme
+  t: The police represent the authority of the state, the willingness of the state
+    to use violence to assert their will.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Peter Kropotkin
+  t: Prisons are universities of crime, maintained by the state.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Kim Gordon
+  t: Women make natural anarchists and revolutionaries because they've always been
+    second-class citizens, kinda having had to claw their way up.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Max Stirner
+  t: All things are Nothing to Me
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Max Stirner
+  t: Whoever will be free must make himself free. Freedom is no fairy gift to fall
+    into a man's lap. What is freedom? To have the will to be responsible for one's
+    self.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Peter Kropotkin
+  t: The mutual-aid tendency in man has so remote an origin, and is so deeply interwoven
+    with all the past evolution of the human race, that is has been maintained by
+    mankind up to the present time, notwithstanding all vicissitudes of history.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Johann Most
+  t: The anarchists, on behalf of the proletariat, therefore consider it necessary
+    to show the proletariat that it will have to win a gigantic battle before it realizes
+    its goals.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: David Graeber
+  t: Shit jobs tend to be blue collar and pay by the hour, whereas bullshit jobs tend
+    to be white collar and salaried.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vermin Supreme
+  t: As a social anarchist, I believe that capitalism itself is an inherently exploitative
+    hierarchical situation--you do have a boss, you do have somebody in charge.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Darrell Anderson
+  t: Somebody once declared that the only two political theories that are completely
+    consistent are anarchy and totalitarianism. Anarchy fully embraces the concept
+    of self, totalitarianism fully rejects that concept.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Voltairine de Cleyre
+  t: I die, as I have lived, a free spirit, an Anarchist, owing no allegiance to rulers,
+    heavenly or earthly.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: David Graeber
+  t: The ultimate, hidden truth of the world is that it is something that we make,
+    and could just as easily make differently.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Lucy Parsons
+  t: Most anarchists believe the coming change can only come through a revolution,
+    because the possessing class will not allow a peaceful change to take place; still
+    we are willing to work for peace at any price, except at the price of liberty.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Jonathan Feldman
+  t: Basically, if you're not a utopianist, you're a schmuck.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Federica Montseny
+  t: Authority is something from which we are constantly subtracting, of which there
+    remains always a residue, and which we attempt to make smaller and smaller.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Vermin Supreme
+  t: Money should be for ponies, not for war, I think.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Emma Goldman
+  t: Give us what belongs to us in peace, and if you don't give it to us in peace,
+    we will take it by force.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Alan Moore
+  t: Our masters have not heard the people's voice for generations and it is much,
+    much louder than they care to remember.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Max Stirner
+  t: My power is my property. My power gives me property. My power am I l myself,
+    and through it am I my property.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Edward Abbey
+  t: Anarchism is founded on the observation that since few men are wise enough to
+    rule themselves, even fewer are wise enough to rule others.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Max Stirner
+  t: What do your laws amount to if no one obeys them?
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Peter Kropotkin
+  t: Be strong. Overflow with emotional and intellectual energy, and you will spread
+    your intelligence, your love, your energy of action broadcast among others! This
+    is what all moral teaching comes to.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: David Graeber
+  t: We have become a civilization based on work--not even ‘productive work’ but work
+    as an end and meaning in itself.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: David Graeber
+  t: Money has no essence. It's not ‘really’ anything; therefore, its nature has always
+    been and presumably always will be a matter of political contention.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Emma Goldman
+  t: Unfortunately, there are still a number of people who continue in the fatal belief
+    that government rests on natural laws, that it maintains social order and harmony,
+    that it diminishes crime, and that it prevents the lazy man from fleecing his
+    fellows.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Errico Malatesta
+  t: I think the question is not about ‘communists’ and ‘individualists’, but rather
+    about anarchists and non-anarchists.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Lorenzo Komboa'Ervin
+  t: While we should mobilise to restrain offenders, we must begin to realise that
+    only the community will effectively deal with the matter. Not the racist Capitalist
+    system, with its repressive police, courts and prisons.
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: Bhagat Singh
+  t: They may kill me, but they cannot kill my ideas. They can crush my body, but
+    they will not be able to crush my spirit
+  tags:
+  - anarchism
+  - politics
+  - socialism
+- a: John Zerzan
+  t: Anarchism is the attempt to eradicate domination.
+  tags:
+  - anarchism
+  - politics
+  - socialism
