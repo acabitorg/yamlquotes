@@ -74,6 +74,7 @@ quotes:
   d: 1991
   t: Growth for the sake of growth is the ideology of the cancer cell.
   tags:
+  - economics
   - politics
 - a: Tariq Ali
   c: >-
@@ -279,8 +280,8 @@ quotes:
     had been established. By the summer of 1918, almost all of Russian industry had
     been placed under bourgeois forms of management.
   tags:
-  - politics
   - history
+  - politics
 - a: Murray Bookchin
   t: Nor do piecemeal steps however well intended, even partially resolve problems
     that have reached a universal, global and catastrophic character. If anything,
@@ -325,8 +326,8 @@ quotes:
   t: For £3 million you could give everyone in Scotland a shovel, and we would dig
     a hole so deep we could hand her over to Satan in person.
   tags:
-  - politics
   - humour
+  - politics
 - a: Nikolai Bukharin
   c: Executed in Stalin's purges
   t: Stalin is an unprincipled intriguer who subordinates everything to preservation  of
@@ -348,8 +349,8 @@ quotes:
 - a: George Carlin
   t: It's a big club and you ain't in it.
   tags:
-  - politics
   - humour
+  - politics
 - a: Fidel Castro
   t: They talk about the failure of socialism but where is the success of capitalism
     in Africa, Asia and Latin America?
@@ -850,8 +851,8 @@ quotes:
     in a planned fashion.
   tags:
   - economics
-  - politics
   - philosophy
+  - politics
 - a: Albert Einstein
   t: This crippling of individuals I consider the worst evil of capitalism. Our whole
     educational system suffers from this evil. An exaggerated competitive attitude
@@ -859,8 +860,8 @@ quotes:
     as a preparation for his future career.
   tags:
   - education
-  - politics
   - philosophy
+  - politics
 - a: Albert Einstein
   t: Private capital tends to become concentrated in few hands, partly because of
     competition among the capitalists, and partly because technological development
@@ -879,8 +880,8 @@ quotes:
     make intelligent use of his political rights.
   tags:
   - education
-  - politics
   - philosophy
+  - politics
 - a: Dwight D. Eisenhower
   t: I hate war as only a soldier who has lived it can, only as one who has seen its
     brutality, its futility, its stupidity.
@@ -924,9 +925,9 @@ quotes:
   c: Seeming to confirm that the Nation of Islam was responsible for the assassination
     of Malcolm X
   cw:
-  - violence
-  - racism
   - antisemitism
+  - racism
+  - violence
   d: 1993
   t: We don't give a damn about no white man law if you attack what we love. And frankly,
     it ain't none of your business. What do you got to say about it? Did you teach
@@ -942,9 +943,9 @@ quotes:
   c: Once again seeming to confirm that the Nation of Islam was responsible for the
     assassination of Malcolm X
   cw:
-  - violence
-  - racism
   - antisemitism
+  - racism
+  - violence
   d: 2000
   t: I may have been complicit in words that I spoke.
   tags:
@@ -952,9 +953,9 @@ quotes:
 - a: Louis Farrakhan
   c: Once again confirming that he is an antisemitic, hateful, asshole
   cw:
-  - violence
-  - racism
   - antisemitism
+  - racism
+  - violence
   t: And don't you forget, when it's God who puts you in the ovens, it's forever!
   tags:
   - politics
@@ -1110,8 +1111,8 @@ quotes:
 - a: Adolf Hitler
   c: Speech delivered in Berlin
   cw:
-  - racism
   - antisemitism
+  - racism
   d: 24 October 1933
   t: >-
     We were convinced that the people needs and requires this faith. We have therefore
@@ -1122,8 +1123,8 @@ quotes:
   - politics
 - a: Adolf Hitler
   cw:
-  - racism
   - antisemitism
+  - racism
   t: Our adoption of the term ‘socialist’ has nothing to do with Marxian economics
   tags:
   - history
@@ -1398,9 +1399,9 @@ quotes:
     instances in history where apparent losers suddenly turn out to be winners unexpectedly,
     so you should never conclude all hope is lost.
   tags:
+  - dark-humour
   - history
   - politics
-  - dark-humour
 - a: Theodore J. Kaczynski
   cw:
   - terrorism
@@ -1480,15 +1481,18 @@ quotes:
 - a: Peter Kropotkin
   t: Prisons are universities of crime, maintained by the state.
   tags:
+  - anarchism
   - politics
 - a: Peter Kropotkin
   t: Variety is life; uniformity is death.
   tags:
+  - anarchism
   - politics
 - a: Peter Kropotkin
   t: Don't compete!--competition is always injurious to the species, and you have
     plenty of resources to avoid it!
   tags:
+  - anarchism
   - politics
 - a: Peter Kropotkin
   t: We cry shame on the feudal baron who forbade the peasant to turn a clod of earth
@@ -1515,6 +1519,9 @@ quotes:
     the latter, while at the same time robbing the revolutionary theory of its substance,
     blunting its revolutionary edge and vulgarizing it.
   tags:
+  - communism
+  - leninism
+  - marxism
   - politics
 - a: Abraham Lincoln
   c: Fourth Debate with Stephen Douglas
@@ -1567,17 +1574,21 @@ quotes:
 - a: Frédéric Lordon
   t: Le vrai réalisme c'est de fermer la bourse, saisir les banques, et de ne pas
     payer la dette.
+  tags:
+  - philosophy
   txr: True realism is to close the stock exchange, seize the banks and not pay the
     debt.
 - a: Rosa Luxemburg
   t: The most revolutionary thing one can do is always to proclaim loudly what is
     happening.
   tags:
+  - communism
   - politics
 - a: Rosa Luxemburg
   t: What presents itself to us as bourgeois legality is nothing but the violence
     of the ruling class, a violence raised to an obligatory norm from the outset.
   tags:
+  - communism
   - politics
 - a: Nikolai Machiavelli
   l: ita
@@ -1599,11 +1610,13 @@ quotes:
     it is still adopted in that sense by the ignorant and by adversaries interested
     in distorting the truth.
   tags:
+  - anarchism
   - politics
 - a: Errico Malatesta
   t: We anarchists do not want to emancipate the people; we want the people to emancipate
     themselves.
   tags:
+  - anarchism
   - politics
 - a: Errico Malatesta
   t: If you say that you reject violence when it exceeds the limits imposed by the
@@ -1611,29 +1624,38 @@ quotes:
     is the whole essence of authoritarianism, just as the repudiation of violence
     is the whole essence of anarchism.
   tags:
+  - anarchism
   - politics
 - a: Errico Malatesta
   t: As every form of government only serves to protect the privileged classes, so
     do police and judges only aim at repressing those crimes, often not considered
     criminal by the masses, which offend only the privileges of the rulers or property-owners.
   tags:
+  - anarchism
   - politics
 - a: Karl Marx
   t: Accumulation of wealth at one pole is at the same time accumulation of misery,
     agony of toil, slavery, ignorance, brutality, mental degradation, at the opposite
     pole.
   tags:
+  - communism
+  - marxism
   - politics
 - a: Karl Marx
   t: Democracy is the road to socialism.
   tags:
+  - communism
+  - marxism
   - politics
+  - socialism
 - a: Karl Marx
   t: I make friends with very few people but I highly value them.
 - a: Karl Marx
   t: Under no pretext should arms and ammunition be surrendered; any attempt to disarm
     the workers must be frustrated, by force if necessary
   tags:
+  - communism
+  - marxism
   - politics
 - a: Karl Marx
   t: Landlords, like all other men, love to reap where they never sowed.
@@ -1656,23 +1678,35 @@ quotes:
     does not pay for the collective power objectified in its product, that therefore
     the worker is not paid as a part of the collective labour power.
   tags:
+  - anarchism
+  - communism
   - history
+  - marxism
   - politics
 - a: Karl Marx
   t: The oppressed are allowed once every few years to decide which particular representatives
     of the oppressing class are to represent and repress them.
+  tags:
+  - communism
+  - marxism
+  - politics
 - a: John McElroy
   c: >-
     Andersonville: A Story of Rebel Military Prisons
   d: 1879
   t: Hell hath no fury like the vindictiveness of those who are hurt by the truth
     being told to them.
+  tags:
+  - history
 - a: John von Neumann
   t: If people do not believe that mathematics is simple, it is only becuase they
     do not realize how complicated life is.
+  tags:
+  - math
 - a: Huey P. Newton
   t: An unarmed people are slaves or are subject to slavery at any given moment.
   tags:
+  - communism
   - politics
 - a: Huey P. Newton
   c: Interview with The Movement
@@ -1700,6 +1734,7 @@ quotes:
     in many respects. We believe that culture itself will not liberate us. We’re going
     to need some stronger stuff.
   tags:
+  - communism
   - politics
 - a: Friedrich Nietzsche
   t: They muddy the water, to make it seem deep.
@@ -1718,8 +1753,9 @@ quotes:
   t: The United States is also a one-party state but, with typical American extravagance,
     they have two of them.
   tags:
-  - politics
   - humour
+  - politics
+  - us-politics
 - a: Barack Obama
   c: Executive Order 13492 ‘Review and Disposition of Individuals Detained at the
     Guantánamo Bay Naval Base and Closure of Detention Facilities’
@@ -1804,6 +1840,10 @@ quotes:
     to vote them away from them by passing a law and saying, “Be it enacted that on
     and after a certain day Mr. Capitalist shall be dispossessed?” You may, but I
     do not believe it.
+  tags:
+  - anarchism
+  - politics
+  - socialism
 - a: Robert Paxton
   c: '"The Anatomy of Fascism"'
   d: '2004'
@@ -1818,12 +1858,14 @@ quotes:
     Two types of people laugh at the law: those that break it and those that make
     it.
   tags:
-  - politics
+  - fascism
   - humour
+  - politics
 - a: Pierre-Joseph Proudhon
   l: fra
   t: La propriété, c'est le vol !
   tags:
+  - anarchism
   - history
   - politics
   txr: Property is theft!
@@ -1833,6 +1875,7 @@ quotes:
     censored, ordered about, by men who have neither the right, nor the knowledge,
     nor the virtue.
   tags:
+  - anarchism
   - history
   - politics
 - a: Pierre-Joseph Proudhon
@@ -1841,6 +1884,7 @@ quotes:
     the rich and mighty, steel chains for the poor and weak, fishing nets in the hands
     of government.
   tags:
+  - anarchism
   - history
   - politics
 - a: Pierre-Joseph Proudhon
@@ -1853,6 +1897,7 @@ quotes:
     I not likewise answer, it is robbery, without the certainty of being misunderstood;
     the second proposition being no other than a transformation of the first?
   tags:
+  - anarchism
   - history
   - politics
 - a: Pierre-Joseph Proudhon
@@ -1867,6 +1912,7 @@ quotes:
     not change the course of events: destiny will fulfill itself regardless of prophecy.
     Besides, must not justice be done and our education be finished?
   tags:
+  - anarchism
   - history
   - politics
 - a: Pierre-Joseph Proudhon
@@ -1875,6 +1921,7 @@ quotes:
     of rights, and the reign of law. Justice, nothing else; that is the alpha and
     omega of my argument: to others I leave the business of governing the world.
   tags:
+  - anarchism
   - history
   - politics
 - a: Pierre-Joseph Proudhon
@@ -1890,11 +1937,13 @@ quotes:
     ignorance was the sole cause, both of the poverty that devours us, and of all
     the calamities that have ever afflicted the human race.
   tags:
+  - anarchism
   - history
   - politics
 - a: Pierre-Joseph Proudhon
   t: As man seeks justice in equality, so society seeks order in anarchy.
   tags:
+  - anarchism
   - economics
   - history
   - politics
@@ -1906,6 +1955,7 @@ quotes:
     here, even though sometime back they may have entered illegally.
   tags:
   - history
+  - immigration-politics
   - politics
   - us-presidents
 - a: David Ricardo
@@ -1916,6 +1966,7 @@ quotes:
   tags:
   - economics
   - history
+  - marxism
   - politics
 - a: Maximilien Robespierre
   t: The secret of freedom lies in educating people, whereas the secret of tyranny
@@ -1931,6 +1982,7 @@ quotes:
   t: I find war detestable but those who praise it without participating in it even
     more so.
   tags:
+  - anti-war
   - politics
 - a: Franklin D. Roosevelt
   c: Second Inaugural Address
@@ -1939,6 +1991,7 @@ quotes:
     who have much; it is whether we provide enough to those who have too little.
   tags:
   - history
+  - liberal-politics
   - politics
   - us-presidents
 - a: Franklin D. Roosevelt
@@ -1946,6 +1999,7 @@ quotes:
     religion.
   tags:
   - history
+  - liberal-politics
   - politics
   - us-presidents
 - a: Franklin D. Roosevelt
@@ -1966,6 +2020,7 @@ quotes:
   tags:
   - history
   - politics
+  - religious-freedom
   - us-presidents
 - a: Theodore Roosevelt
   t: The demand for a statement of a candidate's religious belief can have no meaning
@@ -1978,29 +2033,39 @@ quotes:
   tags:
   - history
   - politics
+  - religious-freedom
   - us-presidents
 - a: Jean-Jacques Rousseau
   l: fra
   t: Quand un peuple ne défend plus ses libertés et ses droits, il devient mûr pour
     l'esclavage.
   tags:
+  - liberal-politics
   - politics
   txr: When a people no longer defend their liberties and rights, they become ripe
     for enslavement.
 - a: Bertrand Russell
   t: The whole problem with the world is that fools and fanatics are always so certain
     of themselves, but wiser people so full of doubts.
+  tags:
+  - philosophy
 - a: Antoine de Saint-Exupéry
   t: He who would travel happily must travel light.
 - a: Thomas Sankara
   t: Stalin killed Leninism by stifling the soviets and making all-powerful the Cheka
     (secret police), the military, and other repressive bodies.
   tags:
+  - communism
   - history
+  - leninism
+  - marxism
   - politics
 - a: Thomas Sankara
   t: He who feeds you, controls you.
   tags:
+  - communism
+  - leninism
+  - marxism
   - politics
 - a: Thomas Sankara
   t: No altar, no belief, no holy book, neither the Qur’an nor the Bible nor the others,
@@ -2008,6 +2073,9 @@ quotes:
     the exploited. And if Jesus himself had to take the whip to chase them from his
     temple, it is indeed because that is the only language they hear.
   tags:
+  - communism
+  - leninism
+  - marxism
   - politics
 - a: Marjane Satrapi
   t: If I have one message to give to the secular American people, it's that the world
@@ -2018,18 +2086,23 @@ quotes:
     me and my government is much bigger than the difference between me and you. And
     our governments are very much the same.
   tags:
-  - politics
   - geopolitics
+  - politics
 - a: Tupac Shakur
   t: Whatever you see you gotta keep a sense of humor; you gotta be able to smile
     through all the bullshit.
+  tags:
+  - humour
 - a: Tupac Shakur
   t: A woman brought you into this world, so you have no right to disrespect one.
   tags:
+  - feminism
   - politics
 - a: Tupac Shakur
   t: They got money for the war but can't feed the poor.
   tags:
+  - anti-capitalism
+  - anti-war
   - politics
 - a: George Bernard Shaw
   t: Our laws make law impossible; our liberties destroy all freedom; our property
@@ -2038,10 +2111,14 @@ quotes:
     and our honour false in all its points. I am an enemy of the existing order for
     good reasons.
   tags:
+  - anarchism
+  - anti-capitalism
   - politics
 - a: George Bernard Shaw
   t: Poverty is organized robbery.
   tags:
+  - anarchism
+  - anti-capitalism
   - politics
 - a: John Steinbeck
   t: There is a strange duality in the human which makes for an ethical paradox. We
@@ -2055,6 +2132,7 @@ quotes:
     so torn between alternatives. Man might be described fairly adequately, if simply,
     as a two-legged paradox.
   tags:
+  - anti-capitalism
   - politics
 - a: Hunter S. Thompson
   t: A man who procrastinates in his choosing will inevitably have his choice made
@@ -2097,6 +2175,7 @@ quotes:
   t: We cannot expect people to have respect for law and order until we teach respect
     to those we have entrusted to enforce those laws.
   tags:
+  - law-enforcement
   - politics
 - a: Leon Trotsky
   t: >-
@@ -2104,13 +2183,20 @@ quotes:
     starvation. The old principle: who does not work shall not eat, has been replaced
     by a new one: who does not obey shall not eat.
   tags:
+  - communism
   - history
+  - leninism
+  - marxism
   - politics
 - a: Leon Trotsky
   t: The party that leans upon the workers but serves the bourgeoisie, in the period
     of the greatest sharpening of the class struggle, cannot but sense the smells
     wafted from the waiting grave.
   tags:
+  - communism
+  - history
+  - leninism
+  - marxism
   - politics
 - a: Leon Trotsky
   t: We can only be right with and by the Party, for history has provided no other
@@ -2118,6 +2204,9 @@ quotes:
     of us thinks unjust, he will say, just or unjust, it is my party, and I shall
     support the consequences of the decision to the end.
   tags:
+  - communism
+  - leninism
+  - marxism
   - politics
 - a: Leon Trotsky
   cw:
@@ -2128,6 +2217,7 @@ quotes:
     things any further, leave them with their fright and a few good black and blue
     marks.
   tags:
+  - fascism
   - history
   - politics
 - a: Leon Trotsky
@@ -2144,6 +2234,7 @@ quotes:
   - violence
   t: If you cannot convince a fascist, acquaint his head with the pavement.
   tags:
+  - fascism
   - history
   - politics
 - a: Leon Trotsky
@@ -2162,8 +2253,12 @@ quotes:
     its eyes to the crudest mistakes of its leaders in the sphere of general politics,
     provided in return they show an unconditional fidelity in the defense of its privileges.
   tags:
+  - communism
   - history
+  - leninism
+  - marxism
   - politics
+  - soviet-politics
 - a: Donald Trump
   c: June 2015
   t: When Mexico sends its people, they're not sending their best. [...] They're sending
@@ -2172,6 +2267,7 @@ quotes:
     are good people.
   tags:
   - history
+  - immigration-politics
   - politics
   - us-presidents
 - a: Donald Trump
@@ -2194,7 +2290,9 @@ quotes:
   - us-presidents
 - a: Donald Trump
   c: Speaking of the white-supremacist 'Unite The Right' rally in Charlottesville,
-    Virginia from
+    Virginia
+  cw:
+  - racism
   d: 12 August 2020
   t: But you also had people that were very fine people on both sides.
   tags:
@@ -2216,6 +2314,7 @@ quotes:
     If there's shouting after you, keep going. Don't ever stop. Keep going. If you
     want a taste of freedom, keep going.
   tags:
+  - abolition
   - history
   - politics
 - a: Desmond Tutu
@@ -2292,6 +2391,8 @@ quotes:
   t: There are lies, there are damn lies and then there are statistics.
 - a: Mark Twain
   t: Politicians and diapers must be changed often, and for the same reason.
+  tags:
+  - politics
 - a: Mark Twain
   t: Don't wait. The time will never be just right.
 - a: Voltaire
@@ -2313,6 +2414,8 @@ quotes:
 - a: Booker T. Washington
   t: A lie doesn't become truth, wrong doesn't become right, and evil doesn't become
     good, just because it's accepted by a majority.
+  tags:
+  - politics
 - a: Oscar Wilde
   c: The Soul of Man under Socialism
   t: Disobedience, in the eyes of anyone who has read history, is man's original virtue.
@@ -2323,8 +2426,8 @@ quotes:
   - politics
 - a: Robert F. Williams
   cw:
-  - violence
   - racism
+  - violence
   t: The Afro-American militant is a ‘militant’ because he defends himself, his family,
     his home, and his dignity. He does not introduce violence into a racist social
     system--the violence is already there, and has always been there. It is precisely
@@ -2343,6 +2446,7 @@ quotes:
     in their racist unity of loyalty which blinds them to the real state of their
     society and its discontents.
   tags:
+  - civil-rights
   - history
   - politics
 - a: Robert F. Williams
@@ -2355,6 +2459,7 @@ quotes:
   tags:
   - history
   - politics
+  - violence
 - a: Robert F. Williams
   cw:
   - violence
@@ -2366,6 +2471,7 @@ quotes:
   tags:
   - history
   - politics
+  - violence
 - a: Robert F. Williams
   cw:
   - violence
@@ -2378,6 +2484,7 @@ quotes:
   tags:
   - history
   - politics
+  - violence
 - a: Robert F. Williams
   cw:
   - violence
@@ -2387,6 +2494,7 @@ quotes:
   tags:
   - history
   - politics
+  - violence
 - a: Malcolm X
   c: From an interview with Jack Barnes and Barry Sheppard, of the Young Socialist
     Alliance
@@ -2405,6 +2513,7 @@ quotes:
   tags:
   - history
   - politics
+  - violence
 - a: Malcolm X
   t: Don't be in such a hurry to condemn a person because he doesn't do what you do,
     or think as you think. There was a time when you didn't know what you know today.
@@ -2427,7 +2536,13 @@ quotes:
   t: Every Communist must grasp the truth--‘Political power grows out of the barrel
     of a gun.’
   tags:
+  - communism
+  - leninism
+  - maoism
+  - marxism
   - politics
+  - power
+  - violence
 - a: Mao Zedong
   t: The first law of war is to preserve ourselves and destroy the enemy.
   tags:
@@ -2438,6 +2553,7 @@ quotes:
     coincide with the aspirations of the people and their sympathy, cooperation, and
     assistance cannot be gained.
   tags:
+  - guerrilla-warfare
   - politics
 - a: Mao Zedong
   cw:
@@ -2448,10 +2564,21 @@ quotes:
     an act of violence by which one class overthrows another.
   tags:
   - politics
+  - revolutionary-politics
 - a: Grigory Zinoviev
   c: Executed alongside Lev Kamenevin in 1936 following the Trotskyite-Zinovievite
     Terrorist Center Trial, or Zinoviev-Kamenev Trial, also known as the 'Trial of
     the Sixteen'
+  cw:
+  - violence
   t: To overcome our enemies we must have our own socialist militarism. We must carry
     along with us 90 million out of the 100 million of Soviet Russia's population.
     As for the rest, we have nothing to say to them. They must be annihilated.
+  tags:
+  - communism
+  - leninism
+  - marxism
+  - politics
+  - revolutionary-politics
+  - soviet-politics
+  - trotskyism

@@ -373,6 +373,10 @@ def save_quotes(data, basename):
             qt['t'] = fold_if_necessary(qt['t'])
         if 'c' in qt:
             qt['c'] = fold_if_necessary(qt['c'])
+        if 'cw' in qt:
+            qt['cw'] = sorted(qt['cw'])
+        if 'tags' in qt:
+            qt['tags'] = sorted(qt['tags'])
     with codecs.open(ofname, "w", encoding="utf-8") as f:
         f.write(yaml.dump(data, allow_unicode=True))
 

@@ -52,7 +52,7 @@ file size low.
 Example quotes yml file with two quotes (one of which has a translation):
 ```
 defaults:
-  l: en
+  l: eng
 quotes:
   - 
     t: Quidquid latine dictum sit, altum sonatur.
