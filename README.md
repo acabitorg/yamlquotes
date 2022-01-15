@@ -40,12 +40,15 @@ Abbreviated field names are used to keep the yaml uncluttered and keep the
 file size low.
 
 * `t` text of the quote
-* `l` language of text (if different from default) in *ISO 639-2/T* format (e.g. `eng` for English, `fra` for french, etc.)
+* `l` language of text (if different from default) in *ISO 639-2/T* format (e.g. `eng` for English, `fra` for French, `deu` for German etc.)
 * `txr` translated text of the quote
 * `a` author
-* `c` contextual information
+* `ac` author contextual information (e.g. "Second President of the United States")
+* `ayb` author year of birth 
+* `ayd` author year of death
+* `c` contextual information (in regard to the quote) (e.g. '"A Cult of Ignorance", Newsweek')
 * `g` geographic information (location)
-* `d` date
+* `d` date (of the quote)
 * `tags` category tags
 * `cw` content-warning tags
 

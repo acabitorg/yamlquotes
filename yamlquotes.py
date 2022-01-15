@@ -217,6 +217,16 @@ def mp_append_a(mp, qt, defaults):
 def get_a(qt, defaults):
     return EM_DASH + qt['a']
 
+def mp_append_ac(mp, qt, defaults):
+    if 'ac' in qt:
+        mp.append(NoEscape(', \\textit{{{}}}'.format(qt['ac'].rstrip())))   
+
+def get_ac(qt, defaults):
+    txt = ''
+    if 'ac' in qt:
+        txt += ', {}'.format(qt['ac'].rstrip())
+    return txt
+
 def mp_append_d(mp, qt, defaults):
     if 'd' in qt:
         field_d = str(qt['d'])
@@ -256,8 +266,9 @@ def repr_quote_pylatex_minipage(qt, defaults):
     mp_append_t(mp, qt, defaults)
     mp_append_txr(mp, qt, defaults)
     mp_append_a(mp, qt, defaults)
-    mp_append_d(mp, qt, defaults)
+    mp_append_ac(mp, qt, defaults)
     mp_append_c(mp, qt, defaults)
+    mp_append_d(mp, qt, defaults)
     mp_append_g(mp, qt, defaults)
     return mp
 
@@ -266,8 +277,9 @@ def repr_quote_plaintext(qt, defaults):
     txt += get_t(qt, defaults)
     txt += get_txr(qt, defaults)
     txt += get_a(qt, defaults)
-    txt += get_d(qt, defaults)
+    txt += get_ac(qt, defaults)
     txt += get_c(qt, defaults)
+    txt += get_d(qt, defaults)
     txt += get_g(qt, defaults)
     return txt
 

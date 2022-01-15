@@ -91,6 +91,33 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: John Adams
+  ac: Second President of the United States
+  c: Treaty of Tripoli
+  d: 1796
+  t: The government of the United States is not, in any sense, founded on the Christian
+    religion.
+  tags:
+  - atheism
+  - history
+  - politics
+  - religion
+  - religious-freedom
+  - us-politics
+  - us-presidents
+- a: Aesop
+  t: We hang the petty thieves and appoint the great ones to public office.
+- a: Muhammad Ali
+  t: I ain't draft dodging. I ain't burning no flag. I ain't running to Canada. I'm
+    staying right here. You want to send me to jail? Fine, you go right ahead. I've
+    been in jail for 400 years. I could be there for 4 or 5 more, but I ain't going
+    no 10,000 miles to help murder and kill other poor people. If I want to die, I'll
+    die right here, right now, fighting you, if I want to die. You my enemy, not not
+    Chinese, no Vietcong, no Japanese. You my opposer when I want freedom. You my
+    opposer when I want justice.
+- a: Muhammad Ali
+  t: I don't count my sit-ups; I only start counting when it starts hurting because
+    they're the only ones that count.
 - a: Tariq Ali
   c: >-
     The Obama Syndrome: Surrender at Home, War Abroad
@@ -222,6 +249,10 @@ quotes:
     majority in subjection to them.  This is the sense in which we are really Anarchists.
   tags:
   - politics
+- a: Ken Baldwin
+  ac: Golden Gate Bridge jump survivor
+  t: I instantly realized that everything in my life that I'd thought was unfixable
+    was totally fixable--except for having just jumped.
 - a: Aneurin Bevan
   t: We know what happens to people who stay in the middle of the road. They get run
     down.
@@ -379,6 +410,12 @@ quotes:
   d: 1973
   t: Anyone who believes exponential growth can go on forever in a finite world is
     either a madman or an economist.
+- a: Anothony Bourdain
+  t: I understand there's a guy inside me who wants to lay in bed, smoke weed all
+    day, and watch cartoons and old movies. My whole life is a series of strategems
+    to avoid, and outwit, that guy.
+  tags:
+  - motivational
 - a: Frankie Boyle
   c: On the cost of Margaret Thatcher's funeral
   t: For £3 million you could give everyone in Scotland a shovel, and we would dig
@@ -386,6 +423,10 @@ quotes:
   tags:
   - humour
   - politics
+- a: Russel Brand
+  t: When I was poor and I complained about inequality, they said I was bitter, now
+    that I'm rich and I complain about inequality they say I'm a hypocrite. I'm starting
+    to think they just don't want to talk about inequality.
 - a: Nikolai Bukharin
   c: Executed in Stalin's purges
   t: Stalin is an unprincipled intriguer who subordinates everything to preservation  of
@@ -400,6 +441,9 @@ quotes:
   t: We see now that infringement of freedom is necessary with regard to the opponents
     of the revolution. At a time of revolution we cannot allow freedom for the enemies
     of the people and of the revolution. That is a surely clear, irrefutable conclusion.
+- a: Louis C.K.
+  c: Serial Masturbator
+  t: If you went back and fixed all the mistakes you've made, you erase yourself.
 - a: Julius Caesar
   t: Men in general are quick to believe that which they wish to be true.
   tags:
@@ -409,6 +453,10 @@ quotes:
   tags:
   - humour
   - politics
+- a: George Carlin
+  t: If you have selfish ignorant citizens, you're gonna get selfish ignorant leaders.
+  tags:
+  - civic-responsibility
 - a: Fidel Castro
   t: They talk about the failure of socialism but where is the success of capitalism
     in Africa, Asia and Latin America?
@@ -417,6 +465,32 @@ quotes:
 - a: Ha-Joon Chang
   t: The journalistic habit tends to present the public with the bleakest possible
     view of the world.
+- a: Stéphane “Charb” Charbonnier
+  ayb: 1967
+  ayd: 2015
+  c: Charb wsayuas killed, with seven of his colleagues, two police officers, and
+    two other people on 7 January 2015 when a pair of gunmen stormed the Charlie Hebdo
+    newspaper offices in Paris.
+  cw:
+  - violence
+  l: fra
+  t: Je n'ai pas peur des représailles. Je n'ai pas de gosses, pas de femme, pas de
+    voiture, pas de crédit. Ca fait sûrement un peu pompeux, mais je préfère mourir
+    debout que vivre à genoux.
+  tags:
+  - freedom
+  txr: I am not afraid of retaliation. I have no kids, no wife, no car, no credit.
+    It perhaps sounds a bit pompous, but I prefer to die standing than living on my
+    knees.
+- a: John Cheese
+  cw:
+  - suicide
+  t: If I had not gone into Monty Python, I probably would have stuck to my original
+    plan to graduate and become a chartered accountant, perhaps a barrister lawyer,
+    and gotten a nice house in suburbs, with a nice wife and kids, and then I would
+    have killed myself.
+  tags:
+  - happiness
 - a: Noam Chomsky
   t: >-
     See, people with power understand exactly one thing: violence.
@@ -889,6 +963,12 @@ quotes:
   tags:
   - history
   - politics
+- a: Lori Deschene
+  t: Be the person who breaks the cycle. If you were judged, choose understanding.
+    If you were rejected, choose acceptance. If you were shamed, choose compassion.
+    Be the person you needed when you were hurting, not the person who hurt you. Vow
+    to be better than what broke you—to heal instead of becoming bitter so you can
+    act from your heart, not your pain.
 - a: Denis Diderot
   cw:
   - violence
@@ -991,7 +1071,9 @@ quotes:
   tags:
   - politics
 - a: Friedrich Engels
-  t: Freedom is the recognition of necessity
+  t: Freedom therefore consists in the control over ourselves and over external nature,
+    a control founded on knowledge of natural necessity; it is therefore necessarily
+    a product of historical development.
   tags:
   - philosophy
   - politics
@@ -1019,6 +1101,18 @@ quotes:
 - a: Friedrich Engels
   t: The state is nothing but an instrument of oppression of one class by another--no
     less so in a democratic republic than in a monarchy.
+- a: Epicurus
+  t: Is God willing to prevent evil, but not able? Then he is not omnipotent. Is he
+    able, but not willing? Then he is malevolent. Is he both able and willing? Then
+    whence cometh evil? Is he neither able nor willing? Then why call him God?
+  tags:
+  - atheism
+  - religion
+- a: Epicurus
+  t: Why should I fear death? If I am, death is not. If death is, I am not. Why should
+    I fear that which cannot exist when I do?
+  tags:
+  - death
 - a: Louis Farrakhan
   c: Seeming to confirm that the Nation of Islam was responsible for the assassination
     of Malcolm X
@@ -1063,6 +1157,11 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Richard Feynman
+  t: I would rather have questions that can't be answered than answers that can't
+    be questioned.
+  tags:
+  - freedom
 - a: Anatole France
   l: fra
   t: La majestueuse égalité des lois, qui interdit au riche comme au pauvre de coucher
@@ -1180,6 +1279,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Jane Goodall
+  t: You cannot share your life with a dog and not know perfectly well that animals
+    have personalities, minds and feelings.
 - a: Kim Gordon
   t: Women make natural anarchists and revolutionaries because they've always been
     second-class citizens, kinda having had to claw their way up.
@@ -1303,6 +1405,13 @@ quotes:
   - politics
 - a: Fred Hampton
   t: If you walk through life and don't help anybody, you haven't had much of a life.
+- a: Dan Harmon
+  ac: Co-creator of Rick and Morty
+  t: The knowledge that nothing matters, while accurate, gets you nowhere. The planet
+    is dying, the sun is exploding, the universe is cooling, nothing's gonna matter;
+    the further back you pull the more that truth will endure. But when you zoom in
+    on Earth, when you zoom in to a family, when you zoom into a human brain and a
+    childhood and experience, you see all these things that matter.
 - a: William "Big Bill" Haywood
   t: The mine owners do not find the gold, they do not mine the gold, they do not
     mill the gold, but by some weird alchemy all the gold belongs to them.
@@ -1320,12 +1429,23 @@ quotes:
     us rich. And he certainly didn't come to make Pat Robertson and Joel Osteen rich.
     And what they have done is acculturate the worst apsects of American imperialism,
     capitalism, chauvinism, violence and bigotry into the Christian religion.
+- a: G. W. F. Hegel
+  l: deu
+  t: Freiheit ist Einsicht in die Notwendigkeit.
+  txr: Freedom is the insight into necessity.
 - a: Ammon Hennacy
   t: An anarchist is someone who doesn't need a cop to make him behave.
   tags:
   - anarchism
   - politics
   - socialism
+- a: Bill Hicks
+  t: Here is my final point...About drugs, about alcohol, about pornography...What
+    business is it of yours what I do, read, buy, see, or take into my body as long
+    as I do not harm another human being on this planet? And for those who are having
+    a little moral dilemma in your head about how to answer that question, I'll answer
+    it for you. NONE of your fucking business. Take that to the bank, cash it, and
+    go fucking on a vacation out of my life.
 - a: Dr. Robert Higgs
   t: >-
     The ‘good/bad cop’ question can be disposed of decisively. We need only consider
@@ -1378,6 +1498,10 @@ quotes:
   tags:
   - history
   - politics
+- a: Howard Hunter
+  t: You should express regularly to your wife and children your respect and reverence
+    for her. Indeed, one of the greatest things a father can do for his children is
+    to love their mother.
 - a: Aldous Huxley
   t: The surest way to work up a crusade in favor of some good cause is to promise
     people they will have a chance of maltreating someone. To be able to destroy with
@@ -1514,6 +1638,9 @@ quotes:
   - history
   - politics
   - us-presidents
+- a: Keith Jensen
+  t: What Orwell failed to predict was that we'd buy the cameras ourselves, and that
+    our biggest fear would be that nobody was watching.
 - a: Lyndon B. Johnson
   cw:
   - racism
@@ -1711,6 +1838,12 @@ quotes:
   - history
   - politics
   - us-presidents
+- a: John F. Kennedy
+  t: Too often we enjoy the comfort of opinion without the discomfort of thought.
+  tags:
+  - history
+  - politics
+  - us-presidents
 - a: Jim, aka "The Waco Kid"
   c: Blazing Saddles
   cw:
@@ -1810,6 +1943,9 @@ quotes:
   - leninism
   - marxism
   - politics
+- a: C. S. Lewis
+  t: Isn't it funny how day by day nothing changes, but when we look back everything
+    is different.
 - a: Abraham Lincoln
   c: Fourth Debate with Stephen Douglas
   cw:
@@ -1879,6 +2015,13 @@ quotes:
   - philosophy
   txr: True realism is to close the stock exchange, seize the banks and not pay the
     debt.
+- a: Halford E. Luccock
+  d: 1938
+  t: When and if fascism comes to America it will not be labled ‘made in Germany’;
+    it will not be marked with a swastika; it will not even be called fascism; it
+    will be called, of course ‘Americanism’
+  tags:
+  - fascism
 - a: Rosa Luxemburg
   t: The most revolutionary thing one can do is always to proclaim loudly what is
     happening.
@@ -2047,6 +2190,11 @@ quotes:
   - communism
   - marxism
   - politics
+- a: James “Mad Dog” Mattis
+  ac: Four-star USMC general and 26th US secretary of defense
+  cw:
+  - violence
+  t: Be polite, be professional, but have a plan to kill everybody you meet.
 - a: John McElroy
   c: >-
     Andersonville: A Story of Rebel Military Prisons
@@ -2134,6 +2282,16 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: John Muir
+  t: Of all the paths you take in life, make sure a few of them are dirt.
+  tags:
+  - nature
+- a: John Muir
+  t: Hiking. I don't like either the word or the thing. People ought to saunter in
+    the mountains--the mountains are our Holy Land, and we ought to saunter through
+    them reverently, not ‘hike’ through them.
+  tags:
+  - nature
 - a: John von Neumann
   t: If people do not believe that mathematics is simple, it is only becuase they
     do not realize how complicated life is.
@@ -2177,6 +2335,12 @@ quotes:
   tags:
   - philosophy
   - politics
+- a: Friedrich Nietzsche
+  t: >-
+    Which is it: is man one of God's blunders, or is God one of man's blunders?
+  tags:
+  - atheism
+  - religion
 - a: Richard M. Nixon
   t: I don't know why any individual should have a right to have a revolver in his
     house
@@ -2338,6 +2502,10 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Plato
+  t: Never discourage anyone who contiually makes progress, no matter how slow.
+  tags:
+  - motivational
 - a: Terry Pratchett
   t: >-
     Two types of people laugh at the law: those that break it and those that make
@@ -2571,6 +2739,11 @@ quotes:
   - politics
   txr: When a people no longer defend their liberties and rights, they become ripe
     for enslavement.
+- a: Arundhati Roy
+  t: Once weapons were manufactured to fight wars. Now wars are manufactured to sell
+    weapons.
+  tags:
+  - anti-war
 - a: Bertrand Russell
   t: The whole problem with the world is that fools and fanatics are always so certain
     of themselves, but wiser people so full of doubts.
@@ -2630,6 +2803,13 @@ quotes:
   tags:
   - geopolitics
   - politics
+- a: Anontin Scalia
+  ac: associate justice of the Supreme Court of the United States
+  ayb: 1936
+  ayd: 2016
+  t: Banning flag burning dilutes the very freedom that makes this emblem so revered.
+  tags:
+  - politics
 - a: Tupac Shakur
   t: Whatever you see you gotta keep a sense of humor; you gotta be able to smile
     through all the bullshit.
@@ -2662,6 +2842,12 @@ quotes:
   - anarchism
   - anti-capitalism
   - politics
+- a: George Bernard Shaw
+  t: Both optimists and pessimists contribute to society. The optimist invents the
+    aeroplane, the pessimist the parachute.
+- a: Shel Silverstein
+  t: She had blue skin, and so did he. He kept it hid and so did she. They searched
+    for blue their whole life through, then passed right by--and never knew.
 - a: Bhagat Singh
   t: Merciless criticism and independent thinking are two traits of revolutionary
     thinking. Lovers, lunatics and poets are made of the same stuff
@@ -2705,6 +2891,12 @@ quotes:
   tags:
   - anti-capitalism
   - politics
+- a: Steve-O
+  t: You can always become a pickle, but you can never go back to being a cucumber.
+- a: Jon Stewart
+  t: I'm anti political parties. I don't understand how in a country of 200 million
+    voters, we only have two political parties. We have eight kinds of Coke, but only
+    two political parties.
 - a: Max Stirner
   t: Never does a State aim to bring in the free activity of individuals, but always
     that which is bound to the purpose of the State.
@@ -2828,6 +3020,15 @@ quotes:
   tags:
   - law-enforcement
   - politics
+- a: Hunter S. Thomson
+  d: 12 September 2001
+  t: >-
+    The towers are gone now, reduced to bloody rubble, along with all hopes of Peace
+    in  Our Time, in the United States or any other country. Make no mistake about
+    it: We are At War now--with somebody--and we will stay At War with that mysterious
+    Enemy for the rest of our lives.
+  tags:
+  - anti-war
 - a: Leon Trotsky
   t: >-
     In a country where the sole employer is the State, opposition means death by slow
@@ -2958,6 +3159,14 @@ quotes:
   tags:
   - politics
   - us-presidents
+- a: Donald Trump
+  c: '"The Art of the Deal", page 305'
+  t: If there's one thing I've learned from dealing with politicians over the years,
+    it's that the only thing guaranteed to force them into action is the press--or
+    more specifically, fear of the press.
+  tags:
+  - politics
+  - us-presidents
 - a: Harriet Tubman
   t: If you hear the dogs, keep going. If you see the torches in the woods, keep going.
     If there's shouting after you, keep going. Don't ever stop. Keep going. If you
@@ -3059,6 +3268,16 @@ quotes:
   - politics
 - a: Mark Twain
   t: Don't wait. The time will never be just right.
+- a: Mark Twain
+  t: Man is the only religious animal. He is the only animal that has the True Religion--several
+    of them. He is the only animal that loves his neighbor as himself and cuts his
+    throat, if his theology isn't straight. He has made a graveyard of the globe in
+    trying his honest best to smooth his brother's path to happiness and heaven.
+  tags:
+  - religion
+- a: Mike Tyson
+  t: Social media made y'all way too comfortable with disrespecting people and not
+    getting punched in the face for it.
 - a: Voltaire
   c: >-
     Questions sur les Miracles à M. Claparede, Professeur de Théologie à Genève, par
@@ -3069,8 +3288,24 @@ quotes:
   tags:
   - politics
   txr: Those who can make you believe absurdities, can make you commit atrocities.
+- a: Kurt Vonnegut
+  t: Go into the arts. I'm not kidding. The arts are not a way to make a living. They
+    are a very human way of making life more bearable. Practicing an art, no matter
+    how well or badly, is a way to make your soul grow, for heaven's sake. Sing in
+    the shower. Dance to the radio. Tell stories. Write a poem to a friend, even a
+    lousy poem. Do it as well as you possibly can. You will get an enormous reward.
+    You will have created something.
+  tags:
+  - art
 - a: George Washington
   t: It is far better to be alone, than to be in bad company.
+  tags:
+  - history
+  - politics
+  - us-presidents
+- a: George Washington
+  t: I had always hoped that this land might become a safe and agreeable asylum to
+    the virtuous and persecuted part of mankind, to whatever nation they might belong.
   tags:
   - history
   - politics
@@ -3080,6 +3315,9 @@ quotes:
     good, just because it's accepted by a majority.
   tags:
   - politics
+- a: Ida B. Wells-Barnett
+  t: A Winchester rifle should have a place of honor in every black home, and it should
+    be used for that protection which the law refuses to give.
 - a: Oscar Wilde
   c: The Soul of Man under Socialism
   t: Disobedience, in the eyes of anyone who has read history, is man's original virtue.
@@ -3159,6 +3397,13 @@ quotes:
   - history
   - politics
   - violence
+- a: E.O. Wilson
+  t: >-
+    The problem of humanity is the following: We have paleolithic emotions; medieval
+    institutions; and god-like technology.
+  tags:
+  - politics
+  - technology
 - a: Malcolm X
   c: From an interview with Jack Barnes and Barry Sheppard, of the Young Socialist
     Alliance
@@ -3189,6 +3434,13 @@ quotes:
     being oppressed, and loving the people who are doing the oppressing.
   tags:
   - history
+  - politics
+- a: Malcolm X
+  t: If you stick a knife in my back nine inches and pull it out six inches, there's
+    no progress. If you pull it all the way out that's not progress. Progress is healing
+    the wound that the blow made. And they haven't pulled the knife out, much less
+    healed the wound. They won't even admit the knife is there.
+  tags:
   - politics
 - a: W. B. Yeats
   t: The best lack all conviction, while the worst are full of passionate intensity.
