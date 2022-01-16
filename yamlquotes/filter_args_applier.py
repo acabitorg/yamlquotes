@@ -37,7 +37,7 @@ class FilterArgsApplier():
             print_usage()
             sys.exit(1)
 
-    def apply_filter_args(self, data):
+    def apply(self, data):
         self.__apply_exclude_cw_filters(data)
         self.__apply_include_cw_filters(data)
         self.__apply_exclude_any_cw_filter(data)

@@ -20,6 +20,7 @@ from yaml.representer import SafeRepresenter
 
 from .constants import (EM_DASH, OUTDIR)
 from .filter_args_applier import FilterArgsApplier
+from .sort_args_applier import SortArgsApplier
 from .image_utils import ImageText
 from .load_quotes import load_quotes
 from .save_quotes import save_quotes
@@ -231,14 +232,6 @@ def repr_quote_plaintext(qt, defaults):
     txt += get_g(qt, defaults)
     return txt
 
-
-def qt_key_rauthor(qt):
-    """Key function to sort by author name reversed
-    E.g. 'Dwight D. Eisenhower'.split()[::-1]
-    ['Eisenhower', 'D.', 'Dwight']
-    """
-    return qt['a'].split()[::-1]
-
 def get_defaults(data):
     defaults = {'l':'eng'}
     if 'defaults' in data:
@@ -395,10 +388,6 @@ def print_quotes(data):
 def save_sorted(data, basename):
     save_quotes(data, basename)
 
-def apply_sort_args(data):
-    if args.sort_by_author:
-        data['quotes'] = sorted(data['quotes'], key=qt_key_rauthor)
-
 def main():
     basename = \
         os.path.splitext(os.path.basename(args.file))[0]
@@ -414,13 +403,15 @@ def main():
         print('Valid')
         sys.exit(0)
 
-    apply_sort_args(data)
+    saa = SortArgsApplier(args)
+    saa.apply(data)
+
     if args.save_sorted:
         save_sorted(data, basename)
         sys.exit(0)
 
     faa = FilterArgsApplier(args)
-    faa.apply_filter_args(data)
+    faa.apply(data)
 
     if args.stats:
         print_stats(data) 
