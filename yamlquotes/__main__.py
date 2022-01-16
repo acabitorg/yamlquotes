@@ -19,6 +19,7 @@ import yaml
 from yaml.representer import SafeRepresenter
 
 from .constants import (EM_DASH, OUTDIR)
+from .filter_args_applier import FilterArgsApplier
 from .image_utils import ImageText
 from .load_quotes import load_quotes
 from .save_quotes import save_quotes
@@ -96,36 +97,6 @@ parser.add_argument('--no-flip', action='store_true', default=False, \
     help='Don\'t flip every other page vertically')
 
 args = parser.parse_args()
-
-exclude_cw = []
-include_cw = []
-exclude_tags = [] 
-include_tags = []
-exclude_langs = []
-include_langs = []
-
-if args.exclude_cw != None:
-    exclude_cw += args.exclude_cw.split(',')
-if args.include_cw != None:
-    include_cw += args.include_cw.split(',')
-if args.exclude_tags != None:
-    exclude_tags += args.exclude_tags.split(',')
-if args.include_tags != None:
-    include_tags += args.include_tags.split(',')
-if args.exclude_langs != None:
-    exclude_langs += args.exclude_langs.split(',')
-if args.include_langs != None:
-    include_langs += args.include_langs.split(',')
-
-if set(include_tags) & set(exclude_tags):
-    logger.error('--include-tags and --exclude-tags must\'t overlap, ya doofus')
-    print_usage()
-    sys.exit(1)
-
-if set(include_langs) & set(exclude_langs):
-    logger.error('--include-langs and --exclude-langs must\'t overlap, ya ding dong')
-    print_usage()
-    sys.exit(1)
 
 def get_qt_prop_type(prop_name):
     if prop_name == 'cw' or prop_name == 'tags':
@@ -411,76 +382,6 @@ def list_langs(data):
 def list_tags(data):
     _list_qt_prop_vals(data, 'tags')
 
-
-def apply_exclude_any_cw_filter(data):
-    if not args.exclude_any_cw:
-        return
-    data['quotes'] = \
-        [qt for qt in data['quotes'] if 'cw' not in 'qt']
-
-def get_exclude_list(prop_name):
-    if prop_name == 'cw':
-        return exclude_cw
-    elif prop_name == 'langs':
-        return exclude_langs
-    elif prop_name == 'tags':
-        return exclude_tags
-    sys.exit(1)
-
-def get_include_list(prop_name):
-    if prop_name == 'cw':
-        return include_cw
-    elif prop_name == 'langs':
-        return include_langs
-    elif prop_name == 'tags':
-        return include_tags
-    sys.exit(1)
-
-def apply_exclude_filter(data, prop_name):
-    quotes = []
-    exclude_list = get_exclude_list(prop_name)
-    for qt in data['quotes']:
-        if prop_name in qt and \
-        set(qt[prop_name]) & set(exclude_list):
-            continue
-        quotes.append(qt)
-    data['quotes'] = quotes
-
-def apply_include_filter(data, prop_name):
-    quotes = []
-    include_list = get_include_list(prop_name)
-    for qt in data['quotes']:
-        if len(include_list) > 0:
-            if prop_name in qt:
-                if not set(qt[prop_name]) & \
-                set(include_list):
-                    continue
-            else:
-                continue
-        quotes.append(qt)
-    data['quotes'] = quotes
-
-
-def apply_exclude_cw_filters(data):
-    apply_exclude_filter(data, 'cw')
-
-def apply_exclude_tag_filters(data):
-    apply_exclude_filter(data, 'tags')
-
-def apply_exclude_lang_filters(data):
-    apply_exclude_filter(data, 'langs')
-
-
-def apply_include_cw_filters(data):
-    apply_include_filter(data, 'cw')
-
-def apply_include_lang_filters(data):
-    apply_include_filter(data, 'langs')
-
-def apply_include_tag_filters(data):
-    apply_include_filter(data, 'tags')
-
-
 def print_stats(data):
     quotes = data['quotes']
     count = len(quotes)
@@ -494,20 +395,9 @@ def print_quotes(data):
 def save_sorted(data, basename):
     save_quotes(data, basename)
 
-
-def apply_filter_args(data):
-    apply_exclude_cw_filters(data)
-    apply_include_cw_filters(data)
-    apply_exclude_any_cw_filter(data)
-    apply_exclude_tag_filters(data)
-    apply_include_tag_filters(data)
-    apply_exclude_lang_filters(data)
-    apply_include_lang_filters(data)
-
 def apply_sort_args(data):
     if args.sort_by_author:
         data['quotes'] = sorted(data['quotes'], key=qt_key_rauthor)
-
 
 def main():
     basename = \
@@ -529,7 +419,8 @@ def main():
         save_sorted(data, basename)
         sys.exit(0)
 
-    apply_filter_args(data)
+    faa = FilterArgsApplier(args)
+    faa.apply_filter_args(data)
 
     if args.stats:
         print_stats(data) 
