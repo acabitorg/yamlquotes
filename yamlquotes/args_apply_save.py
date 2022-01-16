@@ -17,6 +17,6 @@ class SaveArgsApplier():
         self.args = args
 
     def apply(self, data):
-        if self.args.save_sorted:
+        if self.args.save:
             save_quotes(data, get_basename(self.args))
             sys.exit(0)

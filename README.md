@@ -112,10 +112,9 @@ on the CW tags to generate a *clean* PDF.
 ### yamlquotes python CLI Reference
 
 ```
-usage: python -m yamlquotes [-h] -f FILE [--include-tags INCLUDE_TAGS] [--exclude-tags EXCLUDE_TAGS] [--include-langs INCLUDE_LANGS] [--exclude-langs EXCLUDE_LANGS]
-                     [--exclude-cw EXCLUDE_CW | --exclude-any-cw | --include-cw INCLUDE_CW] [--sort-by-author]
-                     (--validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print)
-                     [--no-flip]
+usage: __main__.py [-h] -f FILE [--include-tags INCLUDE_TAGS] [--exclude-tags EXCLUDE_TAGS] [--include-langs INCLUDE_LANGS] [--exclude-langs EXCLUDE_LANGS]
+                   [--exclude-cw EXCLUDE_CW | --exclude-any-cw | --include-cw INCLUDE_CW] [--sort-by-author]
+                   (--validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save | --list-tags | --list-cw | --list-langs | --stats | --print) [--no-flip]
 
 yamlquotes.py
 
@@ -142,7 +141,7 @@ optional arguments:
   --make-png-images     Make png images from quotes yaml
   --make-png-video-frames
                         Make png video frames for ffmpeg from quotes yaml
-  --save-sorted         Save sorted yaml to '_sorted.yaml' file
+  --save                Save sorted and/or filtered yaml to '.saved.yaml' file
   --list-tags           List all tags in the quotes file
   --list-cw             List all content-warnings in the quotes file
   --list-langs          List all languages in the quotes file
@@ -156,7 +155,7 @@ optional arguments:
 The mode of operation is specified by one of the following mutually-exclusive arguments:
 
 ```
---validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print
+--validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save | --list-tags | --list-cw | --list-langs | --stats | --print
 ```
 
 ### Usage Examples
@@ -241,8 +240,8 @@ python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags politics,econ
 
 python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags politics --exclude-cw racism,violence --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --save-sorted
-mv quotes_sorted.yml quotes.yml
+python -m yamlquotes -f quotes.yml --sort-by-author --save
+mv quotes.saved.yml quotes.yml
 
 
 ```

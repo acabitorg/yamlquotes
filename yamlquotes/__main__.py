@@ -74,8 +74,8 @@ oper_group.add_argument('--make-png-images', action='store_true', \
 oper_group.add_argument('--make-png-video-frames', action='store_true', \
     help='Make png video frames for ffmpeg from quotes yaml')
 
-oper_group.add_argument('--save-sorted', action='store_true', \
-    help='Save sorted yaml to \'_sorted.yaml\' file')
+oper_group.add_argument('--save', action='store_true', \
+    help='Save sorted and/or filtered yaml to \'.saved.yaml\' file')
 
 oper_group.add_argument('--list-tags', action='store_true', \
     help='List all tags in the quotes file')
@@ -107,10 +107,10 @@ def main():
     app = SortArgsApplier(args)
     app.apply(data)
 
-    app = SaveArgsApplier(args)
+    app = FilterArgsApplier(args)
     app.apply(data)
 
-    app = FilterArgsApplier(args)
+    app = SaveArgsApplier(args)
     app.apply(data)
 
     app = UtilArgsApplier(args)

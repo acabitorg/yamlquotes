@@ -32,7 +32,7 @@ def fold_if_necessary(text):
     return text
 
 def save_quotes(data, basename):
-    ofname = '{}_sorted.yml'.format(basename)
+    ofname = '{}.saved.yml'.format(basename)
     for qt in data['quotes']:
         if 't' in qt:
             qt['t'] = fold_if_necessary(qt['t'])
