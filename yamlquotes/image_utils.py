@@ -7,7 +7,10 @@
 # and refactored to extract new function get_text_lines_and_height
 # License: GPL <http://www.gnu.org/copyleft/gpl.html>
 
+import logging
 from PIL import Image, ImageDraw, ImageFont
+
+logger = logging.getLogger(__name__)
 
 class ImageText(object):
     def __init__(self, filename_or_size, mode='RGBA', background=(0, 0, 0, 0),

@@ -3,6 +3,10 @@
 # Copyright 2021 Acabit.org <https://github.com/acabitorg/yamlquotes>
 # License: GPLv3 <https://www.gnu.org/licenses/gpl-3.0.html>
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 def qt_key_rauthor(qt):
     """Key function to sort by author name reversed
     E.g. 'Dwight D. Eisenhower'.split()[::-1]

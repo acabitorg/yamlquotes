@@ -3,9 +3,12 @@
 # Copyright 2021 Acabit.org <https://github.com/acabitorg/yamlquotes>
 # License: GPLv3 <https://www.gnu.org/licenses/gpl-3.0.html>
 
+import logging
 import re
 
 from .constants import EM_DASH
+
+logger = logging.getLogger(__name__)
 
 ERR_MSG_INVALID = 'One or more validation errors occurred'
 
