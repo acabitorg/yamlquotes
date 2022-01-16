@@ -4,15 +4,12 @@
 # License: GPLv3 <https://www.gnu.org/licenses/gpl-3.0.html>
 
 import argparse
-import codecs
 import logging.config
 import logging
-import math
 import os
 import sys
 assert sys.version_info >= (3, 9)
 import yaml
-from yaml.representer import SafeRepresenter
 
 with open('logging.yml','rt') as f:
     config=yaml.safe_load(f.read())
