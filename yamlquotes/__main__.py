@@ -26,7 +26,7 @@ from .helpers import get_basename
 from .image_utils import ImageText
 from .load_quotes import load_quotes
 from .save_quotes import save_quotes
-from .validate_quotes import validate_quotes
+from .validate_args_applier import ValidateArgsApplier
 
 with open('logging.yml','rt') as f:
     config=yaml.safe_load(f.read())
@@ -396,10 +396,8 @@ def main():
     if not os.path.exists(OUTDIR):
         os.mkdir(OUTDIR)
 
-    validate_quotes(data)
-    if args.validate:
-        print('Valid')
-        sys.exit(0)
+    app = ValidateArgsApplier(args)
+    app.apply(data)
 
     app = SortArgsApplier(args)
     app.apply(data)
