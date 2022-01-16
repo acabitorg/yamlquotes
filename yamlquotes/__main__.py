@@ -20,7 +20,9 @@ from yaml.representer import SafeRepresenter
 
 from .constants import (EM_DASH, OUTDIR)
 from .filter_args_applier import FilterArgsApplier
+from .save_args_applier import SaveArgsApplier
 from .sort_args_applier import SortArgsApplier
+from .helpers import get_basename
 from .image_utils import ImageText
 from .load_quotes import load_quotes
 from .save_quotes import save_quotes
@@ -386,8 +388,7 @@ def print_quotes(data):
         print('{}: {}'.format(i+1, qt))
 
 def main():
-    basename = \
-        os.path.splitext(os.path.basename(args.file))[0]
+    basename = get_basename(args)
 
     logger.debug(f'basename={basename}')
     data = load_quotes(args.file)
@@ -400,15 +401,14 @@ def main():
         print('Valid')
         sys.exit(0)
 
-    saa = SortArgsApplier(args)
-    saa.apply(data)
+    app = SortArgsApplier(args)
+    app.apply(data)
 
-    if args.save_sorted:
-        save_sorted(data, basename)
-        sys.exit(0)
+    app = SaveArgsApplier(args)
+    app.apply(data)
 
-    faa = FilterArgsApplier(args)
-    faa.apply(data)
+    app = FilterArgsApplier(args)
+    app.apply(data)
 
     if args.stats:
         print_stats(data) 

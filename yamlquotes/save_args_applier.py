@@ -6,6 +6,7 @@
 import sys
 
 from .save_quotes import save_quotes
+from .helpers import get_basename
 
 class SaveArgsApplier():
 
@@ -13,6 +14,6 @@ class SaveArgsApplier():
         self.args = args
 
     def apply(self, data):
-        if args.save_sorted:
-            save_quotes(data, basename)
+        if self.args.save_sorted:
+            save_quotes(data, get_basename(self.args))
             sys.exit(0)
