@@ -5,7 +5,6 @@
 
 import logging
 import yaml
-from yaml.representer import SafeRepresenter
 
 logger = logging.getLogger(__name__)
 
