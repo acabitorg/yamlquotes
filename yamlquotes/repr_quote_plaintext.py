@@ -35,17 +35,17 @@ def get_ac(qt, defaults):
         txt += ', {}'.format(qt['ac'].rstrip())
     return txt
 
+def get_c(qt, defaults):
+    txt = ''
+    if 'c' in qt:
+        txt += ', {}'.format(qt['c'].rstrip())
+    return txt
+
 def get_d(qt, defaults):
     txt = ''
     if 'd' in qt:
         field_d = str(qt['d'])
         txt += ', ' + field_d
-    return txt
-
-def get_c(qt, defaults):
-    txt = ''
-    if 'c' in qt:
-        txt += ', {}'.format(qt['c'].rstrip())
     return txt
 
 def get_g(qt, defaults):

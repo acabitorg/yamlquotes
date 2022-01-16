@@ -5,13 +5,11 @@
 
 import logging
 import os
-from pylatex import (
-    Command, Document, LineBreak, MiniPage, 
-    Section, Subsection, TextBlock)
-from pylatex.utils import italic, NoEscape
+from pylatex import (Document, LineBreak, NoEscape, Section)
 
-from .constants import (EM_DASH, OUTDIR)
-from .helpers import (format_text, get_defaults, get_lang)
+from .constants import OUTDIR
+from .helpers import get_defaults
+from .repr_quote_pylatex_minipage import repr_quote_pylatex_minipage
 
 logger = logging.getLogger(__name__)
 
@@ -21,50 +19,6 @@ def append_mp(mp, doc):
     doc.append(mp)
     doc.append(LineBreak())
     doc.append(NoEscape(r'\vspace{1mm}'))
-
-def mp_append_t(mp, qt, defaults):
-    mp.append(format_text(qt['t'], get_lang(qt, defaults)))
-    mp.append(LineBreak())
-    mp.append(NoEscape(r'\vspace{1mm}'))
-
-def mp_append_txr(mp, qt, defaults):
-    if 'txr' in qt:
-        #translation quotation marks always conform to default language
-        mp.append(format_text(qt['txr'], defaults['l']))
-        mp.append(LineBreak())
-
-def mp_append_a(mp, qt, defaults):
-    mp.append(EM_DASH + qt['a'])
-
-def mp_append_ac(mp, qt, defaults):
-    if 'ac' in qt:
-        mp.append(NoEscape(', \\textit{{{}}}'.format(qt['ac'].rstrip())))   
-
-def mp_append_d(mp, qt, defaults):
-    if 'd' in qt:
-        field_d = str(qt['d'])
-        mp.append(', ' + field_d)
-
-def mp_append_c(mp, qt, defaults):
-    if 'c' in qt:
-        mp.append(NoEscape(', \\textit{{{}}}'.format(qt['c'].rstrip())))    
-
-
-def mp_append_g(mp, qt, defaults):
-    if 'g' in qt:
-        field_g = qt['g']
-        mp.append(', ' + field_g)
-
-def repr_quote_pylatex_minipage(qt, defaults):
-    mp = MiniPage(align='l')
-    mp_append_t(mp, qt, defaults)
-    mp_append_txr(mp, qt, defaults)
-    mp_append_a(mp, qt, defaults)
-    mp_append_ac(mp, qt, defaults)
-    mp_append_c(mp, qt, defaults)
-    mp_append_d(mp, qt, defaults)
-    mp_append_g(mp, qt, defaults)
-    return mp
 
 def fill_document(data, doc): 
     with doc.create(Section('Selected Quotes')):
