@@ -25,4 +25,4 @@ clean:
 	rm -rf out
 	rm -f log/*.log*
 	rm -rf __pycache__
-	pip -y uninstall yamlquotes
+	pip uninstall -y yamlquotes
