@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
  
+import random
 import time
 from twython import Twython, TwythonError
+
 from auth import (
     consumer_key,
     consumer_secret,
@@ -17,17 +19,16 @@ twitter = Twython(
     access_token_secret
 )
 
-screen_name = 'acabit.org'
+from yamlquotes.helpers import get_defaults
+from yamlquotes.load_quotes import load_quotes
+from yamlquotes.repr_quote_plaintext import repr_quote_plaintext
 
-from yamlquotes import (load_quotes, repr_quote_plaintext)
-
-data = load_quotes.load_quotes('../yamlquotes/data/quotes.yml')
-
-
-#for i, q in enumerate(data['quotes']):
-#    print('{} {}'.format(i, q['t']))
+data = load_quotes('../yamlquotes/data/quotes.yml')
+q = random.choice(data['quotes'])
+txt = repr_quote_plaintext(q, get_defaults(data))
+print(txt)
 
 try:
-    twitter.update_status(status='Test 42')
+    twitter.update_status(status=txt)
 except TwythonError as e:
     print(e)
