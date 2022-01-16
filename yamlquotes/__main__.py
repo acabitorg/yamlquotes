@@ -16,15 +16,15 @@ with open('logging.yml','rt') as f:
     f.close()
 logging.config.dictConfig(config)
 
+from .args_apply_filter import FilterArgsApplier
+from .args_apply_list import ListArgsApplier
+from .args_apply_make import MakeArgsApplier
+from .args_apply_save import SaveArgsApplier
+from .args_apply_sort import SortArgsApplier
+from .args_apply_util import UtilArgsApplier
+from .args_apply_validate import ValidateArgsApplier
 from .constants import (OUTDIR)
-from .filter_args_applier import FilterArgsApplier
-from .list_args_applier import ListArgsApplier
 from .load_quotes import load_quotes
-from .make_args_applier import MakeArgsApplier
-from .save_args_applier import SaveArgsApplier
-from .sort_args_applier import SortArgsApplier
-from .util_args_applier import UtilArgsApplier
-from .validate_args_applier import ValidateArgsApplier
 
 logger = logging.getLogger(__name__)
 
