@@ -385,9 +385,6 @@ def print_quotes(data):
     for i, qt in enumerate(quotes):
         print('{}: {}'.format(i+1, qt))
 
-def save_sorted(data, basename):
-    save_quotes(data, basename)
-
 def main():
     basename = \
         os.path.splitext(os.path.basename(args.file))[0]
