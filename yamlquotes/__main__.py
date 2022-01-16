@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf8 -*-
 
 # Copyright 2021 Acabit.org <https://github.com/acabitorg/yamlquotes>
@@ -10,24 +9,26 @@ import logging.config
 import logging
 import math
 import os
-from .image_utils import ImageText
 from pylatex import (
     Command, Document, LineBreak, MiniPage, 
     Section, Subsection, TextBlock)
 from pylatex.utils import italic, NoEscape
-import re
 import sys
 assert sys.version_info >= (3, 9)
 import yaml
 from yaml.representer import SafeRepresenter
 
-OUTDIR = 'out'
+from .constants import (EM_DASH, OUTDIR)
+from .image_utils import ImageText
+from .load_quotes import load_quotes
+from .save_quotes import save_quotes
+from .validate_quotes import validate_quotes
 
 with open('logging.yml','rt') as f:
     config=yaml.safe_load(f.read())
     f.close()
 logging.config.dictConfig(config)
-logger=logging.getLogger('yamlquotes.py')
+logger = logging.getLogger('yamlquotes.py')
 
 parser = argparse.ArgumentParser(description='yamlquotes.py')
 
@@ -131,28 +132,6 @@ def get_qt_prop_type(prop_name):
         return 'list'
     return 'str'
 
-class folded_str(str): pass
-
-class literal_str(str): pass
-
-def change_style(style, representer):
-    def new_representer(dumper, data):
-        scalar = representer(dumper, data)
-        scalar.style = style
-        return scalar
-    return new_representer
-
-represent_folded_str = change_style('>', SafeRepresenter.represent_str)
-represent_literal_str = change_style('|', SafeRepresenter.represent_str)
-
-yaml.add_representer(folded_str, represent_folded_str)
-yaml.add_representer(literal_str, represent_literal_str)
-
-def fold_if_necessary(text):
-    if text.find(':') != -1:
-        return folded_str(text)
-    return text
-
 def append_mp(mp, doc):
     mp.append(LineBreak())
     mp.append(NoEscape(r'\vspace{1mm}'))
@@ -171,8 +150,6 @@ def get_qt_end(l):
         return '\u00A0»'
     else:
         return '”'
-
-EM_DASH = '–'
 
 def expand_markup(t):
     return t.replace('--', EM_DASH)
@@ -283,93 +260,6 @@ def repr_quote_plaintext(qt, defaults):
     txt += get_g(qt, defaults)
     return txt
 
-def validate_whitespace(qt, prop_name):
-    '''Obviously we can and do trim trailing whitespace but the purpose of 
-    erroring on trailing whitespace is to reduce unneccessary chars in the 
-    yaml, keeping it consistent and making diffing easier.
-    Note: This doesn't seem to be working as expected. Probably depends
-    on which YAML string format is used.
-    '''
-    if prop_name in qt:
-        val = qt[prop_name].rstrip('\r').rstrip('\n')
-        if val.endswith(' '):
-            logger.error(
-                'Trailing whitespace in quote property \'%s\':\n"%s"', 
-                prop_name, val)
-            return False
-    return True
-
-def assert_property_type_list(qt, prop_name):
-    if prop_name in qt:
-        if type(qt[prop_name]) != list:
-            logger.error(
-                "Expected list type for quote property '{}'\n{}"
-                .format(prop_name, qt))
-            return False
-    return True  
-
-def assert_em_dash_escaped(qt, prop_name):
-    if prop_name in qt:
-        val = qt[prop_name]
-        if val.find(EM_DASH) != -1:
-            logger.error(
-                "Quote property {} contains unescaped EM dash, must escape with '--'\n{}"
-                .format(prop_name, qt))
-            return False
-    return True
-
-def _get_dumb_quotes_err(qt, prop_name, quote_type):
-    return "Quote property {}: contains dumb/straight {} quotes;" \
-        .format(prop_name, quote_type) + \
-        " use ‘ ’ for nested quotes.\n" + \
-        "{}: {}".format(prop_name, qt[prop_name])
-
-def assert_no_dumb_quotes(qt, prop_name):
-    if prop_name in qt:
-        val = qt[prop_name]
-        if val.find('"') != -1:
-            logger.error(_get_dumb_quotes_err(qt, prop_name, 'double'))
-            return False
-        elif re.search(r"[^\w]'\w.*\w'[^\w]", val):
-            logger.error(_get_dumb_quotes_err(qt, prop_name, 'single'))
-            return False
-    return True
-
-def _get_prohibited_dash_style_err(qt, prop_name, prohibited_pattern):
-    return "Quote property {} contains prohibited dash style '{}';" \
-        .format(prop_name, prohibited_pattern) + \
-        " use '--' (with no leading or trailing space) instead\n" + \
-        "{}: {}".format(prop_name, qt[prop_name])  
-
-def assert_dash_style(qt, prop_name):
-    """enforce consistent hyphenation style"""
-    if prop_name in qt:
-        val = qt[prop_name]
-        prohibited_dash_patterns = [' - ', '- ', ' -']
-        for prohibited_pattern in prohibited_dash_patterns:
-            if val.find(prohibited_pattern) != -1:
-                logger.error(_get_prohibited_dash_style_err(qt, prop_name, prohibited_pattern))
-                return False
-    return True
-
-def validate_quote(qt):
-    valid = True
-    required = ['t', 'a']
-    for r in required:
-        if not r in qt:
-            logger.error('Missing required field %s:', r)
-            valid = False
-    valid &= validate_whitespace(qt, 't')
-    valid &= validate_whitespace(qt, 'txr')
-    valid &= assert_em_dash_escaped(qt, 't')
-    valid &= assert_em_dash_escaped(qt, 'txr')
-    valid &= assert_no_dumb_quotes(qt, 't')
-    valid &= assert_no_dumb_quotes(qt, 'txr')
-    valid &= assert_dash_style(qt, 't')
-    valid &= assert_dash_style(qt, 'txr')
-    valid &= assert_property_type_list(qt, 'tags')
-    valid &= assert_property_type_list(qt, 'cw')
-    return valid
 
 def qt_key_rauthor(qt):
     """Key function to sort by author name reversed
@@ -377,38 +267,6 @@ def qt_key_rauthor(qt):
     ['Eisenhower', 'D.', 'Dwight']
     """
     return qt['a'].split()[::-1]
-
-def save_quotes(data, basename):
-    ofname = '{}_sorted.yml'.format(basename)
-    for qt in data['quotes']:
-        if 't' in qt:
-            qt['t'] = fold_if_necessary(qt['t'])
-        if 'c' in qt:
-            qt['c'] = fold_if_necessary(qt['c'])
-        if 'cw' in qt:
-            qt['cw'] = sorted(qt['cw'])
-        if 'tags' in qt:
-            qt['tags'] = sorted(qt['tags'])
-    with codecs.open(ofname, "w", encoding="utf-8") as f:
-        f.write(yaml.dump(data, allow_unicode=True))
-
-def load_quotes(yaml_fname):
-    data = None
-    with open(yaml_fname, 'r') as stream:
-        try:
-            data = yaml.safe_load(stream)
-        except yaml.YAMLError as exc:
-            logger.error(exc)
-            sys.exit(1)
-    return data
-
-def validate_quotes(data):
-    for qt in data['quotes']:
-        if not validate_quote(qt):
-            logger.error(ERR_MSG_INVALID)
-            sys.exit(1)
-
-ERR_MSG_INVALID = 'One or more validation errors occurred'
 
 def get_defaults(data):
     defaults = {'l':'eng'}
