@@ -6,3 +6,4 @@ dev.txt
 *.png
 *.mp4
 venv/
+**.egg-info

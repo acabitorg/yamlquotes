@@ -10,7 +10,7 @@ import logging.config
 import logging
 import math
 import os
-from image_utils import ImageText
+from .image_utils import ImageText
 from pylatex import (
     Command, Document, LineBreak, MiniPage, 
     Section, Subsection, TextBlock)
@@ -441,6 +441,7 @@ def convert_pdf_to_booklet_pdfjam(name):
 
 def make_pdf(data, name):
     """Note that a 1in margin translates to a 0.5in margin in the 2-up booklet"""
+    logger.debug(f'make_pdf name={name}')
     geometry_options = {
         'tmargin': '0.75in',
         'bmargin': '0.75in',
@@ -450,6 +451,7 @@ def make_pdf(data, name):
         'paperwidth': '5.5in'
     }
     default_filepath = os.path.join(OUTDIR, name)
+    logger.debug(f'default_filepath={default_filepath}')
     doc = Document(default_filepath, geometry_options=geometry_options, font_size='large')
 
     fill_document(data, doc)
@@ -457,7 +459,7 @@ def make_pdf(data, name):
     doc.generate_tex()
 
 def make_pdf_book(data, name):
-    logger.debug('make_pdf_book')
+    logger.debug(f'make_pdf_book name={name}')
     make_pdf(data, name)
     convert_pdf_to_booklet_pdfjam(name)
 
@@ -651,7 +653,9 @@ def apply_sort_args(data):
 
 def main():
     basename = \
-        os.path.splitext(args.file)[0]
+        os.path.splitext(os.path.basename(args.file))[0]
+
+    logger.debug(f'basename={basename}')
     data = load_quotes(args.file)
 
     if not os.path.exists(OUTDIR):

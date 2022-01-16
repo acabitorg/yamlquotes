@@ -83,7 +83,7 @@ on the CW tags to generate a *clean* PDF.
 * Language affects quotation marks style (French guillements or English quotation marks)
 * Translation quotation marks always use quotation marks style of default language.
 
-# yamlquotes.py
+# yamlquotes python package
 
 ## Python CLI for working with yamlquotes files and render as PNG slideshow, MP4 video slideshow or booklet PDF for double-sided printing or reading
 
@@ -109,10 +109,10 @@ on the CW tags to generate a *clean* PDF.
 * pdfjam `sudo apt install pdfjam` (pdfjam is just a shell script wrapper for Latex)
 * ffmpeg `sudo apt install ffmpeg`
 
-### yamlquotes.py CLI Reference
+### yamlquotes python CLI Reference
 
 ```
-usage: yamlquotes.py [-h] -f FILE [--include-tags INCLUDE_TAGS] [--exclude-tags EXCLUDE_TAGS] [--include-langs INCLUDE_LANGS] [--exclude-langs EXCLUDE_LANGS]
+usage: python -m yamlquotes [-h] -f FILE [--include-tags INCLUDE_TAGS] [--exclude-tags EXCLUDE_TAGS] [--include-langs INCLUDE_LANGS] [--exclude-langs EXCLUDE_LANGS]
                      [--exclude-cw EXCLUDE_CW | --exclude-any-cw | --include-cw INCLUDE_CW] [--sort-by-author]
                      (--validate | --make-pdf | --make-pdf-book | --make-png-images | --make-png-video-frames | --save-sorted | --list-tags | --list-cw | --list-langs | --stats | --print)
                      [--no-flip]
@@ -171,7 +171,10 @@ The mode of operation is specified by one of the following mutually-exclusive ar
 
 I.e. generate `quotes.pdf` and then use `pdfjam` to convert it to a 2-up booklet (`quotes-book-[no]flip.pdf`)
 
-`make clean && ./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book`
+```
+make clean && python setup.py install
+python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf-book
+```
 
 Output: `quotes.pdf` and `quotes-book-[no]flip.pdf`
 
@@ -183,7 +186,10 @@ Default is flipped (for double-sided printing). Add `--no-flip` if you want `nof
 
 ###### Make the full PDF but skip pdfjam booklet PDF conversion
 
-`make clean && ./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf`
+```
+make clean && python setup.py install
+python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf
+```
 
 Output: 
 
@@ -195,7 +201,7 @@ Note that the default paper size is half-letter (i.e. 5.5in x 8.5in, since it's 
 ###### Validate yamlquotes file
 
 ```
-$ ./yamlquotes.py -f quotes.yml --validate
+$ python -m yamlquotes -f quotes.yml --validate
 Valid
 ```
 
@@ -203,15 +209,15 @@ Valid
 
 ```
 
-./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf
+python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf
 
-./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book --no-flip
+python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf-book --no-flip
 
-./yamlquotes.py -f quotes.yml --sort-by-author --make-png-images
+python -m yamlquotes -f quotes.yml --sort-by-author --make-png-images
 
-./yamlquotes.py -f quotes.yml --sort-by-author --make-png-video-frames
+python -m yamlquotes -f quotes.yml --sort-by-author --make-png-video-frames
 
 ```
 
@@ -219,23 +225,23 @@ Valid
 ###### Advanced examples
 
 ```
-./yamlquotes.py -f quotes.yml --sort-by-author --include-tags history --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --include-tags history --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --exclude-tags bible,politics --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags bible,politics --exclude-any-cw --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --include-tags bible --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --include-tags bible --exclude-any-cw --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --exclude-tags bible --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags bible --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --include-tags bible --exclude-tags new-testament --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --include-tags bible --exclude-tags new-testament --exclude-any-cw --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --include-tags history,philosophy,economics --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --include-tags history,philosophy,economics --exclude-any-cw --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --exclude-tags politics,economics,philosophy --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags politics,economics,philosophy --exclude-any-cw --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --exclude-tags politics --exclude-cw racism,violence --make-pdf-book
+python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags politics --exclude-cw racism,violence --make-pdf-book
 
-./yamlquotes.py -f quotes.yml --sort-by-author --save-sorted
+python -m yamlquotes -f quotes.yml --sort-by-author --save-sorted
 mv quotes_sorted.yml quotes.yml
 
 

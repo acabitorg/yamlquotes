@@ -1,19 +1,24 @@
 all: pdf pdf-book pdf-book-noflip png-images
 
-pdf:
-	./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf
+quotes = yamlquotes/data/quotes.yml
 
-pdf-book:
-	./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book
+build:
+	python setup.py develop
 
-pdf-book-noflip:
-	./yamlquotes.py -f quotes.yml --sort-by-author --make-pdf-book --no-flip
+pdf: build
+	python -m yamlquotes -f $(quotes) --sort-by-author --make-pdf
 
-png-images:
-	./yamlquotes.py -f quotes.yml --sort-by-author --make-png-images
+pdf-book: build
+	python -m yamlquotes -f $(quotes) --sort-by-author --make-pdf-book
 
-png-video-frames:
-	./yamlquotes.py -f quotes.yml --sort-by-author --make-png-video-frames
+pdf-book-noflip: build
+	python -m yamlquotes -f $(quotes) --sort-by-author --make-pdf-book --no-flip
+
+png-images: build
+	python -m yamlquotes -f $(quotes) --sort-by-author --make-png-images
+
+png-video-frames: build
+	python -m yamlquotes -f $(quotes) --sort-by-author --make-png-video-frames
 
 clean:
 	rm -rf out
