@@ -4,6 +4,7 @@
 # License: GPLv3 <https://www.gnu.org/licenses/gpl-3.0.html>
 
 import logging
+import math
 import os
 
 from .constants import OUTDIR
