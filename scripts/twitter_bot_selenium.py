@@ -108,3 +108,4 @@ if __name__ == '__main__':
             txt = f.read()
         driver = twitter_login()
         tweet(driver, txt)
+        driver.quit()
