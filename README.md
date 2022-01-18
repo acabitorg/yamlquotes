@@ -208,15 +208,15 @@ Valid
 
 ```
 
-python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --make-pdf
 
-python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --make-pdf-book --no-flip
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --make-pdf-book --no-flip
 
-python -m yamlquotes -f quotes.yml --sort-by-author --make-png-images
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --make-png-images
 
-python -m yamlquotes -f quotes.yml --sort-by-author --make-png-video-frames
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --make-png-video-frames
 
 ```
 
@@ -224,25 +224,27 @@ python -m yamlquotes -f quotes.yml --sort-by-author --make-png-video-frames
 ###### Advanced examples
 
 ```
-python -m yamlquotes -f quotes.yml --sort-by-author --include-tags history --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --include-tags history --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags bible,politics --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --exclude-tags bible,politics --exclude-any-cw --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --include-tags bible --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --include-tags bible --exclude-any-cw --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags bible --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --exclude-tags bible --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --include-tags bible --exclude-tags new-testament --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --include-tags bible --exclude-tags new-testament --exclude-any-cw --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --include-tags history,philosophy,economics --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --include-tags history,philosophy,economics --exclude-any-cw --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags politics,economics,philosophy --exclude-any-cw --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --exclude-tags politics,economics,philosophy --exclude-any-cw --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --exclude-tags politics --exclude-cw racism,violence --make-pdf-book
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --exclude-tags politics --exclude-cw racism,violence --make-pdf-book
 
-python -m yamlquotes -f quotes.yml --sort-by-author --save
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --save
 mv quotes.saved.yml quotes.yml
 
+python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-randomly --print --max 1 > scripts/twitter_bot_input.txt
+./scripts/twitter_bot_selenium.py ./scripts/twitter_bot_input.txt
 
 ```
 
