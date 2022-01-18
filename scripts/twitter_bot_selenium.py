@@ -4,6 +4,7 @@
 # sudo apt install -y geckodriver-firefox
 # pip install selenium
 
+import os
 import random
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
@@ -99,6 +100,11 @@ if __name__ == '__main__':
         sys.exit(1)
     elif len(sys.argv) > 2:
         print('unexpected argument')
+        sys.exit(1)
     else:
+        path = sys.argv[1]
+        txt = ''
+        with open(path, 'r') as f:
+            txt = f.read()
         driver = twitter_login()
-        tweet(driver, sys.argv[1])
+        tweet(driver, txt)

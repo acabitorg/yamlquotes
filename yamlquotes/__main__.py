@@ -92,6 +92,8 @@ oper_group.add_argument('--print', action='store_true', \
 #operation modifiers:
 parser.add_argument('--no-flip', action='store_true', default=False, \
     help='Don\'t flip every other page vertically')
+parser.add_argument('--max', nargs='?', const=1, type=int, \
+    help='Maximum number of quotes to print')
 
 args = parser.parse_args()
 

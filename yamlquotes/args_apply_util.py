@@ -5,16 +5,19 @@
 
 import logging
 
+from .helpers import get_defaults
+from .repr_quote_plaintext import repr_quote_plaintext
+
 logger = logging.getLogger(__name__)
-
-
 
 class UtilArgsApplier():
 
     def __init__(self, args):
         self.args = args
+        self.defaults = {}
 
     def apply(self, data):
+        self.defaults = get_defaults(data)
         if self.args.stats:
             self.__print_stats(data) 
         elif self.args.print:
@@ -28,4 +31,7 @@ class UtilArgsApplier():
     def __print_quotes(self, data):
         quotes = data['quotes']
         for i, qt in enumerate(quotes):
-            print('{}: {}'.format(i+1, qt))
+            if i >= self.args.max:
+                break
+            s = repr_quote_plaintext(qt, self.defaults)
+            print(s)
