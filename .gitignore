@@ -7,3 +7,5 @@ dev.txt
 *.mp4
 venv/
 **.egg-info
+dist/**
+build/**
