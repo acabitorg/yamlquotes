@@ -15,23 +15,31 @@ class UtilArgsApplier():
     def __init__(self, args):
         self.args = args
         self.defaults = {}
+        self.quotes = []
+        self.quotes_s = []
 
     def apply(self, data):
         self.defaults = get_defaults(data)
-        if self.args.stats:
-            self.__print_stats(data) 
-        elif self.args.print:
-            self.__print_quotes(data)
+        i = 0
+        for qt in data['quotes']:
+            s = repr_quote_plaintext(qt, self.defaults)
+            if self.args.max_length and len(s) >= self.args.max_length:
+                continue
+            self.quotes.append(qt)
+            self.quotes_s.append(s)
+            i += 1
+            if self.args.max and i >= self.args.max:
+                break
 
-    def __print_stats(self, data):
-        quotes = data['quotes']
-        count = len(quotes)
+        if self.args.stats:
+            self.__print_stats() 
+        elif self.args.print:
+            self.__print_quotes()
+
+    def __print_stats(self):
+        count = len(self.quotes)
         print("count={}".format(count))
 
-    def __print_quotes(self, data):
-        quotes = data['quotes']
-        for i, qt in enumerate(quotes):
-            if i >= self.args.max:
-                break
-            s = repr_quote_plaintext(qt, self.defaults)
+    def __print_quotes(self):
+        for s in self.quotes_s:
             print(s)

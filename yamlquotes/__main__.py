@@ -96,6 +96,8 @@ parser.add_argument('--no-flip', action='store_true', default=False, \
     help='Don\'t flip every other page vertically')
 parser.add_argument('--max', nargs='?', const=1, type=int, \
     help='Maximum number of quotes to print')
+parser.add_argument('--max-length', nargs='?', const=180, type=int, \
+    help='Maximum length of quote(s) in characters')
 
 args = parser.parse_args()
 
