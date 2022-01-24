@@ -100,6 +100,8 @@ parser.add_argument('--max-length', nargs='?', const=180, type=int, \
     help='Maximum length of quote(s) in characters')
 parser.add_argument('--short', action='store_true', default=False, \
     help='Text and author only, no context')
+parser.add_argument('--hashtags', action='store_true', default=False, \
+    help='Add as many hashtags as possible without exceeding max-length')
 
 args = parser.parse_args()
 

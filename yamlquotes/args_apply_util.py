@@ -25,6 +25,8 @@ class UtilArgsApplier():
             s = repr_quote_plaintext(qt, self.defaults, short=self.args.short)
             if self.args.max_length and len(s) >= self.args.max_length:
                 continue
+            if self.args.hashtags:
+                s = self._add_hashtags(qt, s)
             self.quotes.append(qt)
             self.quotes_s.append(s)
             i += 1
@@ -43,3 +45,16 @@ class UtilArgsApplier():
     def __print_quotes(self):
         for s in self.quotes_s:
             print(s)
+
+    def _add_hashtags(self, qt, s):
+        if 'tags' in qt:
+            tags = qt['tags']
+            for i, t in enumerate(tags):
+                s2 = s
+                if i == 0:
+                    s2 += '\n'
+                s2 += f' #{t}'
+                if self.args.max_length and len(s2) > self.args.max_length:
+                    break
+                s = s2
+        return s
