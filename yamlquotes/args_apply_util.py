@@ -22,7 +22,7 @@ class UtilArgsApplier():
         self.defaults = get_defaults(data)
         i = 0
         for qt in data['quotes']:
-            s = repr_quote_plaintext(qt, self.defaults)
+            s = repr_quote_plaintext(qt, self.defaults, short=self.args.short)
             if self.args.max_length and len(s) >= self.args.max_length:
                 continue
             self.quotes.append(qt)

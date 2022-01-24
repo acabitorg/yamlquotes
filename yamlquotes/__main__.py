@@ -98,6 +98,8 @@ parser.add_argument('--max', nargs='?', const=1, type=int, \
     help='Maximum number of quotes to print')
 parser.add_argument('--max-length', nargs='?', const=180, type=int, \
     help='Maximum length of quote(s) in characters')
+parser.add_argument('--short', action='store_true', default=False, \
+    help='Text and author only, no context')
 
 args = parser.parse_args()
 

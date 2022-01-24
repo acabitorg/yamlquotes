@@ -55,13 +55,14 @@ def get_g(qt, defaults):
         txt += ', ' + field_g
     return txt
 
-def repr_quote_plaintext(qt, defaults):
+def repr_quote_plaintext(qt, defaults, short=False):
     txt = ''
     txt += get_t(qt, defaults)
     txt += get_txr(qt, defaults)
     txt += get_a(qt, defaults)
-    txt += get_ac(qt, defaults)
-    txt += get_c(qt, defaults)
-    txt += get_d(qt, defaults)
-    txt += get_g(qt, defaults)
+    if not short:
+        txt += get_ac(qt, defaults)
+        txt += get_c(qt, defaults)
+        txt += get_d(qt, defaults)
+        txt += get_g(qt, defaults)
     return txt
