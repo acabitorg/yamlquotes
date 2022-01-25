@@ -24,7 +24,7 @@ png-video-frames: build
 
 twitter-quote: build
 	python3 -m yamlquotes -f $(quotes) --sort-randomly \
-		--exclude-cw antisemitism,terrorism,violence --print \
+		--exclude-cw antisemitism,profanity,terrorism,violence --print \
 		--max 1 --max-length 180 --short --hashtags > $(twitter_bot_input)
 	cat $(twitter_bot_input)
 

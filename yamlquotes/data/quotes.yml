@@ -1440,6 +1440,8 @@ quotes:
   - politics
   - socialism
 - a: Bill Hicks
+  cw:
+  - profanity
   t: Here is my final point...About drugs, about alcohol, about pornography...What
     business is it of yours what I do, read, buy, see, or take into my body as long
     as I do not harm another human being on this planet? And for those who are having
@@ -2707,6 +2709,8 @@ quotes:
   - politics
   - us-presidents
 - a: Franklin D. Roosevelt
+  cw:
+  - profanity
   c: Speaking in regard to Nicaraguan dictator Anastasio Somoza García
   t: He [Somoza] may be a son of a bitch, but he's our son of a bitch.
 - a: Theodore Roosevelt
@@ -3397,6 +3401,7 @@ quotes:
   - violence
 - a: Robert F. Williams
   cw:
+  - profanity
   - violence
   t: If I'm called a criminal for advocating that people have the right to defend
     themselves, for telling them to get off their asses and fight for what they deserve.
