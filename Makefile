@@ -23,7 +23,9 @@ png-video-frames: build
 	python -m yamlquotes -f $(quotes) --sort-by-author $(filter) --make-png-video-frames
 
 twitter-quote: build
-	python3 -m yamlquotes -f $(quotes) --sort-randomly --print --max 1 --max-length 180 --short --hashtags > $(twitter_bot_input)
+	python3 -m yamlquotes -f $(quotes) --sort-randomly \
+		--exclude-cw antisemitism,terrorism,violence --print \
+		--max 1 --max-length 180 --short --hashtags > $(twitter_bot_input)
 	cat $(twitter_bot_input)
 
 clean:
