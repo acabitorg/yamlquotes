@@ -7,6 +7,13 @@ twitter_bot_input = ./scripts/twitter_bot_input.txt
 build:
 	python setup.py develop
 
+validate: build
+	python -m yamlquotes -f $(quotes) --validate
+
+sortandsave: build
+	python -m yamlquotes -f $(quotes) --sort-by-author --save
+	mv quotes.saved.yml $(quotes)
+
 pdf: build
 	python -m yamlquotes -f $(quotes) --sort-by-author $(filter) --make-pdf
 
@@ -25,7 +32,7 @@ png-video-frames: build
 twitter-quote: build
 	python3 -m yamlquotes -f $(quotes) --sort-randomly \
 		--exclude-cw antisemitism,profanity,terrorism,violence --print \
-		--max 1 --max-length 180 --short --hashtags > $(twitter_bot_input)
+		--max 1 --max-length 180 --short > $(twitter_bot_input)
 	cat $(twitter_bot_input)
 
 clean:

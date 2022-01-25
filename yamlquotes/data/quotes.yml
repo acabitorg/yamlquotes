@@ -105,6 +105,8 @@ quotes:
   - religious-freedom
   - us-politics
   - us-presidents
+- a: Morticia Addams
+  t: Normal is an illusion. What is normal for the spider is chaos for the fly.
 - a: Aesop
   t: We hang the petty thieves and appoint the great ones to public office.
 - a: Muhammad Ali
@@ -170,6 +172,8 @@ quotes:
   - politics
 - a: Anonymous
   t: Familiarity breeds contempt
+- a: Aristotle
+  t: A friend to all is a friend to none.
 - a: Isaac Asimov
   c: '"A Cult of Ignorance", Newsweek'
   d: 21 January 1980
@@ -179,6 +183,11 @@ quotes:
     means that ‘my ignorance is just as good as your knowledge.’
   tags:
   - politics
+- a: Isaac Asimov
+  t: When stupidity is considered patriotism, it is unsafe to be intelligent.
+- a: Marcus Aurelius
+  t: >-
+    Soon you will have forgotten all thing: Soon all things will have forgotten you.
 - a: Mikhail Bakunin
   c: Statism and Anarchy
   d: 1873
@@ -441,6 +450,14 @@ quotes:
   t: We see now that infringement of freedom is necessary with regard to the opponents
     of the revolution. At a time of revolution we cannot allow freedom for the enemies
     of the people and of the revolution. That is a surely clear, irrefutable conclusion.
+- a: Charles Bukowski
+  c: Factotum
+  d: 1975
+  t: >-
+    How in the hell could a man enjoy being awakened at 6:30 a.m. bv an alarm clock,
+    leap out of bed, dress, force-feed, shit, piss, brush teeth and hair, and fight
+    traffic to get to a place where essentially you made lots of money for somebody
+    else and were asked to be grateful for the opportunity to do so?
 - a: Louis C.K.
   c: Serial Masturbator
   t: If you went back and fixed all the mistakes you've made, you erase yourself.
@@ -468,8 +485,8 @@ quotes:
 - a: Stéphane “Charb” Charbonnier
   ayb: 1967
   ayd: 2015
-  c: Charb was killed, with seven of his colleagues, two police officers, and
-    two other people on 7 January 2015 when a pair of gunmen stormed the Charlie Hebdo
+  c: Charb was killed, with seven of his colleagues, two police officers, and two
+    other people on 7 January 2015 when a pair of gunmen stormed the Charlie Hebdo
     newspaper offices in Paris.
   cw:
   - violence
@@ -904,6 +921,11 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Confucius
+  t: >-
+    By three methods we may learn wisdom: First, by reflection, which is noblest;
+    Second, by imitation, which is easiest; and third by experience, which is the
+    bitterest.
 - a: Theophilus Eugene "Bull" Connor
   cw:
   - racism
@@ -922,6 +944,9 @@ quotes:
   t: Jerry, just remember--It's not a lie... if you believe it.
   tags:
   - humour
+- a: Charles Darwin
+  t: It is not the strongest species that survive, nor the most intelligent, but the
+    most responsive the change.
 - a: Angela Davis
   t: Radical simply means ‘grasping things at the root’.
 - a: Angela Davis
@@ -996,6 +1021,8 @@ quotes:
   tags:
   - history
   - politics
+- a: Frederick Douglass
+  t: It is easier to build strong children than to repair broken men.
 - a: John Ehrlichman
   c: Domestic policy advisor for President Richard M. Nixon
   cw:
@@ -1162,6 +1189,10 @@ quotes:
     be questioned.
   tags:
   - freedom
+- a: F. Scott Fitzgerald
+  t: People over forty can seldom be permanently convinced of anything. At eighteen
+    our convictions are hills from which we look; at forty-five they are caves in
+    which we hide.
 - a: Anatole France
   l: fra
   t: La majestueuse égalité des lois, qui interdit au riche comme au pauvre de coucher
@@ -1171,6 +1202,9 @@ quotes:
   - politics
   txr: In its majestic equality, the law forbids rich and poor alike to sleep under
     bridges, beg in the streets and steal bread.
+- a: Viktor Frankl
+  t: When a person can't find a deep sense of meaning, they distract themselves with
+    pleasure.
 - a: Benjamin Franklin
   t: Any society that will give up a little liberty to gain a little security will
     deserve neither and lose both.
@@ -1211,6 +1245,8 @@ quotes:
   t: It is the first responsibility of every citizen to question authority.
   tags:
   - politics
+- a: Benjamin Franklin
+  t: When the well is dry we will know the worth of water.
 - a: R. Buckminster Fuller
   t: It is now highly feasible to take care of everybody on Earth at a higher standard
     of living than any have ever known. It no longer has to be you or me. Selfishness
@@ -1282,6 +1318,8 @@ quotes:
 - a: Jane Goodall
   t: You cannot share your life with a dog and not know perfectly well that animals
     have personalities, minds and feelings.
+- a: Jane Goodall
+  t: The most intellectual creature to ever walk Earth is destroying its only home.
 - a: Kim Gordon
   t: Women make natural anarchists and revolutionaries because they've always been
     second-class citizens, kinda having had to claw their way up.
@@ -1405,6 +1443,9 @@ quotes:
   - politics
 - a: Fred Hampton
   t: If you walk through life and don't help anybody, you haven't had much of a life.
+- a: Tom Hardy
+  t: Being alone for a while is dangerous. It's addicting. Once you see how peaceful
+    it is, you don't want to deal with people anymore.
 - a: Dan Harmon
   ac: Co-creator of Rick and Morty
   t: The knowledge that nothing matters, while accurate, gets you nowhere. The planet
@@ -1412,6 +1453,8 @@ quotes:
     the further back you pull the more that truth will endure. But when you zoom in
     on Earth, when you zoom in to a family, when you zoom into a human brain and a
     childhood and experience, you see all these things that matter.
+- a: Stephen Hawking
+  t: The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.
 - a: William "Big Bill" Haywood
   t: The mine owners do not find the gold, they do not mine the gold, they do not
     mill the gold, but by some weird alchemy all the gold belongs to them.
@@ -1460,14 +1503,10 @@ quotes:
   tags:
   - politics
 - a: Joe Hill
-  t: 'If the workers take a notion,
-    They can stop all speeding trains;
-    Every ship upon the ocean
-    They can tie with mighty chains;
-    Every wheel in the creation,
-    Every mine and every mill,
-    Fleets and armies of the nation,
-    Will at their command stand still.'
+  t: If the workers take a notion, They can stop all speeding trains; Every ship upon
+    the ocean They can tie with mighty chains; Every wheel in the creation, Every
+    mine and every mill, Fleets and armies of the nation, Will at their command stand
+    still.
 - a: Adolf Hitler
   c: Speech delivered in Berlin
   cw:
@@ -1770,8 +1809,17 @@ quotes:
   tags:
   - history
   - politics
+- a: Martin Luther King Jr.
+  t: Capitalism does not permit an even flow of economic resources. With this system,
+    a small privileged few are rich beyond conscience, and almost all others are doomed
+    to be poor at some level. That’s the way the system works. And since we know that
+    the system will not change the rules, we are going to have to change the system.
+  tags:
+  - anti-capitalism
 - a: Carl Jung
   t: Thinking is difficult, that's why most people judge.
+- a: Carl Jung
+  t: People will do anything, no matter how absurd, to avoid facing their own soul.
 - a: Theodore J. Kaczynski
   cw:
   - terrorism
@@ -1938,6 +1986,11 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Bruce Lee
+  t: You will continue to suffer if you have an emotional reaction to everything that
+    is said to you. True power lies in sitting back and observing everything with
+    logic. If words control you that means everything else can control you. Breathe
+    and allow things to pass.
 - a: Vladimir Lenin
   t: What is now happening to Marx's theory has, in the course of history, happened
     repeatedly to the theories of revolutionary thinkers and leaders of oppressed
@@ -2341,6 +2394,12 @@ quotes:
   tags:
   - communism
   - politics
+- a: Martin Niemöller
+  t: "First they came for the socialists, and I did not speak out--\n     Because\
+    \ I was not a socialist.\nThen they came for the trade unionists, and I did not\
+    \ speak out--\n     Because I was not a trade unionist.\nThen they came for the\
+    \ Jews, and I did not speak out--\n     Because I was not a Jew.\nThen they came\
+    \ for me--and there was no one left to speak for me."
 - a: Friedrich Nietzsche
   t: They muddy the water, to make it seem deep.
   tags:
@@ -2517,6 +2576,12 @@ quotes:
   t: Never discourage anyone who contiually makes progress, no matter how slow.
   tags:
   - motivational
+- a: Plato
+  t: If you do not take an interest in the affairs of your government, then you are
+    doomed to live under the rule of fools.
+- a: Plato
+  t: Good people do not need laws to tell them to act responsibly, while bad people
+    will find a way around laws.
 - a: Terry Pratchett
   t: >-
     Two types of people laugh at the law: those that break it and those that make
@@ -2709,9 +2774,9 @@ quotes:
   - politics
   - us-presidents
 - a: Franklin D. Roosevelt
+  c: Speaking in regard to Nicaraguan dictator Anastasio Somoza García
   cw:
   - profanity
-  c: Speaking in regard to Nicaraguan dictator Anastasio Somoza García
   t: He [Somoza] may be a son of a bitch, but he's our son of a bitch.
 - a: Theodore Roosevelt
   t: To announce that there must be no criticism of the President, or that we are
@@ -2770,6 +2835,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Carl Sagan
+  t: One glance at a book and you hear the voice of another person, perhaps someone
+    dead for 1,000 years. To read is to voyage through time.
 - a: Antoine de Saint-Exupéry
   t: He who would travel happily must travel light.
 - a: Zoé Samudz
@@ -2883,6 +2951,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Edward Snowden
+  t: When exposing a crime is treated as commiting a crime, you are being ruled by
+    criminals.
 - a: Simon Springer
   t: When I say ‘Anarchism’ you hear ‘Chaos, Violence, Mayhem’. When I say ‘Anarchism’
     I mean ‘Cooperation, Voluntary Association, Mutual Aid’
@@ -2904,92 +2975,20 @@ quotes:
   tags:
   - anti-capitalism
   - politics
+- a: John Steinbeck
+  c: The Grapes of Wrath
+  d: 1939
+  t: If you're in trouble or hurt or need--go to poor people. They're the only ones
+    that'll help--the only ones.
+- a: Gloria Steinem
+  t: Far too many people are looking for the right person, instead of trying to be
+    the right person.
 - a: Steve-O
   t: You can always become a pickle, but you can never go back to being a cucumber.
 - a: Jon Stewart
   t: I'm anti political parties. I don't understand how in a country of 200 million
     voters, we only have two political parties. We have eight kinds of Coke, but only
     two political parties.
-- a: Max Stirner
-  t: Never does a State aim to bring in the free activity of individuals, but always
-    that which is bound to the purpose of the State.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Max Stirner
-  t: The state calls its own violence law, but that of the individual, crime.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Max Stirner
-  t: All things are Nothing to Me
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Max Stirner
-  t: Whoever will be free must make himself free. Freedom is no fairy gift to fall
-    into a man's lap. What is freedom? To have the will to be responsible for one's
-    self.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Max Stirner
-  t: My power is my property. My power gives me property. My power am I l myself,
-    and through it am I my property.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Max Stirner
-  t: What do your laws amount to if no one obeys them?
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Vermin Supreme
-  t: Well, mutual aid is a very critical and important thing. For a while, I was saying
-    libertarians have no souls, but I promised them I wouldn't if they hammered home
-    the importance of mutual aid.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Vermin Supreme
-  t: Anarchists believe we can run our lives without the government.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Vermin Supreme
-  t: My personal view of the anarch-capitalists is that it's an oxymoron.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Vermin Supreme
-  t: The police represent the authority of the state, the willingness of the state
-    to use violence to assert their will.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Vermin Supreme
-  t: As a social anarchist, I believe that capitalism itself is an inherently exploitative
-    hierarchical situation--you do have a boss, you do have somebody in charge.
-  tags:
-  - anarchism
-  - politics
-  - socialism
-- a: Vermin Supreme
-  t: Money should be for ponies, not for war, I think.
-  tags:
-  - anarchism
-  - politics
-  - socialism
 - a: Hunter S. Thompson
   t: A man who procrastinates in his choosing will inevitably have his choice made
     for him by circumstance.
@@ -3309,6 +3308,9 @@ quotes:
     You will have created something.
   tags:
   - art
+- a: Christopher Walken
+  t: If you knew how quickly people forget the dead--You will stop living to impress
+    people.
 - a: George Washington
   t: It is far better to be alone, than to be in bad company.
   tags:
@@ -3410,6 +3412,9 @@ quotes:
   - history
   - politics
   - violence
+- a: Robin Williams
+  t: I used to think the worst thing in life was to end up alone. It's not. The worst
+    thing in life is to end up with people who make you feel alone.
 - a: E.O. Wilson
   t: >-
     The problem of humanity is the following: We have paleolithic emotions; medieval
@@ -3511,6 +3516,7 @@ quotes:
     As for the rest, we have nothing to say to them. They must be annihilated.
   tags:
   - communism
+  - history
   - leninism
   - marxism
   - politics

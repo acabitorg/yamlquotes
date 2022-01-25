@@ -4,8 +4,9 @@ while :
 do
 	cd ..
 	python3 -m yamlquotes -f yamlquotes/data/quotes.yml --sort-randomly \
-		--exclude-cw antisemitism,profanity,terrorism,violence --exclude-tags politics --print \
-		--max 1 --max-length 180 --short --hashtags > ./scripts/twitter_bot_input.txt
+		--exclude-cw antisemitism,profanity,terrorism,violence --print \
+		--max 1 --max-length 180 --short > ./scripts/twitter_bot_input.txt
+	
 	cd scripts
 	DISPLAY=:0 python3 twitter_bot_selenium.py twitter_bot_input.txt
 	sleep 14400
