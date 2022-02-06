@@ -68,6 +68,9 @@ quotes:
   tags:
   - bible
   - new-testament
+- a: Psalms 82:3-4
+  t: Defend the weak and the fatherless; uphold the cause of the poor and the oppressed.
+    Rescue the weak and the needy; deliver them from the hand of the wicked.
 - a: Edward Abbey
   c: >-
     The Journey Home: Some Words in Defense of the American West
@@ -120,6 +123,9 @@ quotes:
 - a: Muhammad Ali
   t: I don't count my sit-ups; I only start counting when it starts hurting because
     they're the only ones that count.
+- a: Muhammad Ali
+  t: I don't trust anyone who's nice to me but rude to the waiter--because they would
+    treat me the same way if I were in that position.
 - a: Tariq Ali
   c: >-
     The Obama Syndrome: Surrender at Home, War Abroad
@@ -188,6 +194,11 @@ quotes:
 - a: Marcus Aurelius
   t: >-
     Soon you will have forgotten all thing: Soon all things will have forgotten you.
+- a: Marcus Aurelius
+  t: The object of life is not to be on the side of the majority, but to escape finding
+    oneself in the ranks of the insane.
+- a: Marcus Aurelius
+  t: Waste no more time arguing about what a good man should be. Be one.
 - a: Mikhail Bakunin
   c: Statism and Anarchy
   d: 1873
@@ -303,6 +314,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Dietrich Bonhoeffer
+  t: We must learn to regard people less in the light of what they do or omit to do,
+    and more in the light of what they suffer.
 - a: Murray Bookchin
   t: An anarchist society, far from being a remote ideal, has become a precondition
     for the practice of ecological principles.
@@ -458,6 +472,17 @@ quotes:
     leap out of bed, dress, force-feed, shit, piss, brush teeth and hair, and fight
     traffic to get to a place where essentially you made lots of money for somebody
     else and were asked to be grateful for the opportunity to do so?
+- a: Charles Bukowski
+  t: I guess the only time most people think about injustice is when it happens to
+    them.
+- a: Mr. Burns
+  c: Character on The Simpsons
+  t: If you can take advantage of a situation in some way, it's your duty as an American
+    to do it. Why should the race always be to the swift, or the jumble to the quick-witted?
+    Should they be allowed to win merely because of the gifts God gave them? Well,
+    I say, ‘Cheating is the gift man gives himself.’
+  tags:
+  - humour
 - a: Louis C.K.
   c: Serial Masturbator
   t: If you went back and fixed all the mistakes you've made, you erase yourself.
@@ -474,6 +499,11 @@ quotes:
   t: If you have selfish ignorant citizens, you're gonna get selfish ignorant leaders.
   tags:
   - civic-responsibility
+- a: George Carlin
+  t: Inside every cynical person is a disappointed idealist.
+- a: Jim Carrey
+  t: Solitude is dangerous. It's very addictive. It becomes a habit--It's like you
+    don't want to deal with people any more because they drain your energy.
 - a: Fidel Castro
   t: They talk about the failure of socialism but where is the success of capitalism
     in Africa, Asia and Latin America?
@@ -828,9 +858,9 @@ quotes:
     political power. That has set in motion a vicious cycle that has concentrated
     immense wealth, and with it, political power in a tiny sector of the population,
     a fraction of 1%, while the rest increasingly become what is sometimes called
-    ’a precariat’--seeking to survive in a precarious existence. They also carry out
+    ‘a precariat’--seeking to survive in a precarious existence. They also carry out
     these ugly activities with almost complete impunity--not only too big to fail,
-    but also ’too big to jail’
+    but also ‘too big to jail’
   tags:
   - politics
 - a: Noam Chomsky
@@ -926,6 +956,11 @@ quotes:
     By three methods we may learn wisdom: First, by reflection, which is noblest;
     Second, by imitation, which is easiest; and third by experience, which is the
     bitterest.
+- a: Confucius
+  t: If the people be led by laws and uniformity sought to be given them by punishments,
+    they will try to avoid the punishment, but have no sense of shame. If they be
+    led by virtue, and uniformity sought to be given them by the rules of propriety,
+    they will have the sense of shame, and moreover will become good.
 - a: Theophilus Eugene "Bull" Connor
   cw:
   - racism
@@ -944,6 +979,9 @@ quotes:
   t: Jerry, just remember--It's not a lie... if you believe it.
   tags:
   - humour
+- a: Hélder Câmara
+  t: When I give food to the poor, they call me a saint. When I ask why the poor have
+    no food, they call me a communist.
 - a: Charles Darwin
   t: It is not the strongest species that survive, nor the most intelligent, but the
     most responsive the change.
@@ -1007,11 +1045,13 @@ quotes:
     both moral and physical, but it must be a struggle. Power concedes nothing without
     a demand. It never did and it never will.
   tags:
+  - black-history
   - history
   - politics
 - a: Frederick Douglass
   t: If there is no struggle, there is no progress
   tags:
+  - black-history
   - history
   - politics
 - a: Frederick Douglass
@@ -1019,10 +1059,18 @@ quotes:
     without plowing up the ground, they want rain without thunder and lightning. They
     want the ocean without the awful roar of its many waters.
   tags:
+  - black-history
   - history
   - politics
 - a: Frederick Douglass
   t: It is easier to build strong children than to repair broken men.
+  tags:
+  - black-history
+- a: Frederick Douglass
+  t: I prayed for freedom for twenty years, but received no answer until I prayed
+    with my legs.
+  tags:
+  - black-history
 - a: John Ehrlichman
   c: Domestic policy advisor for President Richard M. Nixon
   cw:
@@ -1037,6 +1085,7 @@ quotes:
     night after night on the evening news. Did we know we were lying about the drugs?
     Of course we did.
   tags:
+  - black-history
   - history
   - politics
   - us-presidents
@@ -1157,6 +1206,7 @@ quotes:
     nation. And a nation gotta be able to deal with traitors and cutthroats and turncoats.
     The white man deals with his. The Jews deal with theirs.
   tags:
+  - black-history
   - politics
 - a: Louis Farrakhan
   c: Once again seeming to confirm that the Nation of Islam was responsible for the
@@ -1177,6 +1227,7 @@ quotes:
   - violence
   t: And don't you forget, when it's God who puts you in the ovens, it's forever!
   tags:
+  - black-history
   - politics
 - a: Jonathan Feldman
   t: Basically, if you're not a utopianist, you're a schmuck.
@@ -1247,6 +1298,8 @@ quotes:
   - politics
 - a: Benjamin Franklin
   t: When the well is dry we will know the worth of water.
+  tags:
+  - us-history
 - a: R. Buckminster Fuller
   t: It is now highly feasible to take care of everybody on Earth at a higher standard
     of living than any have ever known. It no longer has to be you or me. Selfishness
@@ -1254,6 +1307,9 @@ quotes:
     from weaponry to livingry.
   tags:
   - politics
+- a: Kahlil Gibran
+  t: Travel and tell no one, live a true love story and tell no one, live happily
+    and tell no one, people ruin beautiful things.
 - a: Emma Goldman
   t: If I can't dance to it, it's not my revolution.
   tags:
@@ -1430,6 +1486,8 @@ quotes:
   t: Anyone who uses more than two chords is just showing off.
   tags:
   - humour
+- a: Laird Hamilton
+  t: Make sure your worst enemy doesn't live between your two ears.
 - a: Fred Hampton
   t: We don't think you fight fire with fire best; we think you fight fire with water
     best. We're going to fight racism not with racism, but we're going to fight with
@@ -1440,9 +1498,12 @@ quotes:
     We're going to fight their reactions with all of us people getting together and
     having an international proletarian revolution.
   tags:
+  - black-history
   - politics
 - a: Fred Hampton
   t: If you walk through life and don't help anybody, you haven't had much of a life.
+  tags:
+  - black-history
 - a: Tom Hardy
   t: Being alone for a while is dangerous. It's addicting. Once you see how peaceful
     it is, you don't want to deal with people anymore.
@@ -1476,6 +1537,9 @@ quotes:
   l: deu
   t: Freiheit ist Einsicht in die Notwendigkeit.
   txr: Freedom is the insight into necessity.
+- a: Ernest Hemingway
+  t: There is nothing noble in being superior to your fellow man; true nobility is
+    being superior to your former self.
 - a: Ammon Hennacy
   t: An anarchist is someone who doesn't need a cop to make him behave.
   tags:
@@ -1491,6 +1555,12 @@ quotes:
     a little moral dilemma in your head about how to answer that question, I'll answer
     it for you. NONE of your fucking business. Take that to the bank, cash it, and
     go fucking on a vacation out of my life.
+- a: Bill Hicks
+  t: >-
+    There are essentially two drugs that western civilization tolerates: caffeine
+    from Monday to Friday to energize you enough to make you a productive member of
+    society, and alcohol from Friday to Monday to keep you too stupid to figure out
+    the prison that you are living in.
 - a: Dr. Robert Higgs
   t: >-
     The ‘good/bad cop’ question can be disposed of decisively. We need only consider
@@ -1563,6 +1633,9 @@ quotes:
   d: 1937
   t: The end cannot justify the means, for the simple and obvious reason that the
     means employed determine the nature of the ends produced.
+- a: Aldous Huxley
+  t: It is a little embarrassing that, after forty-five years of reasrch and study,
+    the best advice I can give to people is to be a little kinder to each other.
 - a: Ivan Illich
   t: Jesus was an anarchist savior. That's what the Gospels tell us.
   tags:
@@ -1698,6 +1771,7 @@ quotes:
     he won't notice you're picking his pocket. Hell, give him somebody to look down
     on, and he'll empty his pockets for you.
   tags:
+  - black-history
   - history
   - politics
   - us-presidents
@@ -1706,12 +1780,14 @@ quotes:
     held to be an exclusively white prerogative. Even when threatened by a mob, black
     people were to back down or submit--never to stand up for themselves.
   tags:
+  - black-history
   - history
   - politics
 - a: Charles E. Cobb Jr.
   t: Genuine political resistance, to be effective, has to be more creative than simply
     using lethal weapons.
   tags:
+  - black-history
   - history
   - politics
 - a: Charles E. Cobb Jr.
@@ -1723,6 +1799,7 @@ quotes:
     even looks like he wants to throw some dynamite on my porch won't write his mama
     again.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
@@ -1737,17 +1814,20 @@ quotes:
     up amid tear gas! We're going to stand up amid anything they can muster up, letting
     the world know that we are determined to be free!
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
   t: So today capitalism has outlived its usefulness. It has brought about a system
     that takes necessities from the masses to give luxuries to the classes.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
   t: We must learn to live together as brothers or we will perish together as fools.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
@@ -1759,12 +1839,14 @@ quotes:
     there are no civil rights. We do not intend to let them do this to us. We demand
     this fraud be stopped. Our weapon is our vote.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
   t: If you can't fly, then run. If you can run, then walk. If you can walk, then
     crawl, but by all means, keep moving.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
@@ -1773,6 +1855,7 @@ quotes:
     distinctions. This will be the day when we bring into full realization the American
     dream--a dream yet unfulfilled.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
@@ -1783,6 +1866,7 @@ quotes:
     a tolerable life. The captains of industry did not lead this transformation; they
     resisted it until they were overcome,
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
@@ -1807,6 +1891,7 @@ quotes:
     failed to hear that large segments of white society are more concerned about tranquility
     and the status quo than about justice and humanity.
   tags:
+  - black-history
   - history
   - politics
 - a: Martin Luther King Jr.
@@ -1816,10 +1901,17 @@ quotes:
     the system will not change the rules, we are going to have to change the system.
   tags:
   - anti-capitalism
+  - black-history
 - a: Carl Jung
   t: Thinking is difficult, that's why most people judge.
 - a: Carl Jung
   t: People will do anything, no matter how absurd, to avoid facing their own soul.
+- a: Carl Jung
+  t: Everything that irritates us about others can lead us to an understanding of
+    ourselves.
+- a: Carl Jung
+  t: Loneliness does not come from having no people around you, but from being unable
+    to communicate the things that seem important to you.
 - a: Theodore J. Kaczynski
   cw:
   - terrorism
@@ -1920,6 +2012,10 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Jack Kornfield
+  c: Buddha's Little Instruction Book
+  d: 1994
+  t: The trouble is, you think you have time.
 - a: Peter Kropotkin
   t: Prisons are universities of crime, maintained by the state.
   tags:
@@ -1991,6 +2087,13 @@ quotes:
     is said to you. True power lies in sitting back and observing everything with
     logic. If words control you that means everything else can control you. Breathe
     and allow things to pass.
+- a: Stan Lee
+  t: >-
+    I used to be embarrassed because I was just a comic-book writer while other people
+    were building bridges or going on to medical careers. And then I began to realize:  entertainment
+    is one of the most important things in people’s lives. Without it  they might
+    go off the deep end. I feel that if you're able to entertain people, you're doing
+    a good thing.
 - a: Vladimir Lenin
   t: What is now happening to Marx's theory has, in the course of history, happened
     repeatedly to the theories of revolutionary thinkers and leaders of oppressed
@@ -2057,6 +2160,14 @@ quotes:
   tags:
   - history
   - politics
+  - us-presidents
+- a: Abraham Lincoln
+  ayb: 1809
+  ayd: 1865
+  d: 1865
+  t: Whenever I hear anyone arguing for slavery I feel a strong impulse to see it
+    tried on him personally.
+  tags:
   - us-presidents
 - a: John William Lloyd
   t: Socialism greatly needs Anarchism as a critic and to keep it from sacrificing
@@ -2189,6 +2300,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Bob Marley
+  t: Some people are so poor, all they have is money.
 - a: Peter Marshall
   t: The aim is not therefore to liberate some ‘essential self’ by throwing off the
     burden of government and the State, but to develop the self in creative and voluntary
@@ -2267,6 +2380,11 @@ quotes:
     being told to them.
   tags:
   - history
+- a: Terence Mckenna
+  t: Psychedelics are illegal not because a loving government is concerned that you
+    may jump out of third story window. Psychedelics are illegal because they dissolve
+    opinion structures and culturally laid down models of behavior and information
+    processing. They open you up to the possiblity that everything you know is wrong.
 - a: Federica Montseny
   t: The struggle is so great that the triumph over fascism alone is worth the sacrifice
     of our lives.
@@ -2364,6 +2482,7 @@ quotes:
 - a: Huey P. Newton
   t: An unarmed people are slaves or are subject to slavery at any given moment.
   tags:
+  - black-history
   - communism
   - politics
 - a: Huey P. Newton
@@ -2392,6 +2511,7 @@ quotes:
     in many respects. We believe that culture itself will not liberate us. We’re going
     to need some stronger stuff.
   tags:
+  - black-history
   - communism
   - politics
 - a: Martin Niemöller
@@ -2505,6 +2625,9 @@ quotes:
   t: We have it in our power to begin the world over again.
   tags:
   - politics
+- a: Rosa Parks
+  t: To bring about change, you must not be afraid to take the first step. We will
+    fail when we fail to try.
 - a: Lucy Parsons
   c: ‘Speech of Lucy E. Parsons’, The Proceedings of the First Convention of the Industrial
     Workers of the World
@@ -2572,6 +2695,10 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Jodi Picoult
+  t: If you meet a loner, no matter what they tell you, it's not because they enjoy
+    solitude. It's because they have tried to blend into the world before, and people
+    continue to dissapoint them.
 - a: Plato
   t: Never discourage anyone who contiually makes progress, no matter how slow.
   tags:
@@ -2582,6 +2709,10 @@ quotes:
 - a: Plato
   t: Good people do not need laws to tell them to act responsibly, while bad people
     will find a way around laws.
+- a: Plato
+  t: Do not train a child to learn by force or harshness; but direct them to it by
+    what amuses their minds, so that you may be better able to discover with accuracy
+    the peculiar bent of the genius of each.
 - a: Terry Pratchett
   t: >-
     Two types of people laugh at the law: those that break it and those that make
@@ -2687,6 +2818,12 @@ quotes:
   - immigration-politics
   - politics
   - us-presidents
+- a: Hubert Reeves
+  t: Man is the most insane species. He worships an invisible God and slaughters a
+    visible Nature--without realizing that this Nature he slaughters is this invisible
+    God he worships.
+  tags:
+  - nature
 - a: Ernest Renan
   t: Jesus, in some respects, was an anarchist ... A great social revolution, in which
     rank will be overturned, in which all authority in this world will be humiliated,
@@ -2755,6 +2892,10 @@ quotes:
   tags:
   - anti-war
   - politics
+- a: Henry Rollins
+  t: America's real safety net is drugs, alcohol, cheap food and free porn.
+  tags:
+  - nsfw
 - a: Franklin D. Roosevelt
   c: Second Inaugural Address
   d: 20 January 1937
@@ -2778,6 +2919,11 @@ quotes:
   cw:
   - profanity
   t: He [Somoza] may be a son of a bitch, but he's our son of a bitch.
+- a: Franklin D. Roosevelt
+  t: Courage is not the absence of fear, but rather the assessment that something
+    else is more important than fear.
+  tags:
+  - us-presidents
 - a: Theodore Roosevelt
   t: To announce that there must be no criticism of the President, or that we are
     to stand by the President, right or wrong, is not only unpatriotic and servile,
@@ -2817,11 +2963,28 @@ quotes:
   - politics
   txr: When a people no longer defend their liberties and rights, they become ripe
     for enslavement.
+- a: Jean-Jacques Rousseau
+  l: fra
+  t: Je n'ai jamais cru que la liberté de l'homme consistât à faire ce qu'il veut,
+    mais bien à ne jamais faire ce qu'il ne veut pas.
+  txr: I have never thought, for my part, that man's freedom consists in his being
+    able to do whatever he wills, but that he should not, by any human power, be forced
+    to do what is against his will.
 - a: Arundhati Roy
   t: Once weapons were manufactured to fight wars. Now wars are manufactured to sell
     weapons.
   tags:
   - anti-war
+- a: Rumi
+  t: You can beat forty scholars with one fact, but you can't beat one idiot with
+    forty facts.
+- a: Rumi
+  t: >-
+    Before you speak, let your words pass through three gates:  Is it true? Is it
+    necessary? Is it kind?
+- a: Salman Rushdie
+  t: No, I don't think it's fair to label Islam ‘Violent’, but I will say that to
+    my knowledge, no writer has ever gone into hiding for criticizing the Amish.
 - a: Bertrand Russell
   t: The whole problem with the world is that fools and fanatics are always so certain
     of themselves, but wiser people so full of doubts.
@@ -2840,6 +3003,8 @@ quotes:
     dead for 1,000 years. To read is to voyage through time.
 - a: Antoine de Saint-Exupéry
   t: He who would travel happily must travel light.
+  tags:
+  - travel
 - a: Zoé Samudz
   t: We are not ready to fight because we love fighting. We are ready to fight because
     we are worth fighting for.
@@ -2891,6 +3056,14 @@ quotes:
   t: Banning flag burning dilutes the very freedom that makes this emblem so revered.
   tags:
   - politics
+- a: Arnold Schwarzenegger
+  t: A well built physique is more than vanity. It shows discipline, dignity and dedication.
+    It shows discipline, dignity and dedication. It requires patience, passion and
+    self-respect. It cannot be bought stolen or inherited. It cannot be held onto
+    without contstant work.
+  tags:
+  - bodybuilding
+  - fitness
 - a: Tupac Shakur
   t: Whatever you see you gotta keep a sense of humor; you gotta be able to smile
     through all the bullshit.
@@ -2951,6 +3124,10 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: C.P. Snow
+  t: When you think of the long and gloomy history of man, you will find more hideous
+    crimes have been committed in the name of obedience than have ever been committed
+    in the name of rebellion.
 - a: Edward Snowden
   t: When exposing a crime is treated as commiting a crime, you are being ruled by
     criminals.
@@ -2989,6 +3166,8 @@ quotes:
   t: I'm anti political parties. I don't understand how in a country of 200 million
     voters, we only have two political parties. We have eight kinds of Coke, but only
     two political parties.
+- a: Rabindranath Tagore
+  t: Don't limit a child to your own learning, for he was born in another time.
 - a: Hunter S. Thompson
   t: A man who procrastinates in his choosing will inevitably have his choice made
     for him by circumstance.
@@ -3286,6 +3465,13 @@ quotes:
     trying his honest best to smooth his brother's path to happiness and heaven.
   tags:
   - religion
+- a: Mark Twain
+  t: Travel is fatal to prejudice, bigotry and narrow-mindedness, and many of our
+    people need it sorely on these accounts. Broad, wholesome, charitable views of
+    men and things cannot be acquired by vegetating in one little corner of the earth
+    all one's lifetime.
+  tags:
+  - travel
 - a: Mike Tyson
   t: Social media made y'all way too comfortable with disrespecting people and not
     getting punched in the face for it.
@@ -3308,9 +3494,21 @@ quotes:
     You will have created something.
   tags:
   - art
+- a: Kurt Vonnegut
+  t: True terror is to wak eup one morning and discover that your high school class
+    is running the country.
 - a: Christopher Walken
   t: If you knew how quickly people forget the dead--You will stop living to impress
     people.
+- a: Alexander Warbucks
+  t: If you wish to keep slaves, you must have all kinds of guards. The cheapest way
+    to have guards is to have the slaves pay taxes to finance their own guards. To
+    fool the slaves, you tell them that they are not slaves and that they have Freedom.
+    You tell them they need Law and Order to protect them against bad slaves. Then
+    you tell them to elect a Government. Give them Freedom to vote and they will vote
+    for their own guards and pay their salary. They will then believe they are Free
+    persons. Then give them money to earn, count and spend and they will be too busy
+    to notice the slavery they are in.
 - a: George Washington
   t: It is far better to be alone, than to be in bad company.
   tags:
@@ -3340,6 +3538,11 @@ quotes:
   tags:
   - history
   - politics
+- a: Oscar Wilde
+  t: If you want to tell people the truth, make them laugh, otherwise they'll kill
+    you.
+- a: Oscar Wilde
+  t: A bore is someone who deprives you of solitude without providing you with company.
 - a: Robert F. Williams
   cw:
   - racism
@@ -3352,6 +3555,7 @@ quotes:
     they really mean is that they are opposed to Negroes defending themselves and
     challenging the exclusive monopoly of violence practiced by white racists.
   tags:
+  - black-history
   - history
   - politics
 - a: Robert F. Williams
@@ -3362,6 +3566,7 @@ quotes:
     in their racist unity of loyalty which blinds them to the real state of their
     society and its discontents.
   tags:
+  - black-history
   - civil-rights
   - history
   - politics
@@ -3373,6 +3578,7 @@ quotes:
     self-defense, even involving weapons and bloodshed, has never been condemned,
     even by Gandhi, who sanctioned it for those unable to master pure nonviolence.
   tags:
+  - black-history
   - history
   - politics
   - violence
@@ -3385,6 +3591,7 @@ quotes:
     is unable, or unwilling, to enforce order, the citizens can, and must act in self-defense
     against lawless violence.
   tags:
+  - black-history
   - history
   - politics
   - violence
@@ -3398,6 +3605,7 @@ quotes:
     the masses of the people of the country, struggling for the right to live or the
     right to survive.
   tags:
+  - black-history
   - history
   - politics
   - violence
@@ -3409,6 +3617,7 @@ quotes:
     themselves, for telling them to get off their asses and fight for what they deserve.
     If that's criminal, then I hope that I'll always be a criminal.
   tags:
+  - black-history
   - history
   - politics
   - violence
@@ -3438,6 +3647,7 @@ quotes:
     time, is teaching our enemies to be nonviolent. I believe we should protect ourselves
     by any means necessary when we are attacked by racists.
   tags:
+  - black-history
   - history
   - politics
   - violence
@@ -3445,12 +3655,14 @@ quotes:
   t: Don't be in such a hurry to condemn a person because he doesn't do what you do,
     or think as you think. There was a time when you didn't know what you know today.
   tags:
+  - black-history
   - history
   - politics
 - a: Malcolm X
   t: If you're not careful, the newspapers will have you hating the people who are
     being oppressed, and loving the people who are doing the oppressing.
   tags:
+  - black-history
   - history
   - politics
 - a: Malcolm X
@@ -3459,6 +3671,7 @@ quotes:
     the wound that the blow made. And they haven't pulled the knife out, much less
     healed the wound. They won't even admit the knife is there.
   tags:
+  - black-history
   - politics
 - a: W. B. Yeats
   t: The best lack all conviction, while the worst are full of passionate intensity.

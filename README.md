@@ -241,7 +241,7 @@ python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --exclude-ta
 python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --exclude-tags politics --exclude-cw racism,violence --make-pdf-book
 
 python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-by-author --save
-mv quotes.saved.yml quotes.yml
+mv quotes.saved.yml yamlquotes/data/quotes.yml
 
 python -m yamlquotes -f yamlquotes/data/quotes.yml --sort-randomly --print --max 1 > scripts/twitter_bot_input.txt
 ./scripts/twitter_bot_selenium.py ./scripts/twitter_bot_input.txt
