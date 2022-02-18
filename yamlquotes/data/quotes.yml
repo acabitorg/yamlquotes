@@ -110,8 +110,12 @@ quotes:
   - us-presidents
 - a: Morticia Addams
   t: Normal is an illusion. What is normal for the spider is chaos for the fly.
+- a: Aeschylus
+  t: A wise person does know much, but knows what is necessary.
 - a: Aesop
   t: We hang the petty thieves and appoint the great ones to public office.
+- a: Aesop
+  t: The tyrant will always find a pretext for his tyranny.
 - a: Muhammad Ali
   t: I ain't draft dodging. I ain't burning no flag. I ain't running to Canada. I'm
     staying right here. You want to send me to jail? Fine, you go right ahead. I've
@@ -180,6 +184,12 @@ quotes:
   t: Familiarity breeds contempt
 - a: Aristotle
   t: A friend to all is a friend to none.
+- a: Artistophanes
+  t: Youth ages, immaturity is outgrown, ignorance can be educated, and drunkeness
+    sobered, but stupid lasts forever.
+- a: Artistotle
+  t: You will never do anything in this world without courage. It is the greatest
+    quality of mind next to honor.
 - a: Isaac Asimov
   c: '"A Cult of Ignorance", Newsweek'
   d: 21 January 1980
@@ -191,6 +201,10 @@ quotes:
   - politics
 - a: Isaac Asimov
   t: When stupidity is considered patriotism, it is unsafe to be intelligent.
+- a: Isaac Asimov
+  t: I wish that I could say I was optimistic about the human race. I love us all,
+    but we are so stupid and shortsighted that I wonder if we can lift our eyes to
+    the world about us long enough not to commit suicide.
 - a: Marcus Aurelius
   t: >-
     Soon you will have forgotten all thing: Soon all things will have forgotten you.
@@ -199,6 +213,11 @@ quotes:
     oneself in the ranks of the insane.
 - a: Marcus Aurelius
   t: Waste no more time arguing about what a good man should be. Be one.
+- a: Marcus Aurelius
+  t: Every man loves himself more than all the rest of men, but yet sets less value
+    on his own opinion of himself than on the opinion of others.
+- a: Marcus Aurelius
+  t: Why should we feel anger at the world? As if the world would notice.
 - a: Mikhail Bakunin
   c: Statism and Anarchy
   d: 1873
@@ -483,6 +502,9 @@ quotes:
     I say, ‘Cheating is the gift man gives himself.’
   tags:
   - humour
+- a: William S. Burroughs
+  t: What does the money machine eat? It eats youth, spontaneity, life, beauty, and,
+    above all, it eats creativity. It eats quality and it shits quantity.
 - a: Louis C.K.
   c: Serial Masturbator
   t: If you went back and fixed all the mistakes you've made, you erase yourself.
@@ -490,6 +512,8 @@ quotes:
   t: Men in general are quick to believe that which they wish to be true.
   tags:
   - history
+- a: Joseph Campbell
+  t: The cave you fear to enter holds the treasure you seek.
 - a: George Carlin
   t: It's a big club and you ain't in it.
   tags:
@@ -501,6 +525,9 @@ quotes:
   - civic-responsibility
 - a: George Carlin
   t: Inside every cynical person is a disappointed idealist.
+- a: Alexis Carrel
+  t: Man cannot remake himself without suffering, for he is both the marble and the
+    sculptor.
 - a: Jim Carrey
   t: Solitude is dangerous. It's very addictive. It becomes a habit--It's like you
     don't want to deal with people any more because they drain your energy.
@@ -509,6 +536,8 @@ quotes:
     in Africa, Asia and Latin America?
   tags:
   - politics
+- a: Cato
+  t: Wise men learn more from fools than fools learn from the wise.
 - a: Ha-Joon Chang
   t: The journalistic habit tends to present the public with the bleakest possible
     view of the world.
@@ -905,6 +934,8 @@ quotes:
     the infancy of knowledge.
   tags:
   - history
+- a: Marcus Tullius Cicero
+  t: To study philosophy is nothing but to prepare one's self to die.
 - a: Voltairine de Cleyre
   t: I die, as I have lived, a free spirit, an Anarchist, owing no allegiance to rulers,
     heavenly or earthly.
@@ -961,6 +992,10 @@ quotes:
     they will try to avoid the punishment, but have no sense of shame. If they be
     led by virtue, and uniformity sought to be given them by the rules of propriety,
     they will have the sense of shame, and moreover will become good.
+- a: Confucius
+  t: To study and not think is a waste. To think and not study is dangerous.
+- a: Confucius
+  t: To see what is right, and not to do it, is want of courage or of principle.
 - a: Theophilus Eugene "Bull" Connor
   cw:
   - racism
@@ -1026,12 +1061,22 @@ quotes:
   tags:
   - history
   - politics
+- a: Democritus
+  t: The laws would not prevent each man from living according to his inclination,
+    unless individuals harmed each other; for envy creates the beginning of strife.
 - a: Lori Deschene
   t: Be the person who breaks the cycle. If you were judged, choose understanding.
     If you were rejected, choose acceptance. If you were shamed, choose compassion.
     Be the person you needed when you were hurting, not the person who hurt you. Vow
     to be better than what broke you—to heal instead of becoming bitter so you can
     act from your heart, not your pain.
+- a: Philip K. Dick
+  t: In a sense, the better you adapt to school the less your chances are of later
+    adapting to the actual world. So I figure, the worse you adapt to school, the
+    better you will be able to handle reality when you finally manage to get loose
+    at last from school, if that ever happens. But I guess I have what in the military
+    they call a 'poor attitude,' which means 'shape up or ship out.' I always elected
+    to ship out.
 - a: Denis Diderot
   cw:
   - violence
@@ -1040,6 +1085,9 @@ quotes:
   tags:
   - history
   - politics
+- a: Diogenes
+  t: To become self-educated you should condemn yourself for all those things that
+    you would critize others.
 - a: Frederick Douglass
   t: This struggle may be a moral one, or it may be a physical one, and it may be
     both moral and physical, but it must be a struggle. Power concedes nothing without
@@ -1071,6 +1119,14 @@ quotes:
     with my legs.
   tags:
   - black-history
+- a: Frederick Douglass
+  t: Where justice is denied, where poverty is enforced, where ignorance prevails,
+    and where one class is made to feel that society is an organized conspiracy to
+    opress, rob, and degrade them, neither persons nor property will be safe.
+- a: Wyatt Earp
+  t: Fast is fine but accuracy is final. You must learn to be slow in a hurry.
+- a: Meister Eckhart
+  t: The price of inaction is far greater than the cost of making a mistake.
 - a: John Ehrlichman
   c: Domestic policy advisor for President Richard M. Nixon
   cw:
@@ -1135,6 +1191,15 @@ quotes:
   tags:
   - politics
   - us-presidents
+- a: Dwight D. Eisenhower
+  t: Don’t join the book burners. Don’t think you are going to conceal faults by concealing
+    evidence that they ever existed. Don’t be afraid to go in your library and read
+    every book, as long as any document does not offend our own ideas of decency.
+    That should be the only censorship.
+  tags:
+  - us-presidents
+- a: Cato The Elder
+  t: If you are ruled by mind you are a king; if by body, a slave.
 - a: Vernard Eller
   t: For Christian anarchists...the goal of anarchy is ‘theonomy’--the rule, the ordering,
     the arky of God.
@@ -1177,6 +1242,8 @@ quotes:
 - a: Friedrich Engels
   t: The state is nothing but an instrument of oppression of one class by another--no
     less so in a democratic republic than in a monarchy.
+- a: Epictetus
+  t: Don't explain your philosophy. Embody it.
 - a: Epicurus
   t: Is God willing to prevent evil, but not able? Then he is not omnipotent. Is he
     able, but not willing? Then he is malevolent. Is he both able and willing? Then
@@ -1189,6 +1256,8 @@ quotes:
     I fear that which cannot exist when I do?
   tags:
   - death
+- a: Euripedes
+  t: A slave is he who cannot speak his thoughts.
 - a: Louis Farrakhan
   c: Seeming to confirm that the Nation of Islam was responsible for the assassination
     of Malcolm X
@@ -1300,6 +1369,9 @@ quotes:
   t: When the well is dry we will know the worth of water.
   tags:
   - us-history
+- a: Benjamin Franklin
+  t: Remember not only to say the right thing in the right place, but far more difficult
+    still, to leave unsaid the wrong thing at the tempting moment.
 - a: R. Buckminster Fuller
   t: It is now highly feasible to take care of everybody on Earth at a higher standard
     of living than any have ever known. It no longer has to be you or me. Selfishness
@@ -1310,6 +1382,8 @@ quotes:
 - a: Kahlil Gibran
   t: Travel and tell no one, live a true love story and tell no one, live happily
     and tell no one, people ruin beautiful things.
+- a: Johann Wolfgang von Goethe
+  t: A man sees in the world what he carries in his heart.
 - a: Emma Goldman
   t: If I can't dance to it, it's not my revolution.
   tags:
@@ -1486,6 +1560,9 @@ quotes:
   t: Anyone who uses more than two chords is just showing off.
   tags:
   - humour
+- a: Manly P. Hall
+  t: Wealth, therefore, impoverishes man, deprives him of time, absorbs his interests,
+    depletes his strength, and leaves him incapable of becoming wise.
 - a: Laird Hamilton
   t: Make sure your worst enemy doesn't live between your two ears.
 - a: Fred Hampton
@@ -1546,6 +1623,10 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Heraclitus
+  t: To get everything you want is not a good thing. Disease makes health seem sweet.
+    Hunger leads to the appreciation of being full-fed. Tiredness creates the enjoyment
+    of resting.
 - a: Bill Hicks
   cw:
   - profanity
@@ -1598,6 +1679,8 @@ quotes:
   tags:
   - history
   - politics
+- a: Thomas Hobbes
+  t: Hell is truth seen too late.
 - a: Max Horkheimer
   t: Fascism is the iron hoop that holds together the collapsing barrel of capitalism.
     He has nothing useful to say about fascism who is unwilling to mention capitalism.
@@ -1636,6 +1719,11 @@ quotes:
 - a: Aldous Huxley
   t: It is a little embarrassing that, after forty-five years of reasrch and study,
     the best advice I can give to people is to be a little kinder to each other.
+- a: Aldous Huxley
+  t: The perfect dictatorship would have the appearance of democracy, but it would
+    basically be a prison without walls in which the prisoners would not even dream
+    of escaping. It would essentially be a system of slavery, where, through consumption
+    and entertainment, the slaves would love their servitude.
 - a: Ivan Illich
   t: Jesus was an anarchist savior. That's what the Gospels tell us.
   tags:
@@ -1959,6 +2047,9 @@ quotes:
     is not possible precisely because they do not believe it is possible.
   tags:
   - politics
+- a: Franz Kafka
+  t: One idiot is one idot. Two idiots are two idiots. Ten thousand idiots are a political
+    party.
 - a: Helen Keller
   t: Security is mostly a superstition. it does not exist in nature, nor do the children
     of men as a whole experience it. Avoiding danger is not safer in the long run
@@ -2075,6 +2166,11 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Stanley Kubrick
+  t: I think the big mistake in schools is trying to teach children anything, and
+    by using fear as the basic motivation. Fear of getting failing grades, fear of
+    not staying with your class, etc. Interest can produce learning on a scale compared
+    to fear as a nuclear explosion to a firecracker.
 - a: Georges Lechartier
   t: The true founder of anarchy was Jesus Christ and ... the first anarchist society
     was that of the apostles.
@@ -2110,6 +2206,11 @@ quotes:
   - leninism
   - marxism
   - politics
+- a: John Lennon
+  t: When it gets down to ‘having to use violence’ then you're playing the system's
+    game. The establishment irritate you--pull your beard and flick your face--to
+    make you fight. Because once they've got you violent, then they know how to handle
+    you. The only thing they don't know how to handle is non-violence and humour.
 - a: C. S. Lewis
   t: Isn't it funny how day by day nothing changes, but when we look back everything
     is different.
@@ -2176,6 +2277,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: John Locke
+  t: Parents wonder why the streams are bitter, when they themselves have poisoned
+    the fountain.
 - a: Roderick Long
   t: Anarchists are committed to treating other people as equals, rather than as either
     masters or subordinates.
@@ -2209,6 +2313,8 @@ quotes:
   tags:
   - communism
   - politics
+- a: George MacDonald
+  t: To be trusted is a greater compliment than being loved.
 - a: Nikolai Machiavelli
   l: ita
   t: Però la migliore fortezza che sia, è non essere odiato da' popoli; perchè ancora
@@ -2380,11 +2486,34 @@ quotes:
     being told to them.
   tags:
   - history
+- a: Terrence McKenna
+  t: We have to create culture, don't watch TV, don't read magazines, don't even listen
+    to NPR. Create your own roadshow. The nexus of space and time where you are now
+    is the most immediate sector of your universe, and if you're worrying about Michael
+    Jackson or Bill Clinton or somebody else, then you are disempowered, you're giving
+    it all away to icons, icons which are maintained by an electronic media so that
+    you want to dress like X or have lips like Y. This is shit-brained, this kind
+    of thinking. That is all cultural diversion, and what is real is you and your
+    friends and your associations, your highs, your orgasms, your hopes, your plans,
+    your fears. And we are told ‘no’, we're unimportant, we're peripheral. 'Get a
+    degree, get a job, get a this, get a that.' And then you're a player, you don't
+    want to even play in that game. You want to reclaim your mind and get it out of
+    the hands of the cultural engineers who want to turn you into a half-baked moron
+    consuming all this trash that's being manufactured out of the bones of a dying
+    world.
+- a: Marshall McLuhan
+  t: Once we have surrendered our senses and nervous systems to the private manipulation
+    of those who would try to benefit by taking a lease on our eyes and ears and nerves,
+    we don’t really have any rights left. Leasing our eyes and ears and nerves to
+    commercial intersts is like handing over the common speech to a private corporation,
+    or like giving the earth's atmosphere to a company as a monopoly.
 - a: Terence Mckenna
   t: Psychedelics are illegal not because a loving government is concerned that you
     may jump out of third story window. Psychedelics are illegal because they dissolve
     opinion structures and culturally laid down models of behavior and information
     processing. They open you up to the possiblity that everything you know is wrong.
+- a: Michel de Montaigne
+  t: He who has not a good memory should never take upon him the trade of lying.
 - a: Federica Montseny
   t: The struggle is so great that the triumph over fascism alone is worth the sacrifice
     of our lives.
@@ -2531,6 +2660,9 @@ quotes:
   tags:
   - atheism
   - religion
+- a: Friedrich Nietzsche
+  t: The man of knowledge must be able not only to love his enemies but also to hate
+    his friends.
 - a: Richard M. Nixon
   t: I don't know why any individual should have a right to have a revolver in his
     house
@@ -2610,6 +2742,8 @@ quotes:
     and schizophrenia.
   tags:
   - politics
+- a: George Orwell
+  t: They fear love, because it creates a world they can't control.
 - a: Thomas Paine
   t: The duty of a true patriot is to protect his country from its government.
   tags:
@@ -2713,6 +2847,16 @@ quotes:
   t: Do not train a child to learn by force or harshness; but direct them to it by
     what amuses their minds, so that you may be better able to discover with accuracy
     the peculiar bent of the genius of each.
+- a: Plato
+  t: The measure of a man is what he does with power.
+- a: Plato
+  t: Those who are able to see beyond the shadows and lies of their culture will never
+    be understood, let alone believed by the masses.
+- a: Plato
+  t: Evil is the vulgar lover who loves the body rather than the soul.
+- a: Plutarch
+  t: An imbalance between rich and poor is the oldest and most fatal ailment of all
+    republics.
 - a: Terry Pratchett
   t: >-
     Two types of people laugh at the law: those that break it and those that make
@@ -2982,6 +3126,11 @@ quotes:
   t: >-
     Before you speak, let your words pass through three gates:  Is it true? Is it
     necessary? Is it kind?
+- a: Rumi
+  t: Your talk is not to seak for love, but merely to seek and find all the barriers
+    within yourself that you have built against it.
+- a: Rumi
+  t: Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.
 - a: Salman Rushdie
   t: No, I don't think it's fair to label Islam ‘Violent’, but I will say that to
     my knowledge, no writer has ever gone into hiding for criticizing the Amish.
@@ -3099,6 +3248,16 @@ quotes:
 - a: George Bernard Shaw
   t: Both optimists and pessimists contribute to society. The optimist invents the
     aeroplane, the pessimist the parachute.
+- a: George Bernard Shaw
+  t: The only man I know who behaves sensibly is my tailor; he takes my measurements
+    anew each time he sees me. The rest go on with their old measurements and expect
+    me to fit them.
+- a: Arthur Shopenhauer
+  t: A high degree of intellect tends to make a man unsocial.
+- a: Arthur Shopenhauer
+  t: All knowledge, and especially the weightiest knowledge of the truth, to which
+    only a brief triumph is alloted between the two long periods in which it is considered
+    as paradoxical or disparaged as trivial.
 - a: Shel Silverstein
   t: She had blue skin, and so did he. He kept it hid and so did she. They searched
     for blue their whole life through, then passed right by--and never knew.
@@ -3131,6 +3290,12 @@ quotes:
 - a: Edward Snowden
   t: When exposing a crime is treated as commiting a crime, you are being ruled by
     criminals.
+- a: Socrates
+  t: There is only one good, knowledge, and one evil, ignorance.
+- a: Baruch Spinoza
+  t: For instance, men are mistaken in thinking themselves free; their opinion is
+    made up of consciousness of their own actions, and ignorance of the causes by
+    which their are conditioned.
 - a: Simon Springer
   t: When I say ‘Anarchism’ you hear ‘Chaos, Violence, Mayhem’. When I say ‘Anarchism’
     I mean ‘Cooperation, Voluntary Association, Mutual Aid’
@@ -3166,6 +3331,13 @@ quotes:
   t: I'm anti political parties. I don't understand how in a country of 200 million
     voters, we only have two political parties. We have eight kinds of Coke, but only
     two political parties.
+- a: David Suzuki
+  t: The way we see the world shapes the way we treat it. If a mountain is a deity,
+    not a pile of ore; if a river is one of the veins of the land, not potential irrigation
+    water; if a forest is a sacred grove, not timber; if other species are biological
+    kin, not resources; or if the planet is our mother, not an opportunity--then we
+    will treat each other with greater respect. Thus is the challenge, to look at
+    the world from a different perspective.
 - a: Rabindranath Tagore
   t: Don't limit a child to your own learning, for he was born in another time.
 - a: Hunter S. Thompson
@@ -3220,6 +3392,8 @@ quotes:
     Enemy for the rest of our lives.
   tags:
   - anti-war
+- a: Henry David Thoreau
+  t: Rather than love, than money, than fame, give me truth.
 - a: Leon Trotsky
   t: >-
     In a country where the sole employer is the State, opposition means death by slow
@@ -3475,6 +3649,12 @@ quotes:
 - a: Mike Tyson
   t: Social media made y'all way too comfortable with disrespecting people and not
     getting punched in the face for it.
+- a: Lao Tzu
+  t: Care about what other people think and you will always be their prisoner.
+- a: Leonardo da Vinci
+  t: If you find from your own experience that something is a fact and it contradicts
+    what some authority has written down, then you must abandon the authority and
+    base your reasoning on your own findings.
 - a: Voltaire
   c: >-
     Questions sur les Miracles à M. Claparede, Professeur de Théologie à Genève, par
@@ -3485,6 +3665,10 @@ quotes:
   tags:
   - politics
   txr: Those who can make you believe absurdities, can make you commit atrocities.
+- a: Voltaire
+  t: Everything you say should be true but not everything true should be said.
+- a: Voltaire
+  t: Every man is guilty of all the good he did not do.
 - a: Kurt Vonnegut
   t: Go into the arts. I'm not kidding. The arts are not a way to make a living. They
     are a very human way of making life more bearable. Practicing an art, no matter
@@ -3543,6 +3727,8 @@ quotes:
     you.
 - a: Oscar Wilde
   t: A bore is someone who deprives you of solitude without providing you with company.
+- a: Oscar Wilde
+  t: To life is the rarest thing in the world. Most people exist, that is all.
 - a: Robert F. Williams
   cw:
   - racism
@@ -3673,8 +3859,18 @@ quotes:
   tags:
   - black-history
   - politics
+- a: Malcolm X
+  t: I'm for truth, no matter who tells it. I'm for justice, no matter who it is for
+    or against. I'm a human being first and foremost, and as such I'm for whoever
+    and whatever benefits humanity as a whole.
+- a: Xenophon
+  t: I will choosing to die rather than to remain alive without freedom and beg, as
+    an alternative to death, a vastly inferior life.
 - a: W. B. Yeats
   t: The best lack all conviction, while the worst are full of passionate intensity.
+- a: Neil Young
+  t: Instead of cursing the darkness, light a candle for where we're going. There's
+    something ahead worth fighting for.
 - a: Mao Zedong
   c: '"Problems of War and Strategy", Selected Works, Vol. II, p.224.'
   cw:
@@ -3736,3 +3932,6 @@ quotes:
   - revolutionary-politics
   - soviet-politics
   - trotskyism
+- a: Zoroaster
+  t: Excessive liberty and excessive servitude are equally dangerous, and produce
+    nearly the same effect.

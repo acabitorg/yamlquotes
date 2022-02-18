@@ -5,6 +5,7 @@
 
 import logging
 import re
+import sys
 
 from .constants import EM_DASH
 
