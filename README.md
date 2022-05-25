@@ -37,7 +37,7 @@ Features:
 
 *The author(s) make no endorsement of the quotes contained in the example quotes.yml
 file. Some of theses quotes are included purely for educational purposes, e.g. 
-to dispell misconceptions about a diverse range of historical figures, good, evil 
+to dispell misconceptions about a diverse range of historical figures--good, evil 
 and everywhere in between. Some quotes may be considered offensive when presented 
 without context. Potentially offensive quotes may be tagged with appropriate 
 content-warnings to enable filtering. Users are encouraged to create their own yamlquotes 
