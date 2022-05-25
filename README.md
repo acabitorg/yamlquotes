@@ -1,6 +1,6 @@
 # yamlquotes
 
-## Lightweight YAML syntax for quote collections
+## A simple, minimalist YAML format for quote collections
 
 > A man, a plan, a canal, Panama.
 
@@ -8,7 +8,7 @@
 
 Features:
 - **yamlquotes** format
-    - Format for storing lists of quotes with quote text and metadata such as *author*, *tags*, *content-warnings*, *date*, *language*, *translation*, *contextual info* and *geographic info*
+    - Lightweight human-readable format for storing lists of quotes with quote text and metadata such as *author*, *tags*, *content-warnings*, *date*, *language*, *translation*, *contextual info* and *geographic info*
     - Example: [quotes.yml](yamlquotes/data/quotes.yml) - an example yamlquotes file containing over 500 assorted quotes
 - **yamlquotes** Python package / CLI
     - Convert plaintext to yamlquotes
