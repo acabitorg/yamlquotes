@@ -55,7 +55,7 @@ Abbreviated field names are used to keep the yaml uncluttered and keep the
 file size low.
 
 * `t` text of the quote
-* `l` language of text (if different from default) in *ISO 639-2/T* format (e.g. `eng` for English, `fra` for French, `deu` for German etc.). ISO 639-2 codes are one character longer than the two-letter ISO 639-1 codes, but allow more languages to be represented, e.g. Klingon (`l=tlh`) 
+* `l` language of text (if different from default) in *ISO 639-2/T* format (e.g. `eng` for English, `fra` for French, `deu` for German etc.). ISO 639-2 codes are one character longer than the two-letter ISO 639-1 codes, but allow more languages to be represented, e.g. Klingon/*tlhIngan Hol* (`l=tlh`) 
 * `txr` translated text of the quote
 * `a` author
 * `ac` author contextual information (e.g. "Second President of the United States")
