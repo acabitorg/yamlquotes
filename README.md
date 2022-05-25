@@ -1,13 +1,25 @@
 # yamlquotes
 
-### Store quote collections in YAML and render as PNG slideshow, MP4 video slideshow or booklet PDF for double-sided printing or reading
+### Lightweight YAML syntax for quotation collections
+
+Features:
+
+- yamlquotes CLI utility
+    - Import from plaintext
+    - Syntax validation
+    - Searching and filtering 
+    - Multiple output formats
+        - PNG slideshow
+        - MP4 video slideshow
+        - PDF for reading
+        - PDF for double-sided booklet printing
 
 ## Demos
 
-* [Photo slideshow](https://photos.app.goo.gl/FQEYCPGZzbH589ns5)
-* [Video slideshow](https://www.youtube.com/watch?v=zghmbdpZ14U)
-* [PDF booklet noflip (for reading)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-noflip.pdf)
-* [PDF booklet flipped (for double-sided booklet printing)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-flip.pdf)
+- [Photo slideshow](https://photos.app.goo.gl/FQEYCPGZzbH589ns5)
+- [Video slideshow](https://www.youtube.com/watch?v=zghmbdpZ14U)
+- [PDF booklet noflip (for reading)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-noflip.pdf)
+- [PDF booklet flipped (for double-sided booklet printing)](https://github.com/acabitorg/yamlquotes/blob/main/out/quotes-book-flip.pdf)
 
 ## yamlquotes format
 
@@ -15,8 +27,8 @@
 
 Features:
 
-* Quote text and metadata such as tags, content-warnings, author, date, language, translation, contextual info and geographic info
-* [quotes.yml](yamlquotes/data/quotes.yml) - an example yamlquotes file containing 500+ assorted quotes
+- Quote text and metadata such as tags, content-warnings, author, date, language, translation, contextual info and geographic info
+- [quotes.yml](yamlquotes/data/quotes.yml) - an example yamlquotes file containing 500+ assorted quotes
 
 ## Disclaimer
 
