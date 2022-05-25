@@ -65,7 +65,7 @@ file size low.
 * `g` geographic information (location) (e.g. "Philadelphia, Pennsylvania")
 * `d` date (of the quote)
 * `tags` category tags (e.g. `politics`,`us-presidents`)
-* `cw` content-warning tags (e.g. `anti-semitism`,`violence`)
+* `cw` content-warning tags (e.g. `antisemitism`,`violence`)
 
 Example quotes yml file with two quotes (one of which has a translation):
 ```
