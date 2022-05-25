@@ -1,6 +1,6 @@
 # yamlquotes
 
-## A simple, minimalist, YAML format for quote collections
+## A simple, minimalist, YAML file format for quote collections
 
 > A man, a plan, a canal, Panama.
 
@@ -30,7 +30,7 @@ Features:
 
 ## yamlquotes format
 
-### A minimalist YAML-based file format for collections of quotations
+### A simple, minimalist, YAML file format for quote collections
 
 
 ## Disclaimer
