@@ -46,7 +46,7 @@ files. The quotes.yml file in this repo is only meant to serve as an example of 
 
 # yamlquotes File Format
 
-Every yamlquotes file has a top-level `quotes` list and also a top-level
+Every *yamlquotes* file has a top-level `quotes` list and also a top-level
 `defaults` dictionary. All of the fields below are applicable at the individual 
 quote level, and some may also be set in the `defaults`. `defaults` apply
 only when that field is not overriden at the individual quote level.
