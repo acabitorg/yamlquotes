@@ -49,7 +49,7 @@ yamlquotes format, for reference purposes.*
 Every *yamlquotes* file has a top-level `quotes` list and also a top-level
 `defaults` dictionary. All of the fields below are applicable at the individual 
 quote level, and some may also be set in the `defaults`. 
-The `defaults` dictionary defines the fallback values to be used for fields when no value is specified at the individual quote level and are useful for avoiding repeating the same value if it's the same for most if not all quotes, e.g. `l=eng`.
+The `defaults` dictionary defines the fallback values to be used for fields when no value is specified at the individual quote level and is useful for avoiding repeating the same value if it's the same for most if not all quotes, e.g. `l=eng`.
 
 Abbreviated field names are used to keep the yaml uncluttered and keep the 
 file size low.
