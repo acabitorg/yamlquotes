@@ -39,7 +39,7 @@ Features:
 file. Some of theses quotes are included purely for educational purposes, e.g. 
 to dispell misconceptions about a diverse range of historical figures--good, evil 
 and everywhere in between. Some quotes may be considered offensive when presented 
-without context. Potentially offensive quotes may be tagged with appropriate 
+without context and/or may be inappropriate for immature audiences. Potentially offensive quotes may be tagged with appropriate 
 content-warnings to enable filtering. Users are encouraged to create their own yamlquotes 
 files. The quotes.yml file in this repo is only meant to serve as an example of the 
 yamlquotes format.*
