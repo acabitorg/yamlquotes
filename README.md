@@ -12,7 +12,7 @@ Features:
     - Example: [quotes.yml](yamlquotes/data/quotes.yml) - an example *yamlquotes* file containing over 500 assorted quotes
 - *yamlquotes* Python package / CLI
     - Convert plaintext to yamlquotes
-    - Syntax validation
+    - Syntax validation - to enforce consistency of *yamlquotes* files
     - Sorting and automatic formatting
     - Searching and filtering
     - Multiple output formats
