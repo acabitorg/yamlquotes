@@ -42,7 +42,7 @@ and everywhere in between. Some quotes may be considered offensive when presente
 without context and/or may be inappropriate for immature audiences. Potentially offensive quotes may be tagged with appropriate 
 content-warnings to enable filtering. Users are encouraged to create their own yamlquotes 
 files. The quotes.yml file in this repo is only meant to serve as an example of the 
-yamlquotes format.*
+yamlquotes format, for reference purposes.*
 
 # yamlquotes File Format
 
