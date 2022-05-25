@@ -56,7 +56,7 @@ file size low.
 
 * `t` text of the quote
 * `l` language of text (if different from default) in *ISO 639-2/T* format (e.g. `eng` for English, `fra` for French, `deu` for German etc.). ISO 639-2 codes are one character longer than the two-letter ISO 639-1 codes, but allow more languages to be represented (e.g. `l=tlh` for Klingon/*tlhIngan Hol*) 
-* `txr` translated text of the quote
+* `txr` translated text of the quote (for quotes with primary text in different language than default language)
 * `a` author
 * `ac` author contextual information (e.g. "Second President of the United States")
 * `ayb` author year of birth 
