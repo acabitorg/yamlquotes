@@ -13,6 +13,7 @@ Features:
 - **yamlquotes** Python package / CLI
     - Convert plaintext to yamlquotes
     - Syntax validation
+    - Sorting and automatic formatting
     - Searching and filtering
     - Multiple output formats
         - PNG slideshow
