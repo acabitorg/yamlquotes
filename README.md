@@ -1,13 +1,19 @@
 # yamlquotes
 
-### Lightweight YAML syntax for quotation collections
+## Lightweight YAML syntax for quote collections
+
+> A man, a plan, a canal, Panama.
+
+— *Anonymous*
 
 Features:
-
+- yamlquotes format
+    - Format for storing lists of quotes with quote text and metadata such as tags, content-warnings, author, date, language, translation, contextual info and geographic info
+    - Example: [quotes.yml](yamlquotes/data/quotes.yml) - reference yamlquotes file containing over 500 assorted quotes
 - yamlquotes CLI utility
-    - Import from plaintext
+    - Convert plaintext to yamlquotes
     - Syntax validation
-    - Searching and filtering 
+    - Searching and filtering
     - Multiple output formats
         - PNG slideshow
         - MP4 video slideshow
@@ -25,10 +31,6 @@ Features:
 
 ### A minimalist YAML-based file format for collections of quotations
 
-Features:
-
-- Quote text and metadata such as tags, content-warnings, author, date, language, translation, contextual info and geographic info
-- [quotes.yml](yamlquotes/data/quotes.yml) - an example yamlquotes file containing 500+ assorted quotes
 
 ## Disclaimer
 
