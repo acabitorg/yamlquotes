@@ -62,7 +62,7 @@ file size low.
 * `ayb` author year of birth 
 * `ayd` author year of death
 * `c` contextual information (in regard to the quote) (e.g. '"A Cult of Ignorance", Newsweek')
-* `g` geographic information (location)
+* `g` geographic information (location) (e.g. "Philadelphia, Pennsylvania")
 * `d` date (of the quote)
 * `tags` category tags
 * `cw` content-warning tags
