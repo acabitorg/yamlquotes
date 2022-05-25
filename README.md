@@ -9,7 +9,7 @@
 Features:
 - yamlquotes format
     - Format for storing lists of quotes with quote text and metadata such as tags, content-warnings, author, date, language, translation, contextual info and geographic info
-    - Example: [quotes.yml](yamlquotes/data/quotes.yml) - reference yamlquotes file containing over 500 assorted quotes
+    - Example: [quotes.yml](yamlquotes/data/quotes.yml) - an example yamlquotes file containing over 500 assorted quotes
 - yamlquotes CLI utility
     - Convert plaintext to yamlquotes
     - Syntax validation
