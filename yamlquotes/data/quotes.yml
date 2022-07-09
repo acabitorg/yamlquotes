@@ -183,6 +183,9 @@ quotes:
 - a: Anonymous
   t: Familiarity breeds contempt
 - a: Aristotle
+  t: The man who is truly good and wise will bear with dignity whatever fortune sends,
+    and will always make the best of his circumstances.
+- a: Aristotle
   t: A friend to all is a friend to none.
 - a: Aristotle
   t: It is the mark of an educated mind to be able to entertain a thought without
@@ -208,6 +211,8 @@ quotes:
   t: I wish that I could say I was optimistic about the human race. I love us all,
     but we are so stupid and shortsighted that I wonder if we can lift our eyes to
     the world about us long enough not to commit suicide.
+- a: Atticus
+  t: I've never met a strong person with an easy past.
 - a: Marcus Aurelius
   t: >-
     Soon you will have forgotten all thing: Soon all things will have forgotten you.
@@ -985,6 +990,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Confucious
+  t: Before you embark on a journey of revenge, dig two graves.
 - a: Confucius
   t: >-
     By three methods we may learn wisdom: First, by reflection, which is noblest;
@@ -1020,6 +1027,9 @@ quotes:
 - a: Hélder Câmara
   t: When I give food to the poor, they call me a saint. When I ask why the poor have
     no food, they call me a communist.
+- a: Charles Darwin
+  t: In the long history of humankind (and animal kind, too) those who learned to
+    collaborate and improvise most effectively have prevailed.
 - a: Charles Darwin
   t: It is not the strongest species that survive, nor the most intelligent, but the
     most responsive the change.
@@ -1081,6 +1091,8 @@ quotes:
     they call a 'poor attitude,' which means 'shape up or ship out.' I always elected
     to ship out.
 - a: Denis Diderot
+  t: No man has received from nature the right to command his fellow human beings.
+- a: Denis Diderot
   cw:
   - violence
   t: Men will never be free until the last king is strangled with the entrails of
@@ -1091,6 +1103,12 @@ quotes:
 - a: Diogenes
   t: To become self-educated you should condemn yourself for all those things that
     you would critize others.
+- a: Fyodor Dostoevsky
+  t: Above all, don't lie to yourself.
+- a: Fyodor Dostoevsky
+  t: Wine coarsens and brutalises a man.
+- a: Fyodor Dostoevsky
+  t: But how could you live and have no story to tell.
 - a: Frederick Douglass
   t: This struggle may be a moral one, or it may be a physical one, and it may be
     both moral and physical, but it must be a struggle. Power concedes nothing without
@@ -1145,6 +1163,10 @@ quotes:
   t: Fast is fine but accuracy is final. You must learn to be slow in a hurry.
 - a: Meister Eckhart
   t: The price of inaction is far greater than the cost of making a mistake.
+- a: Umberto Eco
+  t: I have come to believe that the whole world is an enigma, a harmless enigma that
+    is made terrible by our mad attempt to interpret it as though it had an underlying
+    truth.
 - a: John Ehrlichman
   c: Domestic policy advisor for President Richard M. Nixon
   cw:
@@ -1261,6 +1283,9 @@ quotes:
   t: The state is nothing but an instrument of oppression of one class by another--no
     less so in a democratic republic than in a monarchy.
 - a: Epictetus
+  t: He is a wise man who does not grieve for the things which he has not, but rejoices
+    for those which he has.
+- a: Epictetus
   t: Don't explain your philosophy. Embody it.
 - a: Epicurus
   t: Is God willing to prevent evil, but not able? Then he is not omnipotent. Is he
@@ -1344,6 +1369,9 @@ quotes:
   t: When a person can't find a deep sense of meaning, they distract themselves with
     pleasure.
 - a: Benjamin Franklin
+  t: Justice will not be served until those who are unaffected are as outraged as
+    those who are.
+- a: Benjamin Franklin
   t: Any society that will give up a little liberty to gain a little security will
     deserve neither and lose both.
   tags:
@@ -1397,9 +1425,16 @@ quotes:
     from weaponry to livingry.
   tags:
   - politics
+- a: Galileo Galilei
+  t: In science the authority embodied in the opinion of thousands is not worth a
+    spark of reason in one man.
 - a: Kahlil Gibran
   t: Travel and tell no one, live a true love story and tell no one, live happily
     and tell no one, people ruin beautiful things.
+- a: Neville Goddard
+  t: Change your conception of yourself and you will automatically change the world
+    in which you live. Do not try to change people; they are only messengers telling
+    you who you are. Revalue yourself and they will confirm the change.
 - a: Johann Wolfgang von Goethe
   t: A man sees in the world what he carries in his heart.
 - a: Emma Goldman
@@ -1719,6 +1754,8 @@ quotes:
   tags:
   - history
   - politics
+- a: David Hume
+  t: The corruption of the best things give rise to the worst.
 - a: Howard Hunter
   t: You should express regularly to your wife and children your respect and reverence
     for her. Indeed, one of the greatest things a father can do for his children is
@@ -2374,6 +2411,8 @@ quotes:
   - politics
 - a: George MacDonald
   t: To be trusted is a greater compliment than being loved.
+- a: Niccolo Machiavelli
+  t: Politics have no relation to morals.
 - a: Nikolai Machiavelli
   l: ita
   t: Però la migliore fortezza che sia, è non essere odiato da' popoli; perchè ancora
@@ -2542,6 +2581,8 @@ quotes:
   cw:
   - violence
   t: Be polite, be professional, but have a plan to kill everybody you meet.
+- a: Rollo May
+  t: There is no meaningful ‘yes’ unless the individual could also have said ‘no’.
 - a: John McElroy
   c: >-
     Andersonville: A Story of Rebel Military Prisons
@@ -2667,6 +2708,9 @@ quotes:
     them reverently, not ‘hike’ through them.
   tags:
   - nature
+- a: Friedrich Neitzsche
+  t: In individuals, insanity is rare. But in groups, parties, nations and epochs,
+    it is the rule.
 - a: John von Neumann
   t: If people do not believe that mathematics is simple, it is only becuase they
     do not realize how complicated life is.
@@ -2761,6 +2805,13 @@ quotes:
   - history
   - politics
   - us-presidents
+- a: George Orwell
+  t: Power is not a means, it is an end. One does not establish a dictatorship in
+    order to safeguard a revolution; one makes the revolution in order to establish
+    the dictatorship.
+- a: George Orwell
+  t: Every generation imagines itself to be more intelligent than the one that went
+    before it, and wiser than the one that comes after it.
 - a: George Orwell
   t: In a time of deceit, telling the truth is a revolutionary act.
   tags:
@@ -2921,6 +2972,8 @@ quotes:
     solitude. It's because they have tried to blend into the world before, and people
     continue to dissapoint them.
 - a: Plato
+  t: Only the dead have seen the end of war.
+- a: Plato
   t: Never discourage anyone who contiually makes progress, no matter how slow.
   tags:
   - motivational
@@ -3038,6 +3091,8 @@ quotes:
   - economics
   - history
   - politics
+- a: Pythagoras
+  t: In anger we should refrain both from speech and action.
 - a: Ronald Reagan
   c: Statement made during televised debate with Walter Mondale
   d: 21 October 1984
@@ -3185,6 +3240,10 @@ quotes:
   - politics
   - religious-freedom
   - us-presidents
+- a: Jean-Jacques Rouseau
+  t: Civilised man is born and dies a slave. The infant is bound up in swaddling clothes,
+    the corpse is nailed down in his coffin. All his life long man is imprisoned by
+    our institutions.
 - a: Jean-Jacques Rousseau
   l: fra
   t: Quand un peuple ne défend plus ses libertés et ses droits, il devient mûr pour
@@ -3300,6 +3359,13 @@ quotes:
   tags:
   - bodybuilding
   - fitness
+- a: Seneca
+  t: They lose the day in expectation of the night, and the night in fear of the dawn.
+- a: Seneca
+  t: As is a tale, so is life; what matters is not how long it is, but how good it
+    is.
+- a: William Shakespeare
+  t: Some rise by sin, and some by virtue fall.
 - a: Tupac Shakur
   t: Whatever you see you gotta keep a sense of humor; you gotta be able to smile
     through all the bullshit.
@@ -3427,8 +3493,13 @@ quotes:
     kin, not resources; or if the planet is our mother, not an opportunity--then we
     will treat each other with greater respect. Thus is the challenge, to look at
     the world from a different perspective.
+- a: Tacitus
+  t: To plunder, to slaughter, to steal, these things they misname empire; and where
+    they make a wilderness, they call it peace.
 - a: Rabindranath Tagore
   t: Don't limit a child to your own learning, for he was born in another time.
+- a: Nikola Tesla
+  t: Anti-social behavior is a trait of intelligence in a world of conformists.
 - a: Hunter S. Thompson
   t: A man who procrastinates in his choosing will inevitably have his choice made
     for him by circumstance.
@@ -3483,6 +3554,11 @@ quotes:
   - anti-war
 - a: Henry David Thoreau
   t: Rather than love, than money, than fame, give me truth.
+- a: Thucydides
+  t: The secret to happiness is freedom... And the secret to freedom is courage.
+- a: Eckhart Tolle
+  t: Pleasure is always derived from something outside you, whereas joy arises from
+    within.
 - a: Leon Trotsky
   t: >-
     In a country where the sole employer is the State, opposition means death by slow
@@ -3649,6 +3725,9 @@ quotes:
   tags:
   - politics
 - a: Mark Twain
+  t: The fear of death follows from the fear of life. A man who lives fully is prepared
+    to die at any time.
+- a: Mark Twain
   t: A person who won't read has no advantage over one who can read.
 - a: Mark Twain
   t: Twenty years from now you will be more disappointed by the things you didn't
@@ -3744,6 +3823,8 @@ quotes:
   t: If you find from your own experience that something is a fact and it contradicts
     what some authority has written down, then you must abandon the authority and
     base your reasoning on your own findings.
+- a: Voltaire
+  t: When it is a question of money, everybody is of the same religion.
 - a: Voltaire
   c: >-
     Questions sur les Miracles à M. Claparede, Professeur de Théologie à Genève, par
@@ -3952,6 +4033,8 @@ quotes:
   t: I'm for truth, no matter who tells it. I'm for justice, no matter who it is for
     or against. I'm a human being first and foremost, and as such I'm for whoever
     and whatever benefits humanity as a whole.
+- a: Xenophon
+  t: Anything forced is not beautiful.
 - a: Xenophon
   t: I will choosing to die rather than to remain alive without freedom and beg, as
     an alternative to death, a vastly inferior life.
