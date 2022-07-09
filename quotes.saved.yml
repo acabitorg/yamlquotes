@@ -184,6 +184,9 @@ quotes:
   t: Familiarity breeds contempt
 - a: Aristotle
   t: A friend to all is a friend to none.
+- a: Aristotle
+  t: It is the mark of an educated mind to be able to entertain a thought without
+    accepting it.
 - a: Artistophanes
   t: Youth ages, immaturity is outgrown, ignorance can be educated, and drunkeness
     sobered, but stupid lasts forever.
@@ -1724,6 +1727,41 @@ quotes:
     basically be a prison without walls in which the prisoners would not even dream
     of escaping. It would essentially be a system of slavery, where, through consumption
     and entertainment, the slaves would love their servitude.
+- a: Aldous Huxley
+  t: The propagandist's purpose is to make one set of people forget that certain other
+    sets of people are human.
+- a: Aldous Huxley
+  t: There will be, in the next generation or so, a pharmacological method of making
+    people love their servitude, and producing dictatorship without tears, so to speak,
+    producing a kind of painless concentration camp for entire societies, so that
+    people will in fact have their liberties taken away from them, but will rather
+    enjoy it, because they will be distracted from any desire to rebel by propaganda
+    or brainwashing, or brainwashing enhanced by pharmacological methods. And this
+    seems to be the final revolution.
+- a: Aldous Huxley
+  t: After silence, that which comes nearest to expressing the inexpressible is music.
+- a: Aldous Huxley
+  t: One believes things because one has been conditioned to believe them.
+- a: Aldous Huxley
+  t: >-
+    Life is short and information endless: nobody has time for everything.
+- a: Aldous Huxley
+  t: The price of freedom is eternal vigilance.
+- a: Aldous Huxley
+  t: Science in itself is morally neutral; it becomes good or evil according as it
+    is applied.
+- a: Aldous Huxley
+  t: There is only one corner of the universe you can be certain of improving, and
+    that's your own self.
+- a: Aldous Huxley
+  t: That men do not learn very much from the lessons of history is the most important
+    of all the lessons of history.
+- a: Aldous Huxley
+  t: People will come to love their oppression, to adore the technologies that undo
+    their capacities to think.
+- a: Aldous Huxley
+  t: Defined in psychological terms, a fantatic is a man who conciously over-compensates
+    a secret doubt.
 - a: Ivan Illich
   t: Jesus was an anarchist savior. That's what the Gospels tell us.
   tags:
@@ -1890,6 +1928,9 @@ quotes:
   - black-history
   - history
   - politics
+- a: Martin Luther King Jr.
+  d: 1967
+  t: If America's soul becomes totally poisoned, part of the autopsy must read ‘Vietnam’.
 - a: Martin Luther King Jr.
   c: Speech from the pulpit on courage
   d: 8 March 1965
@@ -2417,6 +2458,11 @@ quotes:
   - politics
   - socialism
 - a: Karl Marx
+  t: The history of all previous societies has been the history of class struggles.
+  tags:
+  - history
+  - politics
+- a: Karl Marx
   t: Accumulation of wealth at one pole is at the same time accumulation of misery,
     agony of toil, slavery, ignorance, brutality, mental degradation, at the opposite
     pole.
@@ -2759,6 +2805,14 @@ quotes:
   t: We have it in our power to begin the world over again.
   tags:
   - politics
+- a: Antonie Pannekoek
+  c: Lenin as Philosopher, chapter 8
+  d: 1938
+  t: The Russian economic system is state capitalism, there called state-socialism
+    or even communism, with production directed by a state bureaucracy under the leadership
+    of the Communist Party. The state officials, forming the new ruling class, have
+    the disposal over the product, hence over the surplus-value, whereas the workers
+    receive wages only, thus forming an exploited class.
 - a: Rosa Parks
   t: To bring about change, you must not be afraid to take the first step. We will
     fail when we fail to try.
@@ -3290,6 +3344,8 @@ quotes:
 - a: Edward Snowden
   t: When exposing a crime is treated as commiting a crime, you are being ruled by
     criminals.
+- a: Socrates
+  t: I am the wisest man alive, for I know one thing, and that is that I know nothing.
 - a: Socrates
   t: There is only one good, knowledge, and one evil, ignorance.
 - a: Baruch Spinoza
