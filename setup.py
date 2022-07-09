@@ -8,7 +8,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 requirements = [
-    'ordered-set>=4.0.2,<5.0.0',
+    'ordered-set<4.0.0',
     'Pillow>=9.0.0,<10.0.0',
     'pyaml>=21.10.1,<22.0.0',
     'PyLaTeX>=1.4.1,<2.0.0',

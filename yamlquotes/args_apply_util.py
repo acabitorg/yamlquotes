@@ -4,6 +4,7 @@
 # License: GPLv3 <https://www.gnu.org/licenses/gpl-3.0.html>
 
 import logging
+import os
 
 from .helpers import get_defaults
 from .repr_quote_plaintext import repr_quote_plaintext
@@ -17,6 +18,7 @@ class UtilArgsApplier():
         self.defaults = {}
         self.quotes = []
         self.quotes_s = []
+        self.espeak_args = '-v en -a 100 -p 0 -s 120'
 
     def apply(self, data):
         self.defaults = get_defaults(data)
@@ -37,6 +39,12 @@ class UtilArgsApplier():
             self.__print_stats() 
         elif self.args.print:
             self.__print_quotes()
+        elif self.args.speak:
+            self.__speak_quotes()
+        elif self.args.speak_wav:
+            self.__speak_quotes(outfmt="wav")
+        elif self.args.speak_mp3:
+            self.__speak_quotes(outfmt="mp3")
 
     def __print_stats(self):
         count = len(self.quotes)
@@ -45,6 +53,22 @@ class UtilArgsApplier():
     def __print_quotes(self):
         for s in self.quotes_s:
             print(s)
+
+    def __speak_quotes(self, outfmt=None):
+        for i, s in enumerate(self.quotes_s):
+            self.__speak_quote(i, s, outfmt)
+
+    def __speak_quote(self, i, s, outfmt=None):
+        with open('/tmp/tmp.txt', 'w') as f:
+            f.write(s)
+        ofname = str(i).zfill(6)
+        cmd = f'espeak {self.espeak_args} -f /tmp/tmp.txt'
+        if outfmt == 'wav':
+            cmd += f' --stdout > {ofname}.wav'
+        elif outfmt == 'mp3':
+            cmd += f' --stdout | ffmpeg -i - -ar 44100 -ac 2 -ab 192k -f mp3 {ofname}.mp3'
+        logger.info('i: %d outfmt: %s cmd: %s', i, outfmt, cmd)
+        os.system(cmd)
 
     def _add_hashtags(self, qt, s):
         if 'tags' in qt:

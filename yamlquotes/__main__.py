@@ -90,12 +90,18 @@ oper_group.add_argument('--stats', action='store_true', \
     help='Display statistics about the the quotes file')
 oper_group.add_argument('--print', action='store_true', \
     help='Print quotes')
+oper_group.add_argument('--speak', action='store_true', \
+    help='Speak quotes (output to speaker)')
+oper_group.add_argument('--speak-wav', action='store_true', \
+    help='Speak quotes (output to WAV file(s)')
+oper_group.add_argument('--speak-mp3', action='store_true', \
+    help='Speak quotes (output to MP3 file(s)')
 
 #operation modifiers:
 parser.add_argument('--no-flip', action='store_true', default=False, \
     help='Don\'t flip every other page vertically')
 parser.add_argument('--max', nargs='?', const=1, type=int, \
-    help='Maximum number of quotes to print')
+    help='Maximum number of quotes')
 parser.add_argument('--max-length', nargs='?', const=180, type=int, \
     help='Maximum length of quote(s) in characters')
 parser.add_argument('--short', action='store_true', default=False, \

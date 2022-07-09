@@ -1,4 +1,4 @@
-ordered-set==4.0.2
+ordered-set==3.1.1
 Pillow==9.0.0
 pyaml==21.10.1
 PyLaTeX==1.4.1
