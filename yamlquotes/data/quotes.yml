@@ -145,6 +145,8 @@ quotes:
   - politics
   - socialism
 - a: Anonymous
+  t: Roses are red. Doritos are savory. The U.S. prison system is legalized slavery.
+- a: Anonymous
   l: lat
   t: Quidquid latine dictum sit, altum sonatur.
   txr: Whatever is said in Latin sounds profound.
@@ -182,6 +184,11 @@ quotes:
   - politics
 - a: Anonymous
   t: Familiarity breeds contempt
+- a: Thomas Aquinas
+  t: >-
+    It is not theft, properly speaking, to take secretly and use anothers property
+    in case of extreme need: because that which he takes for the support of his  life
+    becomes his own property by reason of that need.
 - a: Aristotle
   t: The man who is truly good and wise will bear with dignity whatever fortune sends,
     and will always make the best of his circumstances.
@@ -211,6 +218,9 @@ quotes:
   t: I wish that I could say I was optimistic about the human race. I love us all,
     but we are so stupid and shortsighted that I wonder if we can lift our eyes to
     the world about us long enough not to commit suicide.
+- a: Issac Asimov
+  t: Your assumptions are your windows on the world. Scrub them off every once in
+    a whiile, or the light won't come in.
 - a: Atticus
   t: I've never met a strong person with an easy past.
 - a: Marcus Aurelius
@@ -334,6 +344,10 @@ quotes:
   t: Either America will destroy ignorance or ignorance will destroy the United States.
   tags:
   - politics
+- a: W.E.B. Du Bois
+  t: We should measure the prosperity of a nation not by the number of millionaires,
+    but by the absense of poverty, the prevalence of health, the efficiency of the
+    public schools, and the number of people who can and do read worthwhile books.
 - a: Dietrich Bonhoeffer
   t: When holy scripture speaks of following Jesus, it proclaims that people are free
     from all human rules.
@@ -516,6 +530,8 @@ quotes:
 - a: Louis C.K.
   c: Serial Masturbator
   t: If you went back and fixed all the mistakes you've made, you erase yourself.
+- a: Julius Caesar
+  t: All bad precedents begin as justifiable measures.
 - a: Julius Caesar
   t: Men in general are quick to believe that which they wish to be true.
   tags:
@@ -1104,6 +1120,9 @@ quotes:
   t: To become self-educated you should condemn yourself for all those things that
     you would critize others.
 - a: Fyodor Dostoevsky
+  t: Pain and suffering are always inevitable for a large intelligence and a deep
+    heart. The really great men must, I think, have great sadness on earth.
+- a: Fyodor Dostoevsky
   t: Above all, don't lie to yourself.
 - a: Fyodor Dostoevsky
   t: Wine coarsens and brutalises a man.
@@ -1240,6 +1259,9 @@ quotes:
   - us-presidents
 - a: Cato The Elder
   t: If you are ruled by mind you are a king; if by body, a slave.
+- a: Thomas Eliot
+  t: Humility is the most difficult of all virtues to achieve; nothing dies harder
+    than the desire to think well of the self.
 - a: Vernard Eller
   t: For Christian anarchists...the goal of anarchy is ‘theonomy’--the rule, the ordering,
     the arky of God.
@@ -1301,6 +1323,8 @@ quotes:
   - death
 - a: Euripedes
   t: A slave is he who cannot speak his thoughts.
+- a: Euripides
+  t: Talk sense to a fool and he calls you foolish.
 - a: Louis Farrakhan
   c: Seeming to confirm that the Nation of Islam was responsible for the assassination
     of Malcolm X
@@ -1431,6 +1455,9 @@ quotes:
 - a: Kahlil Gibran
   t: Travel and tell no one, live a true love story and tell no one, live happily
     and tell no one, people ruin beautiful things.
+- a: Khalil Gibran
+  t: Between what is said and not meant, and what is meant and not said, most of love
+    is lost.
 - a: Neville Goddard
   t: Change your conception of yourself and you will automatically change the world
     in which you live. Do not try to change people; they are only messengers telling
@@ -1663,7 +1690,9 @@ quotes:
     us rich. And he certainly didn't come to make Pat Robertson and Joel Osteen rich.
     And what they have done is acculturate the worst apsects of American imperialism,
     capitalism, chauvinism, violence and bigotry into the Christian religion.
-- a: G. W. F. Hegel
+- a: Georg Wilhelm Friedrich Hegel
+  t: We learn from history that we do not learn from history.
+- a: Georg Wilhelm Friedrich Hegel
   l: deu
   t: Freiheit ist Einsicht in die Notwendigkeit.
   txr: Freedom is the insight into necessity.
@@ -1677,9 +1706,15 @@ quotes:
   - politics
   - socialism
 - a: Heraclitus
+  t: It is hard to fight against impulsive desire. Whatever it wants it will buy at
+    the cost of the soul.
+- a: Heraclitus
   t: To get everything you want is not a good thing. Disease makes health seem sweet.
     Hunger leads to the appreciation of being full-fed. Tiredness creates the enjoyment
     of resting.
+- a: Herodotus
+  t: If a man insisted always on being serious, and never allowed himself a bit of
+    fun and relaxation, he would go mad or become unstable without knowing it.
 - a: Bill Hicks
   cw:
   - profanity
@@ -1981,6 +2016,9 @@ quotes:
   - history
   - politics
 - a: Martin Luther King Jr.
+  t: Those who love peace must learn to organize as effectively as those who love
+    war.
+- a: Martin Luther King Jr.
   d: 1967
   t: If America's soul becomes totally poisoned, part of the autopsy must read ‘Vietnam’.
   tags:
@@ -2087,6 +2125,9 @@ quotes:
   - anti-capitalism
   - black-history
 - a: Carl Jung
+  t: Much of the evil in the world is due to the fact that man in general is hopelessly
+    unconscious.
+- a: Carl Jung
   t: Thinking is difficult, that's why most people judge.
 - a: Carl Jung
   t: People will do anything, no matter how absurd, to avoid facing their own soul.
@@ -2146,6 +2187,8 @@ quotes:
 - a: Franz Kafka
   t: One idiot is one idot. Two idiots are two idiots. Ten thousand idiots are a political
     party.
+- a: Immanuel Kant
+  t: One who makes himself a worm cannot complain afterwards if poeple step on him.
 - a: Helen Keller
   t: Security is mostly a superstition. it does not exist in nature, nor do the children
     of men as a whole experience it. Avoiding danger is not safer in the long run
@@ -2191,6 +2234,10 @@ quotes:
     the land. The common clay of the new West. You know... morons.
   tags:
   - humour
+- a: Rudyard Kipling
+  t: If you can keep your wits about you while others are losing theirs, and blaming
+    you, the world will be yours and everything in it. What's more, you'll be a man,
+    my son.
 - a: Lorenzo Komboa'Ervin
   t: While we should mobilise to restrain offenders, we must begin to realise that
     only the community will effectively deal with the matter. Not the racist Capitalist
@@ -2617,6 +2664,9 @@ quotes:
     may jump out of third story window. Psychedelics are illegal because they dissolve
     opinion structures and culturally laid down models of behavior and information
     processing. They open you up to the possiblity that everything you know is wrong.
+- a: Margaret Mead
+  t: Our first and most pressing problem is how to do away with warfare as a method
+    of solving conflicts.
 - a: Michel de Montaigne
   t: He who has not a good memory should never take upon him the trade of lying.
 - a: Federica Montseny
@@ -2930,6 +2980,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Harry Patch
+  ac: Last surviving soldier for World War I
+  t: War is organized murder, and nothing else.
 - a: Robert O. Paxton
   c: The Anatomy of Fascism
   d: 2004
@@ -2971,6 +3024,9 @@ quotes:
   t: If you meet a loner, no matter what they tell you, it's not because they enjoy
     solitude. It's because they have tried to blend into the world before, and people
     continue to dissapoint them.
+- a: Plato
+  t: Then, my good friend, I said, do not use compulsion, but let early education
+    be a sort of amusement; you will then be better able to find out the natural bent.
 - a: Plato
   t: Only the dead have seen the end of war.
 - a: Plato
@@ -3280,6 +3336,8 @@ quotes:
 - a: Salman Rushdie
   t: No, I don't think it's fair to label Islam ‘Violent’, but I will say that to
     my knowledge, no writer has ever gone into hiding for criticizing the Amish.
+- a: Bertrand Russel
+  t: War does not determine who is right--only who is left.
 - a: Bertrand Russell
   t: The whole problem with the world is that fools and fanatics are always so certain
     of themselves, but wiser people so full of doubts.
@@ -3359,6 +3417,8 @@ quotes:
   tags:
   - bodybuilding
   - fitness
+- a: Seneca
+  t: All cruelty springs from weakness.
 - a: Seneca
   t: They lose the day in expectation of the night, and the night in fear of the dawn.
 - a: Seneca
@@ -3824,6 +3884,9 @@ quotes:
     what some authority has written down, then you must abandon the authority and
     base your reasoning on your own findings.
 - a: Voltaire
+  t: If hawks have always had the same character why should you imagine that men may
+    have changed theirs?
+- a: Voltaire
   t: When it is a question of money, everybody is of the same religion.
 - a: Voltaire
   c: >-
@@ -4107,3 +4170,5 @@ quotes:
 - a: Zoroaster
   t: Excessive liberty and excessive servitude are equally dangerous, and produce
     nearly the same effect.
+- a: The greatest deception men suffer is from their own opinions.
+  t: Leonardo da Vinci
