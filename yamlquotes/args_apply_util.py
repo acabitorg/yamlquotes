@@ -5,6 +5,7 @@
 
 import logging
 import os
+import torch
 
 from .helpers import get_defaults
 from .repr_quote_plaintext import repr_quote_plaintext
@@ -18,7 +19,13 @@ class UtilArgsApplier():
         self.defaults = {}
         self.quotes = []
         self.quotes_s = []
-        self.espeak_args = '-v en -a 100 -p 0 -s 120'
+        self.device = torch.device('cuda')
+        torch.set_num_threads(4)
+        local_file = 'model-en.pt'
+        if not os.path.isfile(local_file):
+            torch.hub.download_url_to_file('https://models.silero.ai/models/tts/en/v3_en.pt', local_file)
+        self.model = torch.package.PackageImporter(local_file).load_pickle("tts_models", "model")
+        self.model.to(self.device)
 
     def apply(self, data):
         self.defaults = get_defaults(data)
@@ -59,16 +66,22 @@ class UtilArgsApplier():
             self.__speak_quote(i, s, outfmt)
 
     def __speak_quote(self, i, s, outfmt=None):
-        with open('/tmp/tmp.txt', 'w') as f:
-            f.write(s)
         ofname = str(i).zfill(6)
-        cmd = f'espeak {self.espeak_args} -f /tmp/tmp.txt'
+        sample_rate = 48000
+        speaker='en_0'
+        audio_paths = self.model.save_wav(text=s,
+                            speaker=speaker,
+                            sample_rate=sample_rate)
+        logger.info('i=%d, model.save_wav complete', i)
         if outfmt == 'wav':
-            cmd += f' --stdout > {ofname}.wav'
+            os.rename('test.wav', f'{ofname}.wav')
         elif outfmt == 'mp3':
-            cmd += f' --stdout | ffmpeg -i - -ar 44100 -ac 2 -ab 192k -f mp3 {ofname}.mp3'
-        logger.info('i: %d outfmt: %s cmd: %s', i, outfmt, cmd)
-        os.system(cmd)
+            cmd = f"ffmpeg -i test.wav -ar 44100 -ac 2 -ab 192k -f mp3 {ofname}.mp3"
+            logger.info('i=%d, outfmt=%s, cmd:=%s', i, outfmt, cmd)
+            os.system(cmd)
+            os.remove('test.wav')
+        else:
+            logger.error('invalid outfmt')
 
     def _add_hashtags(self, qt, s):
         if 'tags' in qt:
