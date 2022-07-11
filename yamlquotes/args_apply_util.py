@@ -68,6 +68,9 @@ class UtilArgsApplier():
         if 'l' in qt:
             lang = qt['l']
         text = qt['t'] + ', ' + author
+        if len(text) > 1000:
+            logger.warning("Skipping quote because it's longer than 1000 characters: %s", text)
+            return
         self.__speak_text(text, lang, '1.wav')
 
         if 'txr' in qt:
