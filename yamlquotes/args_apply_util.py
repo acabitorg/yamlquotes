@@ -94,7 +94,7 @@ class UtilArgsApplier():
             logger.error('invalid outfmt')
 
     def __speak_text(self, text, lang, ofname):
-        text = text.strip('"')
+        text = text.replace('"', '')
         cmd = f"./speak.py -l {lang} -t \"{text}\" -o {ofname}"
         logger.info("cmd: %s", cmd)
         os.system(cmd)
