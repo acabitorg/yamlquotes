@@ -64,14 +64,15 @@ class UtilArgsApplier():
         ofname = str(i).zfill(6)
         
         lang = 'eng'
+        author = qt['a'].strip('"')
         if 'l' in qt:
             lang = qt['l']
-        text = qt['t'] + ', ' + qt['a']
+        text = qt['t'] + ', ' + author
         self.__speak_text(text, lang, '1.wav')
 
         if 'txr' in qt:
             lang = 'eng'
-            text = qt['txr'] + ', ' + qt['a']
+            text = qt['txr'] + ', ' + author
             self.__speak_text(text, lang, '2.wav')
             with open('alist', 'w') as f:
                 f.write("file '1.wav'\nfile '2.wav'")
@@ -93,6 +94,7 @@ class UtilArgsApplier():
             logger.error('invalid outfmt')
 
     def __speak_text(self, text, lang, ofname):
+        text = text.strip('"')
         cmd = f"./speak.py -l {lang} -t \"{text}\" -o {ofname}"
         logger.info("cmd: %s", cmd)
         os.system(cmd)
