@@ -190,6 +190,8 @@ quotes:
     in case of extreme need: because that which he takes for the support of his  life
     becomes his own property by reason of that need.
 - a: Aristotle
+  t: Democracies are most commonly corrupted by the insolence of demagogues.
+- a: Aristotle
   t: He who is a citizen in a democracy will often not be a citizen in an oligarchy.
   tags:
   - politics
@@ -227,6 +229,11 @@ quotes:
     a whiile, or the light won't come in.
 - a: Atticus
   t: I've never met a strong person with an easy past.
+- a: Marcus Aurelius
+  t: There is but one thing of real value--to cultivate truth and justice, and to
+    live without anger in the midst of lying and unjust men.
+- a: Marcus Aurelius
+  t: The best revenge is to not be like your enemy.
 - a: Marcus Aurelius
   t: You can also commit injustice, by doing nothing.
 - a: Marcus Aurelius
@@ -326,6 +333,12 @@ quotes:
   ac: Golden Gate Bridge jump survivor
   t: I instantly realized that everything in my life that I'd thought was unfixable
     was totally fixable--except for having just jumped.
+- a: Simone de Beauvoir
+  t: It must be added that the men who most respect embryonic life are the same ones
+    who do not hesitate to send adults to death in war.
+- a: Simone de Beauvoir
+  t: A woman is shut up in a kitchen or a boudoir, and one is surprised her horizon
+    is limited; her wings are cut, and then she blamed for not knowing how to fly.
 - a: Aneurin Bevan
   t: We know what happens to people who stay in the middle of the road. They get run
     down.
@@ -503,6 +516,8 @@ quotes:
   tags:
   - humour
   - politics
+- a: Ray Bradbury
+  t: You have to know how to accept rejection and reject acceptance.
 - a: Russel Brand
   t: When I was poor and I complained about inequality, they said I was bitter, now
     that I'm rich and I complain about inequality they say I'm a hypocrite. I'm starting
@@ -614,6 +629,8 @@ quotes:
     have killed myself.
   tags:
   - happiness
+- a: Noam Chomsky
+  t: The indoctrination is so deep that educated people think they're being objective.
 - a: Noam Chomsky
   t: >-
     See, people with power understand exactly one thing: violence.
@@ -1141,6 +1158,9 @@ quotes:
     they call a 'poor attitude,' which means 'shape up or ship out.' I always elected
     to ship out.
 - a: Denis Diderot
+  t: There is only one virtue, justice; only one duty, to be happy; only one corollary,
+    not to overvalue life and not to fear death.
+- a: Denis Diderot
   t: No man has received from nature the right to command his fellow human beings.
 - a: Denis Diderot
   cw:
@@ -1153,6 +1173,8 @@ quotes:
 - a: Diogenes
   t: To become self-educated you should condemn yourself for all those things that
     you would critize others.
+- a: Fyodor Dostoevsky
+  t: Man is not born for happiness. Man earns his happiness, and always by suffering.
 - a: Fyodor Dostoevsky
   t: A man who lies to himself, and believes his own lies becomes unable to recognize
     truth, either in himself or in anyone else, and he ends up losing respect for
@@ -1246,6 +1268,9 @@ quotes:
   - politics
   - us-presidents
 - a: Albert Einstein
+  t: I salute the man who is going through life always helpful, knowing no fear, and
+    to whom aggressiveness and resentment are alien.
+- a: Albert Einstein
   t: The economic anarchy of capitalist society as it exists today is, in my opinion,
     the real source of evils. I am convinced there is only one way to eliminate these
     grave evils, namely through the establishment of a socialist economy, accompanied
@@ -1300,6 +1325,8 @@ quotes:
   - us-presidents
 - a: Cato The Elder
   t: If you are ruled by mind you are a king; if by body, a slave.
+- a: Thomas S. Eliot
+  t: Most of the trouble in the world is caused by people wanting to be important.
 - a: Thomas Eliot
   t: Humility is the most difficult of all virtues to achieve; nothing dies harder
     than the desire to think well of the self.
@@ -1353,6 +1380,9 @@ quotes:
 - a: Epictetus
   t: Don't explain your philosophy. Embody it.
 - a: Epicurus
+  t: Do not spoil what you have by desiring what you have not; remember that what
+    you have now was among the things you only hoped for.
+- a: Epicurus
   t: Is God willing to prevent evil, but not able? Then he is not omnipotent. Is he
     able, but not willing? Then he is malevolent. Is he both able and willing? Then
     whence cometh evil? Is he neither able nor willing? Then why call him God?
@@ -1366,6 +1396,9 @@ quotes:
   - death
 - a: Euripedes
   t: A slave is he who cannot speak his thoughts.
+- a: Euripides
+  t: No man on earth is truly free, all are slaves of money or necessity. Public opinion
+    or fear of prosecution forces each one, against his conscience, to conform.
 - a: Euripides
   t: Talk sense to a fool and he calls you foolish.
 - a: Louis Farrakhan
@@ -1486,6 +1519,10 @@ quotes:
   t: Remember not only to say the right thing in the right place, but far more difficult
     still, to leave unsaid the wrong thing at the tempting moment.
 - a: Jacque Fresco
+  t: The question is not whether there is intelligent life out there, the question
+    is, whether there is intelligent life down here. As long as you have war, police,
+    prisons, crime, you are in the early stages of civilization.
+- a: Jacque Fresco
   t: If you make people uniform, you can control them. If you teach people to read,
     and think, and question things, you lose control. So, the best idea is to separate
     people if you wish to maintain a monetary system. It's called divide and conquer.
@@ -1513,6 +1550,8 @@ quotes:
   t: Change your conception of yourself and you will automatically change the world
     in which you live. Do not try to change people; they are only messengers telling
     you who you are. Revalue yourself and they will confirm the change.
+- a: Johann W von Goethe
+  t: Why look for conspiracies when stupidity can explain so much.
 - a: Johann Wolfgang von Goethe
   t: A man sees in the world what he carries in his heart.
 - a: Emma Goldman
@@ -1746,6 +1785,9 @@ quotes:
     us rich. And he certainly didn't come to make Pat Robertson and Joel Osteen rich.
     And what they have done is acculturate the worst apsects of American imperialism,
     capitalism, chauvinism, violence and bigotry into the Christian religion.
+- a: Georg Wilhelm Friedrich Hegel
+  t: To be independent of public opinion is the first formal condition of achieving
+    anything great.
 - a: Georg Wilhelm Friedrich Hegel
   t: We learn from history that we do not learn from history.
 - a: Georg Wilhelm Friedrich Hegel
@@ -2291,6 +2333,9 @@ quotes:
   - history
   - politics
   - us-presidents
+- a: Johannes Kepler
+  t: I rather prefer sharpest criticism of a single intelligent man to the thoughtless
+    approval of the masses.
 - a: Jim, aka "The Waco Kid"
   c: Blazing Saddles
   cw:
@@ -2517,6 +2562,8 @@ quotes:
   tags:
   - fascism
 - a: Rosa Luxemburg
+  t: Those who do not move do not notice their chains.
+- a: Rosa Luxemburg
   t: The most revolutionary thing one can do is always to proclaim loudly what is
     happening.
   tags:
@@ -2530,7 +2577,9 @@ quotes:
   - politics
 - a: George MacDonald
   t: To be trusted is a greater compliment than being loved.
-- a: Niccolo Machiavelli
+- a: Niccolò Machiavelli
+  t: Wars begin when you will, but they do not end when you please.
+- a: Niccolò Machiavelli
   t: Politics have no relation to morals.
 - a: Niccolò Machiavelli
   l: fra
@@ -2545,6 +2594,9 @@ quotes:
     you may have fortresses they will not save you if you are hated by the people.
     When once the people have taken arms against you, there will never be lacking
     foreigners to assist them.
+- a: Maimonides
+  t: Do not consider it proof just because it is written in books, for a liar who
+    will deceive with his tongue will not hesitate to do the same with his pen.
 - a: Nester Makhno
   t: Anarchism's outward form is a free, non-governed society, which offers freedom,
     equality and solidarity for its members. Its foundations are to be found in man's
@@ -2842,6 +2894,9 @@ quotes:
     do not realize how complicated life is.
   tags:
   - math
+- a: Isaac Newton
+  t: Truth is ever to be found in the simplicity, and not in the multiplicity and
+    confusion of things.
 - a: Huey P. Newton
   t: An unarmed people are slaves or are subject to slavery at any given moment.
   tags:
@@ -2883,6 +2938,9 @@ quotes:
     \ speak out--\n     Because I was not a trade unionist.\nThen they came for the\
     \ Jews, and I did not speak out--\n     Because I was not a Jew.\nThen they came\
     \ for me--and there was no one left to speak for me."
+- a: Friedrich Nietzsche
+  t: Sometimes people don't want to hear the truth, because they don't want their
+    illusions destroyed.
 - a: Friedrich Nietzsche
   t: They muddy the water, to make it seem deep.
   tags:
@@ -2985,6 +3043,9 @@ quotes:
   - politics
 - a: George Orwell
   t: They fear love, because it creates a world they can't control.
+- a: Thomas Paine
+  t: Society in every state is a blessing, but government in its best state is but
+    a necessary evil; in its worst state an intolerable one.
 - a: Thomas Paine
   t: The duty of a true patriot is to protect his country from its government.
   tags:
@@ -3267,6 +3328,12 @@ quotes:
   - history
   - politics
 - a: Rudolf Rocker
+  t: >-
+    The whole horror of the much-praised capitalist order lies just in this: Without
+    pity and devoid of all humanity it strides across the corpses of whole poeples
+    to safeguard the brutal right of exploitation, and sacrifices the welfare of millions
+    to the selfish interests of tiny minorities.
+- a: Rudolf Rocker
   t: The urge for social justice can only develop properly and be effective when it
     grows out of man's sense of personal freedom and is based on that. In other words
     Socialism will be free or it will not be at all.
@@ -3401,6 +3468,8 @@ quotes:
   tags:
   - anti-war
 - a: Rumi
+  t: Know that the body is merely a garment. Go, seek the wearer, not the cloak.
+- a: Rumi
   t: You can beat forty scholars with one fact, but you can't beat one idiot with
     forty facts.
 - a: Rumi
@@ -3422,6 +3491,8 @@ quotes:
     of themselves, but wiser people so full of doubts.
   tags:
   - philosophy
+- a: Saadi
+  t: A noble heart will refuse the happiness built on the misfortune of others.
 - a: Marquis de Sade
   t: Are not laws dangerous which inhibit the passions? Compare the centuries of anarchy
     with those of the strongest legalism in any country you like and you will see
@@ -3497,6 +3568,9 @@ quotes:
   - bodybuilding
   - fitness
 - a: Seneca
+  t: If you don't know, ask. You will be a fool for the moment, but a wise man for
+    the rest of your life.
+- a: Seneca
   t: All cruelty springs from weakness.
 - a: Seneca
   t: They lose the day in expectation of the night, and the night in fear of the dawn.
@@ -3521,6 +3595,11 @@ quotes:
   - anti-capitalism
   - anti-war
   - politics
+- a: Bernard Shaw
+  t: Forgive him, for he believes that the customs of his tribe are the laws of nature.
+- a: Bernard Shaw
+  t: If you begin by sacrificing yourself to those you love, you will end by hating
+    those to whom you have sacrificed yourself.
 - a: George Bernard Shaw
   t: Better keep yourself clean and bright; you are the window through which you must
     see the world.
@@ -3585,6 +3664,9 @@ quotes:
 - a: Edward Snowden
   t: When exposing a crime is treated as commiting a crime, you are being ruled by
     criminals.
+- a: Socrates
+  t: True wisdom comes to each of us when we realize how little we understand about
+    life, ourselves, and the world around us.
 - a: Socrates
   t: I am the wisest man alive, for I know one thing, and that is that I know nothing.
 - a: Socrates
@@ -3700,6 +3782,8 @@ quotes:
   - anti-war
 - a: Henry David Thoreau
   t: Rather than love, than money, than fame, give me truth.
+- a: Thucydides
+  t: The strong do what they have to do and the weak accept what they have to accept.
 - a: Thucydides
   t: The secret to happiness is freedom... And the secret to freedom is courage.
 - a: Eckhart Tolle
@@ -3965,10 +4049,19 @@ quotes:
     getting punched in the face for it.
 - a: Lao Tzu
   t: Care about what other people think and you will always be their prisoner.
+- a: Sun Tzu
+  t: Strategy without tactics is the slowest route to victory. Tactics without strategy
+    is the noise before defeat.
+- a: Leonardo da Vinci
+  t: Truly man is the king of beasts, for his brutality exceeds them. We live by the
+    death of others. We are burial places.
 - a: Leonardo da Vinci
   t: If you find from your own experience that something is a fact and it contradicts
     what some authority has written down, then you must abandon the authority and
     base your reasoning on your own findings.
+- a: Voltaire
+  t: Fools admire everything in an author of reputation. For my part, I read only
+    to please myself.
 - a: Voltaire
   t: If hawks have always had the same character why should you imagine that men may
     have changed theirs?
