@@ -110,6 +110,9 @@ quotes:
   - us-presidents
 - a: Morticia Addams
   t: Normal is an illusion. What is normal for the spider is chaos for the fly.
+- a: Joseph Addison
+  t: We cannot be guilty of a greater act of uncharitableness, than to interpret the
+    afflications which befall our neighbors as punishments and judgments.
 - a: Aeschylus
   t: A wise person does know much, but knows what is necessary.
 - a: Aesop
@@ -136,6 +139,8 @@ quotes:
   t: This is the permanent tension that lies at the heart of a capitalist democracy
     and is exacerbated in times of crisis. In order to ensure the survival of the
     richest, it is democracy that has to be heavily regulated rather than capitalism.
+- a: Fred Allen
+  t: Television is a medium because anything well done is rare.
 - a: Darrell Anderson
   t: Somebody once declared that the only two political theories that are completely
     consistent are anarchy and totalitarianism. Anarchy fully embraces the concept
@@ -144,6 +149,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Anonymous
+  t: Five drunks will start a fight. Five stoners will start a band.
 - a: Anonymous
   t: Roses are red. Doritos are savory. The U.S. prison system is legalized slavery.
 - a: Anonymous
@@ -210,6 +217,9 @@ quotes:
   t: You will never do anything in this world without courage. It is the greatest
     quality of mind next to honor.
 - a: Isaac Asimov
+  t: People who think they know everything are a great annoyance to those of us who
+    do.
+- a: Isaac Asimov
   c: '"A Cult of Ignorance", Newsweek'
   d: 21 January 1980
   t: There is a cult of ignorance in the United States, and there always has been.
@@ -229,6 +239,11 @@ quotes:
     a whiile, or the light won't come in.
 - a: Atticus
   t: I've never met a strong person with an easy past.
+- a: Marcus Aurelius
+  t: You have to assemble your life yourself, action by action.
+- a: Marcus Aurelius
+  t: The opinion of 10,000 men is of no value if none of them know anything about
+    the subject.
 - a: Marcus Aurelius
   t: There is but one thing of real value--to cultivate truth and justice, and to
     live without anger in the midst of lying and unjust men.
@@ -259,6 +274,8 @@ quotes:
   t: Vanity and pride are different things, though the words are often used synonymously.
     A person may be proud without being vain. Pride relates more to our opinion of
     ourselves, vanity to what we would have others think of us.
+- a: Avicenna
+  t: Is it the fault of wine if a fool drinks it and goes stumbling into the darkness?
 - a: Mikhail Bakunin
   c: Statism and Anarchy
   d: 1873
@@ -329,10 +346,16 @@ quotes:
     majority in subjection to them.  This is the sense in which we are really Anarchists.
   tags:
   - politics
+- a: James Baldwin
+  t: We can disagree and still love each other unless your disagreement is rooted
+    in my oppression and denial of my humanity and right to exist.
 - a: Ken Baldwin
   ac: Golden Gate Bridge jump survivor
   t: I instantly realized that everything in my life that I'd thought was unfixable
     was totally fixable--except for having just jumped.
+- a: Simone de Beauvoir
+  t: No one is more arrogant toward women, more aggressive or scornful, than the man
+    who is anxious about his virility.
 - a: Simone de Beauvoir
   t: It must be added that the men who most respect embryonic life are the same ones
     who do not hesitate to send adults to death in war.
@@ -367,6 +390,11 @@ quotes:
     You know it and I know it.
   tags:
   - politics
+- a: Steven Biko
+  t: It is better to die for an idea that will live, than to live for an idea that
+    will die.
+- a: William Blake
+  t: A truth that's told with bad intent, beats all the lies you can invent.
 - a: W. E. B. Du Bois
   t: Children learn more from what you are than what you teach.
 - a: W. E. B. Du Bois
@@ -587,6 +615,10 @@ quotes:
   - civic-responsibility
 - a: George Carlin
   t: Inside every cynical person is a disappointed idealist.
+- a: Dale Carnegie
+  t: When dealing with people, let us remember we are not dealing with creatures of
+    logic. We are dealing with creatures of emotion, creatures bristling with prejudices
+    and motivated by pride and vanity.
 - a: Alexis Carrel
   t: Man cannot remake himself without suffering, for he is both the marble and the
     sculptor.
@@ -598,6 +630,8 @@ quotes:
     in Africa, Asia and Latin America?
   tags:
   - politics
+- a: Cato
+  t: I begin to speak only when I'm sure what I'll say isn't better left unsaid.
 - a: Cato
   t: Wise men learn more from fools than fools learn from the wise.
 - a: Ha-Joon Chang
@@ -620,6 +654,8 @@ quotes:
   txr: I am not afraid of retaliation. I have no kids, no wife, no car, no credit.
     It perhaps sounds a bit pompous, but I prefer to die standing than living on my
     knees.
+- a: Anton Checkov
+  t: Better to perish from fools than to accept praises from them.
 - a: John Cheese
   cw:
   - suicide
@@ -992,6 +1028,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Cicero
+  t: Extreme justice is extreme injustice.
 - a: Marcus Tullius Cicero
   t: Not to know what has been transacted in former times is to be always a child.
     If no use is made of the labours of past ages, the world must remain always in
@@ -1029,6 +1067,8 @@ quotes:
 - a: Kurt Cobain
   t: If any of you in any way hate homosexuals, people of color, or women, please
     do this one favor for us... Don't come to our shows and don't buy our records.
+- a: Paulo Coelho
+  t: The world is changed by your example, not by your opinion.
 - a: The Invisible Committee
   t: We're not depressed; we're on strike. For those who refuse to manage themselves,
     ‘depression’ is not a state but a passage, a bowing out, a sidestep towards a
@@ -1048,6 +1088,12 @@ quotes:
   - socialism
 - a: Confucious
   t: Before you embark on a journey of revenge, dig two graves.
+- a: Confucius
+  t: A great man is hard on himself; a small man is hard on others.
+- a: Confucius
+  t: If you hate a person, you are defeated by them.
+- a: Confucius
+  t: The superior man is modest in his speech, but exceeds in his actions.
 - a: Confucius
   t: >-
     By three methods we may learn wisdom: First, by reflection, which is noblest;
@@ -1089,6 +1135,10 @@ quotes:
 - a: Hélder Câmara
   t: When I give food to the poor, they call me a saint. When I ask why the poor have
     no food, they call me a communist.
+- a: Salvador Dali
+  t: Intelligence without ambition is a bird without wings.
+- a: Salvador Dali
+  t: Have no fear of perfection--you'll never reach it.
 - a: Charles Darwin
   t: In the long history of humankind (and animal kind, too) those who learned to
     collaborate and improvise most effectively have prevailed.
@@ -1137,6 +1187,11 @@ quotes:
   - history
   - politics
 - a: Democritus
+  t: The brave man is he who overcomes not only his enemies but his pleasures.
+- a: Democritus
+  t: The wise man belongs to all countries, for the home of a great soul is the whole
+    world.
+- a: Democritus
   t: Medicine heals diseases of the body, wisdom frees the soul from passions.
 - a: Democritus
   t: The laws would not prevent each man from living according to his inclination,
@@ -1158,6 +1213,8 @@ quotes:
     they call a 'poor attitude,' which means 'shape up or ship out.' I always elected
     to ship out.
 - a: Denis Diderot
+  t: From fanaticism to barbarism is only one step.
+- a: Denis Diderot
   t: There is only one virtue, justice; only one duty, to be happy; only one corollary,
     not to overvalue life and not to fear death.
 - a: Denis Diderot
@@ -1170,6 +1227,10 @@ quotes:
   tags:
   - history
   - politics
+- a: Diogenes
+  t: Why not whip the teacher when the pupil misbehaves?
+- a: Diogenes
+  t: Of what use is a philosopher who doesn't hurt anybody's feelings?
 - a: Diogenes
   t: To become self-educated you should condemn yourself for all those things that
     you would critize others.
@@ -1373,12 +1434,18 @@ quotes:
   t: The state is nothing but an instrument of oppression of one class by another--no
     less so in a democratic republic than in a monarchy.
 - a: Epictetus
+  t: Wealth consists not in having great possessions, but in having few wants.
+- a: Epictetus
+  t: It is impossible for a man to learn what he thinks he already knows.
+- a: Epictetus
   t: One who laughs at themselves never runs out of things to laugh at.
 - a: Epictetus
   t: He is a wise man who does not grieve for the things which he has not, but rejoices
     for those which he has.
 - a: Epictetus
   t: Don't explain your philosophy. Embody it.
+- a: Epicurus
+  t: Nothing is enough for the man to whom enough is too little.
 - a: Epicurus
   t: Do not spoil what you have by desiring what you have not; remember that what
     you have now was among the things you only hoped for.
@@ -1441,6 +1508,12 @@ quotes:
   tags:
   - black-history
   - politics
+- a: William Faulkner
+  t: You cannot swim for new horizons until you have the courage to lose sight of
+    the shore.
+- a: William Faulkner
+  t: And even a liar can be scared into telling the truth, same as an honest man can
+    be tortured into telling a lie.
 - a: Jonathan Feldman
   t: Basically, if you're not a utopianist, you're a schmuck.
   tags:
@@ -1465,9 +1538,16 @@ quotes:
   - politics
   txr: In its majestic equality, the law forbids rich and poor alike to sleep under
     bridges, beg in the streets and steal bread.
+- a: Anne Frank
+  t: The only way to truly know a person is to argue with them. For when they argue
+    in full swing, then they reveal their true character.
 - a: Viktor Frankl
   t: When a person can't find a deep sense of meaning, they distract themselves with
     pleasure.
+- a: Benjamin Franklin
+  t: Security without liberty is called prison.
+- a: Benjamin Franklin
+  t: An investment in knowledge always pays the best interest.
 - a: Benjamin Franklin
   t: Justice will not be served until those who are unaffected are as outraged as
     those who are.
@@ -1541,6 +1621,8 @@ quotes:
   t: Attention is the key; for where man's attention goes, there goes his energy,
     and he himself can only follow.
 - a: Kahlil Gibran
+  t: The lust for comfort murders the passions of the soul.
+- a: Kahlil Gibran
   t: Travel and tell no one, live a true love story and tell no one, live happily
     and tell no one, people ruin beautiful things.
 - a: Khalil Gibran
@@ -1550,6 +1632,9 @@ quotes:
   t: Change your conception of yourself and you will automatically change the world
     in which you live. Do not try to change people; they are only messengers telling
     you who you are. Revalue yourself and they will confirm the change.
+- a: Goethe
+  t: Too many parents make life hard for their children by trying, too zealously,
+    to make it easy for them.
 - a: Johann W von Goethe
   t: Why look for conspiracies when stupidity can explain so much.
 - a: Johann Wolfgang von Goethe
@@ -1741,6 +1826,9 @@ quotes:
 - a: Laird Hamilton
   t: Make sure your worst enemy doesn't live between your two ears.
 - a: Fred Hampton
+  d: 1969
+  t: Theory's cool, but theory with no practice ain't shit.
+- a: Fred Hampton
   t: We don't think you fight fire with fire best; we think you fight fire with water
     best. We're going to fight racism not with racism, but we're going to fight with
     solidarity. We say we're not going to fight capitalism with black capitalism,
@@ -1785,6 +1873,9 @@ quotes:
     us rich. And he certainly didn't come to make Pat Robertson and Joel Osteen rich.
     And what they have done is acculturate the worst apsects of American imperialism,
     capitalism, chauvinism, violence and bigotry into the Christian religion.
+- a: Hegel
+  t: The learner always begins by finding fault, but the scholar sees the positive
+    merit in everything.
 - a: Georg Wilhelm Friedrich Hegel
   t: To be independent of public opinion is the first formal condition of achieving
     anything great.
@@ -1816,6 +1907,12 @@ quotes:
 - a: Herodotus
   t: If a man insisted always on being serious, and never allowed himself a bit of
     fun and relaxation, he would go mad or become unstable without knowing it.
+- a: Hesiod
+  t: It is best to do things systematically, since we are only human, and disorder
+    is our worst enemy.
+- a: Hermann Hesse
+  t: Oh, love isn't there to make us happy. I believe it exists to show us how much
+    we can endure.
 - a: Bill Hicks
   cw:
   - profanity
@@ -1871,6 +1968,9 @@ quotes:
 - a: Thomas Hobbes
   t: Hell is truth seen too late.
 - a: Homer
+  t: Surely there is nothing more wretched than a man, of all the things which breathe
+    and move upon the earth.
+- a: Homer
   t: Of all creatures that breathe and move upon the earth, nothing is bred that is
     weaker than man.
 - a: Max Horkheimer
@@ -1899,6 +1999,9 @@ quotes:
   t: You should express regularly to your wife and children your respect and reverence
     for her. Indeed, one of the greatest things a father can do for his children is
     to love their mother.
+- a: Aldous Huxley
+  t: What is absurd and monstrous about war is that men who have no personal quarrel
+    should be trained to murder one another in cold blood.
 - a: Aldous Huxley
   t: But liberty, as we know, cannot flourish in a country that is permanently on
     a war footing, or even a near-war footing. Permanent crisis justifies permanent
@@ -2245,6 +2348,9 @@ quotes:
 - a: Carl Jung
   t: Loneliness does not come from having no people around you, but from being unable
     to communicate the things that seem important to you.
+- a: Carl G. Jung
+  t: A man who has not passed through the inferno of his passions will not overcome
+    them.
 - a: Theodore J. Kaczynski
   cw:
   - terrorism
@@ -2345,10 +2451,17 @@ quotes:
     the land. The common clay of the new West. You know... morons.
   tags:
   - humour
+- a: Soren Kierkegaard
+  t: The most common cause of despair is not being who you are.
+- a: Rudyard Kipling
+  t: We're all islands shouting lies to each other across seas of misunderstanding.
 - a: Rudyard Kipling
   t: If you can keep your wits about you while others are losing theirs, and blaming
     you, the world will be yours and everything in it. What's more, you'll be a man,
     my son.
+- a: Soren Kirkegaard
+  t: People demand the freedom of speed, as a compensation for the freedom of thought
+    which they seldom use.
 - a: Lorenzo Komboa'Ervin
   t: While we should mobilise to restrain offenders, we must begin to realise that
     only the community will effectively deal with the matter. Not the racist Capitalist
@@ -2425,6 +2538,9 @@ quotes:
     by using fear as the basic motivation. Fear of getting failing grades, fear of
     not staying with your class, etc. Interest can produce learning on a scale compared
     to fear as a nuclear explosion to a firecracker.
+- a: Lao-Tzu
+  t: In the end, the treasure of life is missed by those who hold on and gained by
+    those who let go.
 - a: Georges Lechartier
   t: The true founder of anarchy was Jesus Christ and ... the first anarchist society
     was that of the apostles.
@@ -2432,6 +2548,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Bobby Lee
+  t: Just do something for someone everyday.
 - a: Bruce Lee
   t: You will continue to suffer if you have an emotional reaction to everything that
     is said to you. True power lies in sitting back and observing everything with
@@ -2532,6 +2650,8 @@ quotes:
   - politics
   - socialism
 - a: John Locke
+  t: Liberty is to be free from restraint and violence from others.
+- a: John Locke
   t: >-
     Reading furnishes the mind only with materials of knowledge; it is thinking that
     makes what we read ours... The improvement of understanding is for two ends: first,
@@ -2547,6 +2667,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Henry Wadsworth Longfellow
+  t: Every man has his secret sorrows which the world knows not; and oftentimes we
+    call a man cold, when he is only sad.
 - a: Frédéric Lordon
   t: Le vrai réalisme c'est de fermer la bourse, saisir les banques, et de ne pas
     payer la dette.
@@ -2577,6 +2700,9 @@ quotes:
   - politics
 - a: George MacDonald
   t: To be trusted is a greater compliment than being loved.
+- a: Niccolò Macciavelli
+  t: Cunning and deceit will every time serve a man better than force to rise from
+    a base condition to a great fortune.
 - a: Niccolò Machiavelli
   t: Wars begin when you will, but they do not end when you please.
 - a: Niccolò Machiavelli
@@ -2690,6 +2816,9 @@ quotes:
   - politics
   - socialism
 - a: Karl Marx
+  t: The hand-mill gives you society with the feudal lord; the steam-mill society
+    with the industrial capitalist.
+- a: Karl Marx
   t: The history of all previous societies has been the history of class struggles.
   tags:
   - history
@@ -2796,7 +2925,20 @@ quotes:
   t: Our first and most pressing problem is how to do away with warfare as a method
     of solving conflicts.
 - a: Michel de Montaigne
+  t: Man is quite insane. He wouldn't know how to create a maggot, and he creates
+    Gods by the dozen.
+- a: Michel de Montaigne
+  t: Even on the most exalted throne in the world we are only sitting on our own bottom.
+- a: Michel de Montaigne
   t: He who has not a good memory should never take upon him the trade of lying.
+- a: Michel de Montaigne
+  t: He who has not a good memory should never take upon him the trade of lying.
+- a: Montesquieu
+  t: The deterioration of every government begins with the decay of the principles
+    on which it is formulated.
+- a: Montesquieu
+  t: There is no greater tyranny than that which is perpetrated under the shield of
+    the law and in the name of justice.
 - a: Federica Montseny
   t: The struggle is so great that the triumph over fascism alone is worth the sacrifice
     of our lives.
@@ -2939,6 +3081,8 @@ quotes:
     \ Jews, and I did not speak out--\n     Because I was not a Jew.\nThen they came\
     \ for me--and there was no one left to speak for me."
 - a: Friedrich Nietzsche
+  t: Man is a rope tied between the animal and the Übermensch--a rope over an abyss.
+- a: Friedrich Nietzsche
   t: Sometimes people don't want to hear the truth, because they don't want their
     illusions destroyed.
 - a: Friedrich Nietzsche
@@ -2955,6 +3099,11 @@ quotes:
 - a: Friedrich Nietzsche
   t: The man of knowledge must be able not only to love his enemies but also to hate
     his friends.
+- a: Friedrich Nietzshe
+  t: The snake which cannot cast its skin has to die. As well the minds which are
+    prevented from changing their opinions; they cease to be mind.
+- a: Anais Nin
+  t: We don't see things as they are, we see them as we are.
 - a: Richard M. Nixon
   t: I don't know why any individual should have a right to have a revolver in his
     house
@@ -2989,6 +3138,8 @@ quotes:
   - history
   - politics
   - us-presidents
+- a: George Orwell
+  t: It's frightful that people who are so ignorant should have so much influence.
 - a: George Orwell
   t: Power is not a means, it is an end. One does not establish a dictatorship in
     order to safeguard a revolution; one makes the revolution in order to establish
@@ -3043,6 +3194,8 @@ quotes:
   - politics
 - a: George Orwell
   t: They fear love, because it creates a world they can't control.
+- a: Thomas Paine
+  t: The world is my country. To do good is my religion.
 - a: Thomas Paine
   t: Society in every state is a blessing, but government in its best state is but
     a necessary evil; in its worst state an intolerable one.
@@ -3161,6 +3314,11 @@ quotes:
   t: If you meet a loner, no matter what they tell you, it's not because they enjoy
     solitude. It's because they have tried to blend into the world before, and people
     continue to dissapoint them.
+- a: Plato
+  t: Wise men speak because they have something to say; Fools because they have to
+    say something.
+- a: Plato
+  t: The price of apathy is to be ruled by evil men.
 - a: Plato
   t: Then, my good friend, I said, do not use compulsion, but let early education
     be a sort of amusement; you will then be better able to find out the natural bent.
@@ -3285,7 +3443,12 @@ quotes:
   - history
   - politics
 - a: Pythagoras
+  t: Meaningful silence is better than meaningless words.
+- a: Pythagoras
   t: In anger we should refrain both from speech and action.
+- a: Thomas de Quincey
+  t: No man will ever unfold the capacities of his own intellect who does not at least
+    checker his life with solitude.
 - a: Ronald Reagan
   c: Statement made during televised debate with Walter Mondale
   d: 21 October 1984
@@ -3446,6 +3609,11 @@ quotes:
   t: Civilised man is born and dies a slave. The infant is bound up in swaddling clothes,
     the corpse is nailed down in his coffin. All his life long man is imprisoned by
     our institutions.
+- a: Rousseau
+  t: The falsification of history has done more to impede human development than any
+    one thing known to mankind.
+- a: Jean-Jacques Rousseau
+  t: Gratitude is a duty which ought to be paid, but which none have a right to expect.
 - a: Jean-Jacques Rousseau
   l: fra
   t: Quand un peuple ne défend plus ses libertés et ses droits, il devient mûr pour
@@ -3468,6 +3636,8 @@ quotes:
   tags:
   - anti-war
 - a: Rumi
+  t: Raise your words, not voice. It is rain that grows flowers, not thunder.
+- a: Rumi
   t: Know that the body is merely a garment. Go, seek the wearer, not the cloak.
 - a: Rumi
   t: You can beat forty scholars with one fact, but you can't beat one idiot with
@@ -3485,12 +3655,24 @@ quotes:
   t: No, I don't think it's fair to label Islam ‘Violent’, but I will say that to
     my knowledge, no writer has ever gone into hiding for criticizing the Amish.
 - a: Bertrand Russel
+  t: Make your interests gradually wider and more impersonal, until bit by bit the
+    wall of the ego recede, and your life becomes increasingly merged into the universal
+    life.
+- a: Bertrand Russel
+  t: Either men will abolish war, or war will abolish man.
+- a: Bertrand Russel
   t: War does not determine who is right--only who is left.
 - a: Bertrand Russell
   t: The whole problem with the world is that fools and fanatics are always so certain
     of themselves, but wiser people so full of doubts.
   tags:
   - philosophy
+- a: Saadi
+  t: Whenever you argue with another wiser than yourself in order that others may
+    admire your wisdom, they discover your ignorance.
+- a: Saadi
+  t: You who feel no pain at the suffering of others it is not fitting for you to
+    be called a human.
 - a: Saadi
   t: A noble heart will refuse the happiness built on the misfortune of others.
 - a: Marquis de Sade
@@ -3541,6 +3723,10 @@ quotes:
   - leninism
   - marxism
   - politics
+- a: Jean-Paul Sartre
+  l: fra
+  t: Nous sommes nos choix.
+  txr: We are our choices.
 - a: Marjane Satrapi
   t: If I have one message to give to the secular American people, it's that the world
     is not divided into countries. The world is not divided between East and West.
@@ -3567,6 +3753,10 @@ quotes:
   tags:
   - bodybuilding
   - fitness
+- a: Seneca
+  t: Difficulties strengthen the mind as labor does the body.
+- a: Seneca
+  t: True happiness is to enjoy the present, without anxious dependence on the future.
 - a: Seneca
   t: If you don't know, ask. You will be a fool for the moment, but a wise man for
     the rest of your life.
@@ -3665,18 +3855,29 @@ quotes:
   t: When exposing a crime is treated as commiting a crime, you are being ruled by
     criminals.
 - a: Socrates
+  t: The only true wisdom is in knowing that you know nothing.
+- a: Socrates
+  t: Wonder is the beginning of wisdom.
+- a: Socrates
   t: True wisdom comes to each of us when we realize how little we understand about
     life, ourselves, and the world around us.
 - a: Socrates
   t: I am the wisest man alive, for I know one thing, and that is that I know nothing.
 - a: Socrates
   t: There is only one good, knowledge, and one evil, ignorance.
+- a: Alexandr Solzhenitsyn
+  t: A state of war only serves as an excuse for domestic tyranny.
+- a: Susan Sontag
+  t: Sanity is a cozy lie.
 - a: Sophocles
   t: Trust dies, but mistrust blossoms.
 - a: Baruch Spinoza
   t: For instance, men are mistaken in thinking themselves free; their opinion is
     made up of consciousness of their own actions, and ignorance of the causes by
     which their are conditioned.
+- a: Lysander Spooner
+  t: A man is no less a slave because he is allowed to choose a new master once in
+    a term of years.
 - a: Simon Springer
   t: When I say ‘Anarchism’ you hear ‘Chaos, Violence, Mayhem’. When I say ‘Anarchism’
     I mean ‘Cooperation, Voluntary Association, Mutual Aid’
@@ -3684,6 +3885,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: John Steinbeck
+  t: All war is a symptom of man's failure as a thinking animal.
 - a: John Steinbeck
   t: There is a strange duality in the human which makes for an ethical paradox. We
     have definitions of good qualities and of bad; not changing things, but generally
@@ -3706,6 +3909,9 @@ quotes:
 - a: Gloria Steinem
   t: Far too many people are looking for the right person, instead of trying to be
     the right person.
+- a: Rudolf Steiner
+  t: To truly know the world, look deep within your own being. To truly know yourself,
+    take a real interest in the world.
 - a: Steve-O
   t: You can always become a pickle, but you can never go back to being a cucumber.
 - a: Jon Stewart
@@ -3725,7 +3931,12 @@ quotes:
   t: To plunder, to slaughter, to steal, these things they misname empire; and where
     they make a wilderness, they call it peace.
 - a: Rabindranath Tagore
+  t: The one who plants trees, knowing that he or she will never sit in their shade,
+    has at least started to understand the meaning of life.
+- a: Rabindranath Tagore
   t: Don't limit a child to your own learning, for he was born in another time.
+- a: Nikola Tesla
+  t: Be alone, that is the secret of invention, that is where ideas are born.
 - a: Nikola Tesla
   t: Anti-social behavior is a trait of intelligence in a world of conformists.
 - a: Hunter S. Thompson
@@ -3786,9 +3997,16 @@ quotes:
   t: The strong do what they have to do and the weak accept what they have to accept.
 - a: Thucydides
   t: The secret to happiness is freedom... And the secret to freedom is courage.
+- a: J. R. R. Tolkien
+  t: Many that live deserve death. And some that die deserve life. Can you give it
+    to them? Then do not be too eager to deal out death in judgment. For even the
+    very wise cannot see all ends.
 - a: Eckhart Tolle
   t: Pleasure is always derived from something outside you, whereas joy arises from
     within.
+- a: Leo Tolstoy
+  t: When you love someone, you love the person as they are, and not as you'd like
+    them to be.
 - a: Leon Trotsky
   t: >-
     In a country where the sole employer is the State, opposition means death by slow
@@ -4053,12 +4271,19 @@ quotes:
   t: Strategy without tactics is the slowest route to victory. Tactics without strategy
     is the noise before defeat.
 - a: Leonardo da Vinci
+  t: Not to punish evil is equivalent to authorizing it.
+- a: Leonardo da Vinci
   t: Truly man is the king of beasts, for his brutality exceeds them. We live by the
     death of others. We are burial places.
 - a: Leonardo da Vinci
   t: If you find from your own experience that something is a fact and it contradicts
     what some authority has written down, then you must abandon the authority and
     base your reasoning on your own findings.
+- a: Voltaire
+  t: The right to free speech is more important than the content of the speech.
+- a: Voltaire
+  t: Our wretched species is so made that those who walk on the well-trodden path
+    always throw stones at those who are showing a new road.
 - a: Voltaire
   t: Fools admire everything in an author of reputation. For my part, I read only
     to please myself.
@@ -4106,6 +4331,10 @@ quotes:
     persons. Then give them money to earn, count and spend and they will be too busy
     to notice the slavery they are in.
 - a: George Washington
+  t: Guard against the impostures of pretended patriotism.
+  tags:
+  - politics
+- a: George Washington
   t: It is far better to be alone, than to be in bad company.
   tags:
   - history
@@ -4123,6 +4352,9 @@ quotes:
     good, just because it's accepted by a majority.
   tags:
   - politics
+- a: Alan Watts
+  t: To go out of your mind at least once a day is tremendously important. By going
+    out of your mind, you come to your senses.
 - a: Ida B. Wells-Barnett
   t: A Winchester rifle should have a place of honor in every black home, and it should
     be used for that protection which the law refuses to give.
@@ -4229,6 +4461,11 @@ quotes:
   tags:
   - politics
   - technology
+- a: Virginia Woolf
+  t: If you do not tell the truth about yourself you cannot tell it about other people.
+- a: Malcolm X
+  t: I have no mercy or compassion in me for a society that will crush people, and
+    then penalize them for not being able to stand up under the weight.
 - a: Malcolm X
   t: Only a fool fights by the ground rules that his enemy has laid for him.
 - a: Malcolm X
@@ -4278,6 +4515,9 @@ quotes:
     or against. I'm a human being first and foremost, and as such I'm for whoever
     and whatever benefits humanity as a whole.
 - a: Xenophon
+  t: People often say what is right and do what is wrong; but nobody can be in the
+    wrong if he is doing what is right.
+- a: Xenophon
   t: Anything forced is not beautiful.
 - a: Xenophon
   t: I will choosing to die rather than to remain alive without freedom and beg, as
@@ -4287,6 +4527,9 @@ quotes:
 - a: Neil Young
   t: Instead of cursing the darkness, light a candle for where we're going. There's
     something ahead worth fighting for.
+- a: Seneca the Younger
+  t: We are more often frightened than hurt; and we suffer more in imagination than
+    in reality.
 - a: Mao Zedong
   c: '"Problems of War and Strategy", Selected Works, Vol. II, p.224.'
   cw:
@@ -4330,6 +4573,8 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Zhuangzi
+  t: Rewards and punishment are the lowest form of education.
 - a: Grigory Zinoviev
   c: Executed alongside Lev Kamenevin in 1936 following the Trotskyite-Zinovievite
     Terrorist Center Trial, or Zinoviev-Kamenev Trial, also known as the 'Trial of
@@ -4351,5 +4596,10 @@ quotes:
 - a: Zoroaster
   t: Excessive liberty and excessive servitude are equally dangerous, and produce
     nearly the same effect.
+- a: Alexandre Dumas fils
+  t: The chains of marriage of are heavy that it takes two to bear them, sometimes
+    three.
+- a: When one has not had a good father, one must create one.
+  t: Friedrich Nietzsche
 - a: The greatest deception men suffer is from their own opinions.
   t: Leonardo da Vinci
