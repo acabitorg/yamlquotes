@@ -88,7 +88,7 @@ def validate_quote(qt):
     required = ['t', 'a']
     for r in required:
         if not r in qt:
-            logger.error('Missing required field %s:', r)
+            logger.error('Missing required field %s: %s', r, qt)
             valid = False
     valid &= validate_whitespace(qt, 't')
     valid &= validate_whitespace(qt, 'txr')

@@ -190,6 +190,10 @@ quotes:
     in case of extreme need: because that which he takes for the support of his  life
     becomes his own property by reason of that need.
 - a: Aristotle
+  t: He who is a citizen in a democracy will often not be a citizen in an oligarchy.
+  tags:
+  - politics
+- a: Aristotle
   t: The man who is truly good and wise will bear with dignity whatever fortune sends,
     and will always make the best of his circumstances.
 - a: Aristotle
@@ -224,6 +228,14 @@ quotes:
 - a: Atticus
   t: I've never met a strong person with an easy past.
 - a: Marcus Aurelius
+  t: You can also commit injustice, by doing nothing.
+- a: Marcus Aurelius
+  t: If you do the job in a principled way, with diligence, engery and patience, if
+    you keep yourself free of distractions, and keep the spirit inside you undamaged,
+    as if you might have to give it back at any moment--if you can embrace this without
+    fear or expectation--can find fulfillment in what you're doing now, as Nature
+    intended, and in superhuman truthfulness--then your life will be happy.
+- a: Marcus Aurelius
   t: >-
     Soon you will have forgotten all thing: Soon all things will have forgotten you.
 - a: Marcus Aurelius
@@ -236,6 +248,10 @@ quotes:
     on his own opinion of himself than on the opinion of others.
 - a: Marcus Aurelius
   t: Why should we feel anger at the world? As if the world would notice.
+- a: Jane Austen
+  t: Vanity and pride are different things, though the words are often used synonymously.
+    A person may be proud without being vain. Pride relates more to our opinion of
+    ourselves, vanity to what we would have others think of us.
 - a: Mikhail Bakunin
   c: Statism and Anarchy
   d: 1873
@@ -527,6 +543,9 @@ quotes:
 - a: William S. Burroughs
   t: What does the money machine eat? It eats youth, spontaneity, life, beauty, and,
     above all, it eats creativity. It eats quality and it shits quantity.
+- a: William Burroughs
+  t: I don't have any politics. I feel that as soon as politics arises, things are
+    already in a hopeless state of deterioration.
 - a: Louis C.K.
   c: Serial Masturbator
   t: If you went back and fixed all the mistakes you've made, you erase yourself.
@@ -538,6 +557,10 @@ quotes:
   - history
 - a: Joseph Campbell
   t: The cave you fear to enter holds the treasure you seek.
+- a: Albert Camus
+  t: The modern mind is in complete disarray. Knowledge has streched itself to the
+    point where neither the world nor our intelligence can find any foot-hold. It
+    is a fact that we are suffering from nihilism.
 - a: George Carlin
   t: It's a big club and you ain't in it.
   tags:
@@ -1040,6 +1063,12 @@ quotes:
   t: Jerry, just remember--It's not a lie... if you believe it.
   tags:
   - humour
+- a: Walter Cronkite
+  t: War itself is, of course, a form of madness. It's hardly a civilized pursuit.
+    It's amazing how we spend so much time inventing devices to kill each other and
+    so little time working on how to achieve peace.
+  tags:
+  - anti-war
 - a: Hélder Câmara
   t: When I give food to the poor, they call me a saint. When I ask why the poor have
     no food, they call me a communist.
@@ -1091,8 +1120,13 @@ quotes:
   - history
   - politics
 - a: Democritus
+  t: Medicine heals diseases of the body, wisdom frees the soul from passions.
+- a: Democritus
   t: The laws would not prevent each man from living according to his inclination,
     unless individuals harmed each other; for envy creates the beginning of strife.
+- a: René Descartes
+  t: The reading of all good books is like a conversation with the finest minds of
+    past centuries.
 - a: Lori Deschene
   t: Be the person who breaks the cycle. If you were judged, choose understanding.
     If you were rejected, choose acceptance. If you were shamed, choose compassion.
@@ -1119,6 +1153,13 @@ quotes:
 - a: Diogenes
   t: To become self-educated you should condemn yourself for all those things that
     you would critize others.
+- a: Fyodor Dostoevsky
+  t: A man who lies to himself, and believes his own lies becomes unable to recognize
+    truth, either in himself or in anyone else, and he ends up losing respect for
+    himself and for others. When he has no respect for anyone, he can no longer love,
+    and, in order to divert himself, having no love in him, he yields to his impulses,
+    indulges in the lowest forms of pleasure, and behaves in the end like an animal.
+    And it all comes from lying--lying to others and to yourself.
 - a: Fyodor Dostoevsky
   t: Pain and suffering are always inevitable for a large intelligence and a deep
     heart. The really great men must, I think, have great sadness on earth.
@@ -1305,6 +1346,8 @@ quotes:
   t: The state is nothing but an instrument of oppression of one class by another--no
     less so in a democratic republic than in a monarchy.
 - a: Epictetus
+  t: One who laughs at themselves never runs out of things to laugh at.
+- a: Epictetus
   t: He is a wise man who does not grieve for the things which he has not, but rejoices
     for those which he has.
 - a: Epictetus
@@ -1442,6 +1485,11 @@ quotes:
 - a: Benjamin Franklin
   t: Remember not only to say the right thing in the right place, but far more difficult
     still, to leave unsaid the wrong thing at the tempting moment.
+- a: Jacque Fresco
+  t: If you make people uniform, you can control them. If you teach people to read,
+    and think, and question things, you lose control. So, the best idea is to separate
+    people if you wish to maintain a monetary system. It's called divide and conquer.
+    By dividing people, they're not a threat, you can control them.
 - a: R. Buckminster Fuller
   t: It is now highly feasible to take care of everybody on Earth at a higher standard
     of living than any have ever known. It no longer has to be you or me. Selfishness
@@ -1452,6 +1500,9 @@ quotes:
 - a: Galileo Galilei
   t: In science the authority embodied in the opinion of thousands is not worth a
     spark of reason in one man.
+- a: Saint Germain
+  t: Attention is the key; for where man's attention goes, there goes his energy,
+    and he himself can only follow.
 - a: Kahlil Gibran
   t: Travel and tell no one, live a true love story and tell no one, live happily
     and tell no one, people ruin beautiful things.
@@ -1641,6 +1692,11 @@ quotes:
   tags:
   - humour
 - a: Manly P. Hall
+  t: When the mob governs, man is ruled by ignorance; when the church governs, he
+    is ruled by superstition; and when the state governs, he is ruled by fear. Before
+    men can live together in harmony and understanding, ignorance must be transmuted
+    into wisdom, superstition into an illumined faith, and fear into love.
+- a: Manly P. Hall
   t: Wealth, therefore, impoverishes man, deprives him of time, absorbs his interests,
     depletes his strength, and leaves him incapable of becoming wise.
 - a: Laird Hamilton
@@ -1709,6 +1765,9 @@ quotes:
   t: It is hard to fight against impulsive desire. Whatever it wants it will buy at
     the cost of the soul.
 - a: Heraclitus
+  t: It is hard to fight against impulsive desire. Whatever it wants it will buy at
+    the cost of the soul.
+- a: Heraclitus
   t: To get everything you want is not a good thing. Disease makes health seem sweet.
     Hunger leads to the appreciation of being full-fed. Tiredness creates the enjoyment
     of resting.
@@ -1769,6 +1828,9 @@ quotes:
   - politics
 - a: Thomas Hobbes
   t: Hell is truth seen too late.
+- a: Homer
+  t: Of all creatures that breathe and move upon the earth, nothing is bred that is
+    weaker than man.
 - a: Max Horkheimer
   t: Fascism is the iron hoop that holds together the collapsing barrel of capitalism.
     He has nothing useful to say about fascism who is unwilling to mention capitalism.
@@ -1795,6 +1857,10 @@ quotes:
   t: You should express regularly to your wife and children your respect and reverence
     for her. Indeed, one of the greatest things a father can do for his children is
     to love their mother.
+- a: Aldous Huxley
+  t: But liberty, as we know, cannot flourish in a country that is permanently on
+    a war footing, or even a near-war footing. Permanent crisis justifies permanent
+    control of everybody, everything by the agencies of central government.
 - a: Aldous Huxley
   t: The surest way to work up a crusade in favor of some good cause is to promise
     people they will have a chance of maltreating someone. To be able to destroy with
@@ -2421,6 +2487,12 @@ quotes:
   - politics
   - socialism
 - a: John Locke
+  t: >-
+    Reading furnishes the mind only with materials of knowledge; it is thinking that
+    makes what we read ours... The improvement of understanding is for two ends: first,
+    our own increase of knowledge; secondly, to enable us to deliver that knowledge
+    to others.
+- a: John Locke
   t: Parents wonder why the streams are bitter, when they themselves have poisoned
     the fountain.
 - a: Roderick Long
@@ -2460,7 +2532,11 @@ quotes:
   t: To be trusted is a greater compliment than being loved.
 - a: Niccolo Machiavelli
   t: Politics have no relation to morals.
-- a: Nikolai Machiavelli
+- a: Niccolò Machiavelli
+  l: fra
+  t: Celui qui contrôle la peur des gens devient le maître de leurs âmes.
+  txr: He who controls the fear of the people becomes the master of their souls.
+- a: Niccolò Machiavelli
   l: ita
   t: Però la migliore fortezza che sia, è non essere odiato da' popoli; perchè ancora
     che tu abbi le fortezze, ed il popolo ti abbi in odio, le non ti salvano; perchè
@@ -3224,6 +3300,9 @@ quotes:
   - anarchism
   - politics
   - socialism
+- a: Gene Roddenberry
+  t: The strength of a civilization is not measured by its ability to fight wars,
+    but rather by its ability to prevent them.
 - a: Romain Rolland
   t: One makes mistakes; that is life. But it is never a mistake to have loved.
 - a: Romain Rolland
@@ -3443,6 +3522,9 @@ quotes:
   - anti-war
   - politics
 - a: George Bernard Shaw
+  t: Better keep yourself clean and bright; you are the window through which you must
+    see the world.
+- a: George Bernard Shaw
   t: Our laws make law impossible; our liberties destroy all freedom; our property
     is organized robbery; our morality an impudent hypocrisy; our wisdom is administered
     by inexperienced or mal-experienced dupes; our power wielded by cowards and weaklings;
@@ -3507,6 +3589,8 @@ quotes:
   t: I am the wisest man alive, for I know one thing, and that is that I know nothing.
 - a: Socrates
   t: There is only one good, knowledge, and one evil, ignorance.
+- a: Sophocles
+  t: Trust dies, but mistrust blossoms.
 - a: Baruch Spinoza
   t: For instance, men are mistaken in thinking themselves free; their opinion is
     made up of consciousness of their own actions, and ignorance of the causes by
@@ -3553,6 +3637,8 @@ quotes:
     kin, not resources; or if the planet is our mother, not an opportunity--then we
     will treat each other with greater respect. Thus is the challenge, to look at
     the world from a different perspective.
+- a: Tacitus
+  t: The more corrupt the state, the more numerous the laws.
 - a: Tacitus
   t: To plunder, to slaughter, to steal, these things they misname empire; and where
     they make a wilderness, they call it peace.
@@ -4050,6 +4136,8 @@ quotes:
   tags:
   - politics
   - technology
+- a: Malcolm X
+  t: Only a fool fights by the ground rules that his enemy has laid for him.
 - a: Malcolm X
   c: From an interview with Jack Barnes and Barry Sheppard, of the Young Socialist
     Alliance
